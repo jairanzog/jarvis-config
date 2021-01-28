@@ -110,16 +110,19 @@ discovery:
 system_health:
 mobile_app:
 
-#notify:
-#  - name: Home_Assistant
-#    platform: smtp
-#    server: smtp.gmail.com
-#    port: 587
-#    sender: !secret notification_sender
+notify:
+  - name: Home_Assistant
+    platform: smtp
+    server: smtp.gmail.com
+    port: 587
+    timeout: 15
+    sender: !secret notification_sender
+    encryption: starttls
 #    starttls: true
-#    username: !secret notification_username
-#    password: !secret notification_password
-#    recipient: !secret notification_recipient_jairo
+    username: !secret notification_username
+    password: !secret notification_password
+    recipient: !secret notification_recipient_jairo
+    sender_name: Leak Alert
 
 var:
   home_mode:
