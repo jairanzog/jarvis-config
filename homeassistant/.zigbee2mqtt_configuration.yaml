@@ -1,0 +1,54 @@
+homeassistant: true
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: 'mqtt://localhost'
+serial:
+  port: /dev/ttyACM0
+advanced:
+  network_key:
+    - 218
+    - 35
+    - 42
+    - 152
+    - 12
+    - 246
+    - 203
+    - 86
+    - 207
+    - 254
+    - 134
+    - 44
+    - 19
+    - 87
+    - 120
+    - 107
+devices:
+  '0x00158d00042482f8':
+    friendly_name: presencia_cocina
+  '0x00158d000636d4c8':
+    friendly_name: presencia_habitacion
+  '0x00158d00035c6967':
+    friendly_name: puerta_principal
+  '0x00158d0003033e43':
+    friendly_name: puerta_bano_planta_baja
+  '0x00158d0002913303':
+    friendly_name: puerta_terraza
+  '0x00158d0003033d7f':
+    friendly_name: puerta_bano_principal
+  '0x00158d0003031c6b':
+    friendly_name: ventana_habitacion
+  '0x00124b001e731e24':
+    friendly_name: luz_cocina
+  '0x00158d0002326a02':
+    friendly_name: lampara_habitacion_principal
+  '0x00158d0002c11abb':
+    friendly_name: termometro_habitacion
+  '0x00158d0005865130':
+    friendly_name: sensor_vibracion
+  '0x00158d00042010e4':
+    friendly_name: presencia_exterior
+  '0x00158d0005cf0f24':
+    friendly_name: sensor_inundacion
+  '0x00158d0004446062':
+    friendly_name: termometro_exterior

@@ -9,22 +9,22 @@
                 "attributes": {
                     "editable": true,
                     "id": "amazfit_gts_jairo",
-                    "latitude": 40.6063051,
-                    "longitude": -3.6961854,
-                    "gps_accuracy": 13,
+                    "latitude": 40.6063102,
+                    "longitude": -3.6962129,
+                    "gps_accuracy": 14,
                     "source": "device_tracker.galaxy_s20",
                     "user_id": "8ac1851ca930495ba24e72ddbb624356",
                     "friendly_name": "Jairo"
                 },
                 "last_changed": "2021-01-28T18:26:18.037519+00:00",
-                "last_updated": "2021-01-28T19:38:18.729501+00:00",
+                "last_updated": "2021-01-28T20:26:32.030536+00:00",
                 "context": {
-                    "id": "edbf01667d99db8ee32dce8d9c85359b",
+                    "id": "519df39eed218e4ff0c7457312857482",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -44,7 +44,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -61,7 +61,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -123,28 +123,26 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "timer.cocina",
-                "state": "active",
+                "state": "idle",
                 "attributes": {
                     "duration": "0:03:00",
                     "editable": false,
-                    "finishes_at": "2021-01-28T20:02:30+00:00",
-                    "remaining": "0:03:00",
                     "friendly_name": "La cocina se apagar\u00e1 en"
                 },
-                "last_changed": "2021-01-28T19:59:30.223421+00:00",
-                "last_updated": "2021-01-28T19:59:30.223421+00:00",
+                "last_changed": "2021-01-28T20:20:58.002762+00:00",
+                "last_updated": "2021-01-28T20:20:58.002762+00:00",
                 "context": {
-                    "id": "f488701eb13e3e468834dfadf4ca98d2",
-                    "parent_id": "347e7cede76be1f78a2ae7535e813864",
+                    "id": "fec8e6f64ea0b02df397f5037719f799",
+                    "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -163,7 +161,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -172,18 +170,18 @@
                 "attributes": {
                     "duration": "0:05:00",
                     "editable": false,
-                    "finishes_at": "2021-01-28T20:04:37+00:00",
+                    "finishes_at": "2021-01-28T20:35:02+00:00",
                     "remaining": "0:05:00"
                 },
-                "last_changed": "2021-01-28T19:59:37.580282+00:00",
-                "last_updated": "2021-01-28T19:59:37.580282+00:00",
+                "last_changed": "2021-01-28T20:30:02.991478+00:00",
+                "last_updated": "2021-01-28T20:30:02.991478+00:00",
                 "context": {
-                    "id": "aeca82aee96bbd10c643d1398bf059bd",
-                    "parent_id": "5cdafad42790e204f47855edaea33556",
+                    "id": "9afea5551a692083efda412d76ffef47",
+                    "parent_id": "1f8be1e35e26b2e071e7fea0d0dcdb82",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -201,7 +199,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -209,21 +207,21 @@
                 "state": "Casa",
                 "attributes": {
                     "source_type": "gps",
-                    "battery_level": 81,
-                    "latitude": 40.6063051,
-                    "longitude": -3.6961854,
-                    "gps_accuracy": 13,
+                    "battery_level": 80,
+                    "latitude": 40.6063102,
+                    "longitude": -3.6962129,
+                    "gps_accuracy": 14,
                     "friendly_name": "Galaxy_S20_Jairo"
                 },
-                "last_changed": "2021-01-28T19:41:17.532247+00:00",
-                "last_updated": "2021-01-28T19:41:17.532247+00:00",
+                "last_changed": "2021-01-28T20:26:32.025597+00:00",
+                "last_updated": "2021-01-28T20:26:32.025597+00:00",
                 "context": {
-                    "id": "34a5c58cf731aec7fd589f43750d35f8",
+                    "id": "b4875029bd023d0eb4bb3cffcca17166",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -241,26 +239,26 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "switch.luz_cocina",
-                "state": "on",
+                "state": "off",
                 "attributes": {
-                    "linkquality": 52,
-                    "state": "ON",
+                    "linkquality": 47,
+                    "state": "OFF",
                     "friendly_name": "Luz Cocina"
                 },
-                "last_changed": "2021-01-28T19:59:30.313893+00:00",
-                "last_updated": "2021-01-28T19:59:30.313893+00:00",
+                "last_changed": "2021-01-28T20:20:58.129906+00:00",
+                "last_updated": "2021-01-28T20:20:58.129906+00:00",
                 "context": {
-                    "id": "f488701eb13e3e468834dfadf4ca98d2",
-                    "parent_id": "347e7cede76be1f78a2ae7535e813864",
+                    "id": "5fa813f3a8116e09a3d5ab1865663255",
+                    "parent_id": "aa53eef75bb2472361c83f2080d32b46",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -269,21 +267,21 @@
                 "attributes": {
                     "consumption": 0.15,
                     "energy": 0.15,
-                    "linkquality": 49,
-                    "power": 5.6,
+                    "linkquality": 47,
+                    "power": 5.67,
                     "state": "ON",
-                    "temperature": 38,
+                    "temperature": 42,
                     "friendly_name": "Lampara habitaci\u00f3n"
                 },
-                "last_changed": "2021-01-28T19:54:30.829286+00:00",
-                "last_updated": "2021-01-28T19:56:20.931707+00:00",
+                "last_changed": "2021-01-28T20:25:17.394687+00:00",
+                "last_updated": "2021-01-28T20:25:22.833403+00:00",
                 "context": {
-                    "id": "24c9c56a16bcde0f0059e2d998bcfae0",
-                    "parent_id": "287d3fbf55232b75d89b58f918a2c644",
+                    "id": "06b5e5c1af9e2ac493cc7c5e92715795",
+                    "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -383,78 +381,78 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_ping",
-                "state": "13.679",
+                "state": "15.821",
                 "attributes": {
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
                     "server_name": "Madrid",
-                    "server_country": "ES",
-                    "server_id": "17773",
+                    "server_country": "Spain",
+                    "server_id": "21349",
                     "unit_of_measurement": "ms",
                     "friendly_name": "SpeedTest Ping",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-01-28T19:40:04.002049+00:00",
-                "last_updated": "2021-01-28T19:40:04.002049+00:00",
+                "last_changed": "2021-01-28T20:10:31.794232+00:00",
+                "last_updated": "2021-01-28T20:10:31.794232+00:00",
                 "context": {
-                    "id": "939114ddc13b3955ee589631cf2ce4ff",
+                    "id": "6e9f88c53856aca0ffa5d880e6eb163d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_download",
-                "state": "19.78",
+                "state": "20.83",
                 "attributes": {
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
                     "server_name": "Madrid",
-                    "server_country": "ES",
-                    "server_id": "17773",
-                    "bytes_received": 25456112,
+                    "server_country": "Spain",
+                    "server_id": "21349",
+                    "bytes_received": 26480112,
                     "unit_of_measurement": "Mbit/s",
                     "friendly_name": "SpeedTest Download",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-01-28T19:40:04.003104+00:00",
-                "last_updated": "2021-01-28T19:40:04.003104+00:00",
+                "last_changed": "2021-01-28T20:10:31.794954+00:00",
+                "last_updated": "2021-01-28T20:10:31.794954+00:00",
                 "context": {
-                    "id": "35d9c145054f08b9c638d602b466b61c",
+                    "id": "b549b756f3eba4e78d8c1f49ca01fc2b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_upload",
-                "state": "16.43",
+                "state": "18.33",
                 "attributes": {
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
                     "server_name": "Madrid",
-                    "server_country": "ES",
-                    "server_id": "17773",
-                    "bytes_sent": 23945216,
+                    "server_country": "Spain",
+                    "server_id": "21349",
+                    "bytes_sent": 23093248,
                     "unit_of_measurement": "Mbit/s",
                     "friendly_name": "SpeedTest Upload",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-01-28T19:40:04.004136+00:00",
-                "last_updated": "2021-01-28T19:40:04.004136+00:00",
+                "last_changed": "2021-01-28T20:10:31.795651+00:00",
+                "last_updated": "2021-01-28T20:10:31.795651+00:00",
                 "context": {
-                    "id": "ddbad09e26bc481a33d05b254b5ce154",
+                    "id": "5e5e8e560d398d3cbf3ba73641c1a892",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -475,7 +473,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -496,28 +494,28 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.encender_luces_cocina",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:59:30.198973+00:00",
+                    "last_triggered": "2021-01-28T20:17:58.670248+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585443406855",
                     "friendly_name": "Cocina - 1.- Encender Luces"
                 },
                 "last_changed": "2021-01-28T18:49:43.946102+00:00",
-                "last_updated": "2021-01-28T19:59:30.236538+00:00",
+                "last_updated": "2021-01-28T20:17:58.694500+00:00",
                 "context": {
-                    "id": "f488701eb13e3e468834dfadf4ca98d2",
-                    "parent_id": "347e7cede76be1f78a2ae7535e813864",
+                    "id": "61777e5bb760e22c5bd99f80e7022a37",
+                    "parent_id": "63209c863d515a06c71e677a0e13d574",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -538,49 +536,49 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.apagar_luz_cocina",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:25:44.007725+00:00",
+                    "last_triggered": "2021-01-28T20:20:58.007386+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585779713964",
                     "friendly_name": "Cocina - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia"
                 },
                 "last_changed": "2021-01-28T18:49:43.947074+00:00",
-                "last_updated": "2021-01-28T19:25:44.038860+00:00",
+                "last_updated": "2021-01-28T20:20:58.046902+00:00",
                 "context": {
-                    "id": "9b0210e6c425d727366160ef5b4b2570",
-                    "parent_id": "8a22dae6c9dd02cfc57a47c7b7dee379",
+                    "id": "5fa813f3a8116e09a3d5ab1865663255",
+                    "parent_id": "aa53eef75bb2472361c83f2080d32b46",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.reiniciar_timer_cocina_si_hay_movimiento",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T18:38:05.007094+00:00",
+                    "last_triggered": "2021-01-28T20:14:30.008884+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585862713410",
                     "friendly_name": "Cocina - 2.- Reiniciar Timer al terminar si hay movimiento"
                 },
                 "last_changed": "2021-01-28T18:49:43.947562+00:00",
-                "last_updated": "2021-01-28T18:49:43.947562+00:00",
+                "last_updated": "2021-01-28T20:14:30.050664+00:00",
                 "context": {
-                    "id": "0d3f2a64ebc1409e057f530fba0bc956",
-                    "parent_id": null,
+                    "id": "bd91512cc8155e5dcdbb6129d6366d6b",
+                    "parent_id": "f05e92254a06d9a65c6cc624cfd2f29a",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -601,7 +599,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -622,7 +620,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -643,7 +641,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -664,7 +662,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -685,7 +683,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -706,7 +704,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -727,7 +725,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -748,7 +746,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -769,7 +767,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -790,70 +788,70 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_1_encender_lampara",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:59:37.553889+00:00",
+                    "last_triggered": "2021-01-28T20:30:02.968655+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_1",
                     "friendly_name": "Dormitorio - 1.- Encender Lampara"
                 },
                 "last_changed": "2021-01-28T18:49:43.952981+00:00",
-                "last_updated": "2021-01-28T19:59:37.607419+00:00",
+                "last_updated": "2021-01-28T20:30:03.024246+00:00",
                 "context": {
-                    "id": "cf465fca155692b47fe9ddae3f3d8c3b",
-                    "parent_id": "5cdafad42790e204f47855edaea33556",
+                    "id": "a7700b3d0cd70e90ade7880b252cb4ae",
+                    "parent_id": "1f8be1e35e26b2e071e7fea0d0dcdb82",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_2_reiniciar_timer_si_hay_movimiento",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:59:37.555061+00:00",
+                    "last_triggered": "2021-01-28T20:30:02.969674+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_2",
                     "friendly_name": "Dormitorio - 2.- Reiniciar Timer Si hay movimiento"
                 },
                 "last_changed": "2021-01-28T18:49:43.953468+00:00",
-                "last_updated": "2021-01-28T19:59:37.595587+00:00",
+                "last_updated": "2021-01-28T20:30:03.010742+00:00",
                 "context": {
-                    "id": "aeca82aee96bbd10c643d1398bf059bd",
-                    "parent_id": "5cdafad42790e204f47855edaea33556",
+                    "id": "9afea5551a692083efda412d76ffef47",
+                    "parent_id": "1f8be1e35e26b2e071e7fea0d0dcdb82",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_3_apagar_luz_cuando_timer_acaba_y_no_se_detecta_presencia",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:36:13.007746+00:00",
+                    "last_triggered": "2021-01-28T20:19:52.007385+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_3",
                     "friendly_name": "Dormitorio - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia"
                 },
                 "last_changed": "2021-01-28T18:49:43.953957+00:00",
-                "last_updated": "2021-01-28T19:36:13.044746+00:00",
+                "last_updated": "2021-01-28T20:19:52.105094+00:00",
                 "context": {
-                    "id": "07ce1c435d932d2cb4b591441252fbc5",
-                    "parent_id": "841bcdbc5f16bffc6e3387288372aecc",
+                    "id": "dd81b8efe84ddc780353e40cb5130c9c",
+                    "parent_id": "1b36d6f1d9b659f55896dc60468be537",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -874,7 +872,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -895,7 +893,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         },
         {
             "state": {
@@ -916,7 +914,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T20:01:23.817957+00:00"
+            "last_seen": "2021-01-28T20:31:23.822841+00:00"
         }
     ]
 }
