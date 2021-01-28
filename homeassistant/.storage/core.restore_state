@@ -9,22 +9,22 @@
                 "attributes": {
                     "editable": true,
                     "id": "amazfit_gts_jairo",
-                    "latitude": 40.6063102,
-                    "longitude": -3.6962162,
+                    "latitude": 40.6063051,
+                    "longitude": -3.6961854,
                     "gps_accuracy": 13,
                     "source": "device_tracker.galaxy_s20",
                     "user_id": "8ac1851ca930495ba24e72ddbb624356",
                     "friendly_name": "Jairo"
                 },
                 "last_changed": "2021-01-28T18:26:18.037519+00:00",
-                "last_updated": "2021-01-28T19:28:18.335057+00:00",
+                "last_updated": "2021-01-28T19:38:18.729501+00:00",
                 "context": {
-                    "id": "b276001ddd103733a499c84e7e804918",
+                    "id": "edbf01667d99db8ee32dce8d9c85359b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -44,7 +44,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -61,7 +61,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -123,7 +123,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -142,7 +142,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -161,27 +161,25 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
                 "entity_id": "timer.dormitorio",
-                "state": "active",
+                "state": "idle",
                 "attributes": {
                     "duration": "0:05:00",
-                    "editable": false,
-                    "finishes_at": "2021-01-28T19:36:13+00:00",
-                    "remaining": "0:05:00"
+                    "editable": false
                 },
-                "last_changed": "2021-01-28T19:31:13.888539+00:00",
-                "last_updated": "2021-01-28T19:31:13.888539+00:00",
+                "last_changed": "2021-01-28T19:36:13.002995+00:00",
+                "last_updated": "2021-01-28T19:36:13.002995+00:00",
                 "context": {
-                    "id": "dbf7e5664a37d9c2f9c9ee55b64560c7",
-                    "parent_id": "4868bea3f851544b40d6aad4393a8940",
+                    "id": "5f1f23b9d7856c72648766a6b690de07",
+                    "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -199,7 +197,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -207,21 +205,21 @@
                 "state": "Casa",
                 "attributes": {
                     "source_type": "gps",
-                    "battery_level": 82,
-                    "latitude": 40.6063102,
-                    "longitude": -3.6962162,
+                    "battery_level": 81,
+                    "latitude": 40.6063051,
+                    "longitude": -3.6961854,
                     "gps_accuracy": 13,
                     "friendly_name": "Galaxy_S20_Jairo"
                 },
-                "last_changed": "2021-01-28T19:29:03.162852+00:00",
-                "last_updated": "2021-01-28T19:29:03.162852+00:00",
+                "last_changed": "2021-01-28T19:41:17.532247+00:00",
+                "last_updated": "2021-01-28T19:41:17.532247+00:00",
                 "context": {
-                    "id": "82adbd2264a8e387ad8d60fb17c335bd",
+                    "id": "34a5c58cf731aec7fd589f43750d35f8",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -239,7 +237,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -251,37 +249,37 @@
                     "friendly_name": "Luz Cocina"
                 },
                 "last_changed": "2021-01-28T19:25:44.118432+00:00",
-                "last_updated": "2021-01-28T19:25:44.118432+00:00",
+                "last_updated": "2021-01-28T19:41:31.569433+00:00",
                 "context": {
-                    "id": "9b0210e6c425d727366160ef5b4b2570",
-                    "parent_id": "8a22dae6c9dd02cfc57a47c7b7dee379",
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "switch.lampara_habitacion_principal",
-                "state": "on",
-                "attributes": {
-                    "consumption": 0.15,
-                    "energy": 0.15,
-                    "linkquality": 49,
-                    "power": 5.6,
-                    "state": "ON",
-                    "temperature": 41,
-                    "friendly_name": "Lampara habitaci\u00f3n"
-                },
-                "last_changed": "2021-01-28T19:31:14.389119+00:00",
-                "last_updated": "2021-01-28T19:31:21.596478+00:00",
-                "context": {
-                    "id": "d721aaa5fa414019244de2d39dde646a",
+                    "id": "43bf4a02f6a491535c2acf2c369341b8",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.lampara_habitacion_principal",
+                "state": "off",
+                "attributes": {
+                    "consumption": 0.15,
+                    "energy": 0.15,
+                    "linkquality": 49,
+                    "power": 0,
+                    "state": "OFF",
+                    "temperature": 39,
+                    "friendly_name": "Lampara habitaci\u00f3n"
+                },
+                "last_changed": "2021-01-28T19:36:13.127817+00:00",
+                "last_updated": "2021-01-28T19:45:31.410402+00:00",
+                "context": {
+                    "id": "1f77b38b05c8cef62df3e13906d0c73c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -334,78 +332,78 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_ping",
-                "state": "13.321",
+                "state": "13.679",
                 "attributes": {
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
                     "server_name": "Madrid",
-                    "server_country": "Spain",
-                    "server_id": "21349",
+                    "server_country": "ES",
+                    "server_id": "17773",
                     "unit_of_measurement": "ms",
                     "friendly_name": "SpeedTest Ping",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-01-28T19:09:37.066187+00:00",
-                "last_updated": "2021-01-28T19:09:37.066187+00:00",
+                "last_changed": "2021-01-28T19:40:04.002049+00:00",
+                "last_updated": "2021-01-28T19:40:04.002049+00:00",
                 "context": {
-                    "id": "8cdf5dc449f8b18dde456c8c24d999a8",
+                    "id": "939114ddc13b3955ee589631cf2ce4ff",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_download",
-                "state": "21.81",
+                "state": "19.78",
                 "attributes": {
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
                     "server_name": "Madrid",
-                    "server_country": "Spain",
-                    "server_id": "21349",
-                    "bytes_received": 28067312,
+                    "server_country": "ES",
+                    "server_id": "17773",
+                    "bytes_received": 25456112,
                     "unit_of_measurement": "Mbit/s",
                     "friendly_name": "SpeedTest Download",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-01-28T19:09:37.067520+00:00",
-                "last_updated": "2021-01-28T19:09:37.067520+00:00",
+                "last_changed": "2021-01-28T19:40:04.003104+00:00",
+                "last_updated": "2021-01-28T19:40:04.003104+00:00",
                 "context": {
-                    "id": "b17ee6e3f7e494014f6034b896bb3c76",
+                    "id": "35d9c145054f08b9c638d602b466b61c",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.speedtest_upload",
-                "state": "16.71",
+                "state": "16.43",
                 "attributes": {
                     "attribution": "Data retrieved from Speedtest.net by Ookla",
                     "server_name": "Madrid",
-                    "server_country": "Spain",
-                    "server_id": "21349",
-                    "bytes_sent": 21995520,
+                    "server_country": "ES",
+                    "server_id": "17773",
+                    "bytes_sent": 23945216,
                     "unit_of_measurement": "Mbit/s",
                     "friendly_name": "SpeedTest Upload",
                     "icon": "mdi:speedometer"
                 },
-                "last_changed": "2021-01-28T19:09:37.068735+00:00",
-                "last_updated": "2021-01-28T19:09:37.068735+00:00",
+                "last_changed": "2021-01-28T19:40:04.004136+00:00",
+                "last_updated": "2021-01-28T19:40:04.004136+00:00",
                 "context": {
-                    "id": "8316178dca513e61c8c8ba2a3945c994",
+                    "id": "ddbad09e26bc481a33d05b254b5ce154",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -426,7 +424,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -447,7 +445,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -468,7 +466,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -489,7 +487,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -510,7 +508,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -531,7 +529,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -552,7 +550,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -573,7 +571,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -594,7 +592,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -615,7 +613,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -636,7 +634,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -657,7 +655,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -678,7 +676,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -699,7 +697,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -720,7 +718,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -741,7 +739,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -762,7 +760,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -783,28 +781,28 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_3_apagar_luz_cuando_timer_acaba_y_no_se_detecta_presencia",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:25:19.014642+00:00",
+                    "last_triggered": "2021-01-28T19:36:13.007746+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_3",
                     "friendly_name": "Dormitorio - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia"
                 },
                 "last_changed": "2021-01-28T18:49:43.953957+00:00",
-                "last_updated": "2021-01-28T19:25:19.042659+00:00",
+                "last_updated": "2021-01-28T19:36:13.044746+00:00",
                 "context": {
-                    "id": "8f174e1ebdcc171acee3c74fae7e47ed",
-                    "parent_id": "3117b35fc609a7ea280ca8498b343cfa",
+                    "id": "07ce1c435d932d2cb4b591441252fbc5",
+                    "parent_id": "841bcdbc5f16bffc6e3387288372aecc",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -825,7 +823,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -846,7 +844,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         },
         {
             "state": {
@@ -867,7 +865,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+            "last_seen": "2021-01-28T19:46:23.816434+00:00"
         }
     ]
 }
