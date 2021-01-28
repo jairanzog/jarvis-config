@@ -24,7 +24,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -44,7 +44,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -61,7 +61,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -123,26 +123,28 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "timer.cocina",
-                "state": "idle",
+                "state": "active",
                 "attributes": {
                     "duration": "0:03:00",
                     "editable": false,
+                    "finishes_at": "2021-01-28T20:02:30+00:00",
+                    "remaining": "0:03:00",
                     "friendly_name": "La cocina se apagar\u00e1 en"
                 },
-                "last_changed": "2021-01-28T19:25:44.002486+00:00",
-                "last_updated": "2021-01-28T19:25:44.002486+00:00",
+                "last_changed": "2021-01-28T19:59:30.223421+00:00",
+                "last_updated": "2021-01-28T19:59:30.223421+00:00",
                 "context": {
-                    "id": "98441b214f8f20af3bd6d7475e293e00",
-                    "parent_id": null,
+                    "id": "f488701eb13e3e468834dfadf4ca98d2",
+                    "parent_id": "347e7cede76be1f78a2ae7535e813864",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -161,25 +163,27 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "timer.dormitorio",
-                "state": "idle",
+                "state": "active",
                 "attributes": {
                     "duration": "0:05:00",
-                    "editable": false
+                    "editable": false,
+                    "finishes_at": "2021-01-28T20:04:37+00:00",
+                    "remaining": "0:05:00"
                 },
-                "last_changed": "2021-01-28T19:36:13.002995+00:00",
-                "last_updated": "2021-01-28T19:36:13.002995+00:00",
+                "last_changed": "2021-01-28T19:59:37.580282+00:00",
+                "last_updated": "2021-01-28T19:59:37.580282+00:00",
                 "context": {
-                    "id": "5f1f23b9d7856c72648766a6b690de07",
-                    "parent_id": null,
+                    "id": "aeca82aee96bbd10c643d1398bf059bd",
+                    "parent_id": "5cdafad42790e204f47855edaea33556",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -197,7 +201,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -219,7 +223,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -237,64 +241,87 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "switch.luz_cocina",
-                "state": "off",
+                "state": "on",
                 "attributes": {
-                    "linkquality": 49,
-                    "state": "OFF",
+                    "linkquality": 52,
+                    "state": "ON",
                     "friendly_name": "Luz Cocina"
                 },
-                "last_changed": "2021-01-28T19:25:44.118432+00:00",
-                "last_updated": "2021-01-28T19:41:31.569433+00:00",
+                "last_changed": "2021-01-28T19:59:30.313893+00:00",
+                "last_updated": "2021-01-28T19:59:30.313893+00:00",
                 "context": {
-                    "id": "43bf4a02f6a491535c2acf2c369341b8",
-                    "parent_id": null,
+                    "id": "f488701eb13e3e468834dfadf4ca98d2",
+                    "parent_id": "347e7cede76be1f78a2ae7535e813864",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "switch.lampara_habitacion_principal",
-                "state": "off",
+                "state": "on",
                 "attributes": {
                     "consumption": 0.15,
                     "energy": 0.15,
                     "linkquality": 49,
-                    "power": 0,
-                    "state": "OFF",
-                    "temperature": 39,
+                    "power": 5.6,
+                    "state": "ON",
+                    "temperature": 38,
                     "friendly_name": "Lampara habitaci\u00f3n"
                 },
-                "last_changed": "2021-01-28T19:36:13.127817+00:00",
-                "last_updated": "2021-01-28T19:45:31.410402+00:00",
+                "last_changed": "2021-01-28T19:54:30.829286+00:00",
+                "last_updated": "2021-01-28T19:56:20.931707+00:00",
                 "context": {
-                    "id": "1f77b38b05c8cef62df3e13906d0c73c",
-                    "parent_id": null,
+                    "id": "24c9c56a16bcde0f0059e2d998bcfae0",
+                    "parent_id": "287d3fbf55232b75d89b58f918a2c644",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.pvpc",
-                "state": "0.14351",
+                "state": "0.14281",
                 "attributes": {
                     "attribution": "Data retrieved from api.esios.ree.es by REE",
                     "tariff": "discrimination",
-                    "min_price": 0.06054,
-                    "min_price_at": 2,
+                    "min_price": 0.04545,
+                    "min_price_at": 3,
                     "next_best_at": [
+                        3,
+                        2,
+                        22,
+                        4,
+                        1,
+                        0,
+                        23,
                         22,
                         21,
+                        5,
+                        21,
+                        10,
+                        9,
+                        8,
+                        7,
+                        6,
+                        14,
+                        13,
+                        12,
+                        15,
                         20,
-                        19
+                        11,
+                        19,
+                        16,
+                        18,
+                        20,
+                        17
                     ],
                     "price_last_day_23h": 0.06507,
                     "price_00h": 0.06299,
@@ -320,19 +347,43 @@
                     "price_20h": 0.14281,
                     "price_21h": 0.06829,
                     "price_22h": 0.06123,
+                    "price_23h": 0.06106,
+                    "price_next_day_00h": 0.05567,
+                    "price_next_day_01h": 0.05072,
+                    "price_next_day_02h": 0.04664,
+                    "price_next_day_03h": 0.04545,
+                    "price_next_day_04h": 0.04967,
+                    "price_next_day_05h": 0.06566,
+                    "price_next_day_06h": 0.07481,
+                    "price_next_day_07h": 0.07455,
+                    "price_next_day_08h": 0.07424,
+                    "price_next_day_09h": 0.07191,
+                    "price_next_day_10h": 0.06957,
+                    "price_next_day_11h": 0.13465,
+                    "price_next_day_12h": 0.13018,
+                    "price_next_day_13h": 0.12645,
+                    "price_next_day_14h": 0.12637,
+                    "price_next_day_15h": 0.1312,
+                    "price_next_day_16h": 0.13787,
+                    "price_next_day_17h": 0.1436,
+                    "price_next_day_18h": 0.14219,
+                    "price_next_day_19h": 0.1371,
+                    "price_next_day_20h": 0.13318,
+                    "price_next_day_21h": 0.06217,
+                    "price_next_day_22h": 0.0492,
                     "unit_of_measurement": "\u20ac/kWh",
                     "friendly_name": "PVPC",
                     "icon": "mdi:currency-eur"
                 },
-                "last_changed": "2021-01-28T19:00:00.004111+00:00",
-                "last_updated": "2021-01-28T19:00:00.004111+00:00",
+                "last_changed": "2021-01-28T20:00:00.004288+00:00",
+                "last_updated": "2021-01-28T20:00:00.004288+00:00",
                 "context": {
-                    "id": "1a6ff611d1047a68bfc047a1cc08e80f",
+                    "id": "68af4e4f22cb1669b1d301b3ac6c5530",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -355,7 +406,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -379,7 +430,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -403,7 +454,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -424,7 +475,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -445,28 +496,28 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.encender_luces_cocina",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:22:44.380546+00:00",
+                    "last_triggered": "2021-01-28T19:59:30.198973+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585443406855",
                     "friendly_name": "Cocina - 1.- Encender Luces"
                 },
                 "last_changed": "2021-01-28T18:49:43.946102+00:00",
-                "last_updated": "2021-01-28T19:22:44.425595+00:00",
+                "last_updated": "2021-01-28T19:59:30.236538+00:00",
                 "context": {
-                    "id": "d442fc3651d2e89a7d0cca2f8bdbb32a",
-                    "parent_id": "b3ebc6a3dc055e1c224779d28a56e29c",
+                    "id": "f488701eb13e3e468834dfadf4ca98d2",
+                    "parent_id": "347e7cede76be1f78a2ae7535e813864",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -487,7 +538,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -508,7 +559,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -529,7 +580,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -550,7 +601,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -571,7 +622,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -592,7 +643,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -613,7 +664,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -634,7 +685,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -655,7 +706,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -676,7 +727,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -697,7 +748,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -718,7 +769,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -739,49 +790,49 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_1_encender_lampara",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:31:13.873938+00:00",
+                    "last_triggered": "2021-01-28T19:59:37.553889+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_1",
                     "friendly_name": "Dormitorio - 1.- Encender Lampara"
                 },
                 "last_changed": "2021-01-28T18:49:43.952981+00:00",
-                "last_updated": "2021-01-28T19:31:13.905492+00:00",
+                "last_updated": "2021-01-28T19:59:37.607419+00:00",
                 "context": {
-                    "id": "dbf7e5664a37d9c2f9c9ee55b64560c7",
-                    "parent_id": "4868bea3f851544b40d6aad4393a8940",
+                    "id": "cf465fca155692b47fe9ddae3f3d8c3b",
+                    "parent_id": "5cdafad42790e204f47855edaea33556",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_2_reiniciar_timer_si_hay_movimiento",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-28T19:10:03.273398+00:00",
+                    "last_triggered": "2021-01-28T19:59:37.555061+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_2",
                     "friendly_name": "Dormitorio - 2.- Reiniciar Timer Si hay movimiento"
                 },
                 "last_changed": "2021-01-28T18:49:43.953468+00:00",
-                "last_updated": "2021-01-28T19:10:03.311852+00:00",
+                "last_updated": "2021-01-28T19:59:37.595587+00:00",
                 "context": {
-                    "id": "6ebf75b79ad78d902d9e98d4b4e7f16b",
-                    "parent_id": "ea781cf8d1c2ea2120e4c94ebdd91d25",
+                    "id": "aeca82aee96bbd10c643d1398bf059bd",
+                    "parent_id": "5cdafad42790e204f47855edaea33556",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -802,7 +853,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -823,7 +874,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -844,7 +895,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         },
         {
             "state": {
@@ -865,7 +916,7 @@
                     "user_id": null
                 }
             },
-            "last_seen": "2021-01-28T19:46:23.816434+00:00"
+            "last_seen": "2021-01-28T20:01:23.817957+00:00"
         }
     ]
 }
