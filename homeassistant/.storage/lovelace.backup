@@ -1,0 +1,899 @@
+{
+    "data": {
+        "config": {
+            "resources": [
+                {
+                    "type": "module",
+                    "url": "/hacsfiles/ha-card-waze-travel-time/ha-card-waze-travel-time.js"
+                },
+                {
+                    "type": "module",
+                    "url": "/hacsfiles/lovelace-card-mod/card-mod.js"
+                }
+            ],
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.dark_sky_summary"
+                                        },
+                                        {
+                                            "entity": "sensor.dark_sky_hourly_summary"
+                                        },
+                                        {
+                                            "entity": "sensor.dark_sky_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.0x00158d0004446062_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.dark_sky_pressure"
+                                        },
+                                        {
+                                            "entity": "sensor.0x00158d0004446062_pressure"
+                                        },
+                                        {
+                                            "entity": "sensor.tiempo_precipitation"
+                                        },
+                                        {
+                                            "entity": "sensor.weather_wind_speed"
+                                        },
+                                        {
+                                            "entity": "sensor.0x00158d00042010e4_illuminance"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "Clima exterior",
+                                    "type": "entities"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "card": {
+                                                "title": "Luces Encendidas",
+                                                "type": "glance"
+                                            },
+                                            "entities": [
+                                                {
+                                                    "entity": "switch.luz_cocina_switch"
+                                                },
+                                                {
+                                                    "entity": "switch.bf5f971cf225cffafaiye7"
+                                                },
+                                                {
+                                                    "entity": "switch.bf74042d28e39f1d19joll"
+                                                },
+                                                {
+                                                    "entity": "switch.meross_18110534957624251a0934298f1792ac"
+                                                },
+                                                {
+                                                    "entity": "switch.meross_18110501506294251a0934298f17935a"
+                                                }
+                                            ],
+                                            "state_filter": [
+                                                "on"
+                                            ],
+                                            "type": "entity-filter"
+                                        },
+                                        {
+                                            "card": {
+                                                "title": "Puertas abiertas",
+                                                "type": "glance"
+                                            },
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.0x00158d00035c6967_contact"
+                                                },
+                                                {
+                                                    "entity": "binary_sensor.puerta_terraza_contact"
+                                                },
+                                                {
+                                                    "entity": "binary_sensor.0x00158d0003031c6b_contact"
+                                                }
+                                            ],
+                                            "state_filter": [
+                                                "on"
+                                            ],
+                                            "type": "entity-filter"
+                                        },
+                                        {
+                                            "card": {
+                                                "title": "Presencia",
+                                                "type": "glance"
+                                            },
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.presenciacocina_occupancy"
+                                                },
+                                                {
+                                                    "entity": "binary_sensor.0x00158d00042010e4_occupancy"
+                                                }
+                                            ],
+                                            "show_icon": true,
+                                            "show_state": true,
+                                            "state_filter": [
+                                                "on"
+                                            ],
+                                            "title": "Movimiento",
+                                            "type": "entity-filter"
+                                        }
+                                    ],
+                                    "type": "vertical-stack"
+                                }
+                            ],
+                            "type": "horizontal-stack"
+                        }
+                    ],
+                    "panel": true,
+                    "path": "vision-general",
+                    "title": "Vision General"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.tiempo_viaje"
+                                },
+                                {
+                                    "entity": "sensor.bateria_movil_cristina"
+                                },
+                                {
+                                    "entity": "device_tracker.aquaris_x_pro"
+                                },
+                                {
+                                    "entity": "device_tracker.huawei_p20_lite"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "M\u00f3viles",
+                            "type": "entities"
+                        },
+                        {
+                            "aspect_ratio": "16:9",
+                            "dark_mode": false,
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.aquaris_x_pro"
+                                },
+                                {
+                                    "entity": "device_tracker.huawei_p20_lite"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "title": "\u00bfDonde est\u00e1s?",
+                            "type": "map"
+                        }
+                    ],
+                    "title": "Family"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "cards": [
+                                                {
+                                                    "cards": [
+                                                        {
+                                                            "entity": "media_player.salon",
+                                                            "type": "media-control"
+                                                        },
+                                                        {
+                                                            "cards": [
+                                                                {
+                                                                    "entity": "media_player.salon",
+                                                                    "hold_action": {
+                                                                        "action": "more-info"
+                                                                    },
+                                                                    "name": " Volumen \\/ ",
+                                                                    "show_icon": false,
+                                                                    "show_name": true,
+                                                                    "tap_action": {
+                                                                        "action": "call-service",
+                                                                        "service": "media_player.volume_down",
+                                                                        "service_data": {
+                                                                            "entity_id": "media_player.salon"
+                                                                        }
+                                                                    },
+                                                                    "type": "button"
+                                                                },
+                                                                {
+                                                                    "entity": "media_player.salon",
+                                                                    "hold_action": {
+                                                                        "action": "more-info"
+                                                                    },
+                                                                    "name": "Volumen /\\",
+                                                                    "show_icon": false,
+                                                                    "show_name": true,
+                                                                    "tap_action": {
+                                                                        "action": "call-service",
+                                                                        "service": "media_player.volume_up",
+                                                                        "service_data": {
+                                                                            "entity_id": "media_player.salon"
+                                                                        }
+                                                                    },
+                                                                    "type": "button"
+                                                                }
+                                                            ],
+                                                            "type": "horizontal-stack"
+                                                        }
+                                                    ],
+                                                    "type": "vertical-stack"
+                                                },
+                                                {
+                                                    "entities": [
+                                                        {
+                                                            "entity": "binary_sensor.0x00158d00035c6967_contact",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "binary_sensor.puerta_terraza_contact",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "switch.meross_18110501506294251a0934298f17935a",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "switch.meross_18110534957624251a0934298f1792ac",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "switch.bf5f971cf225cffafaiye7",
+                                                            "state_color": true
+                                                        }
+                                                    ],
+                                                    "show_header_toggle": true,
+                                                    "title": "Sal\u00f3n",
+                                                    "type": "glance"
+                                                }
+                                            ],
+                                            "type": "vertical-stack"
+                                        },
+                                        {
+                                            "cards": [
+                                                {
+                                                    "entities": [
+                                                        {
+                                                            "entity": "switch.luz_cocina_switch",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "binary_sensor.presenciacocina_occupancy",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "timer.cocina",
+                                                            "state_color": true
+                                                        }
+                                                    ],
+                                                    "title": "Cocina",
+                                                    "type": "glance"
+                                                },
+                                                {
+                                                    "entities": [
+                                                        {
+                                                            "entity": "binary_sensor.0x00158d0003033e43_contact",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "switch.bf74042d28e39f1d19joll",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "timer.ambientador",
+                                                            "state_color": true
+                                                        }
+                                                    ],
+                                                    "show_header_toggle": false,
+                                                    "title": "Ba\u00f1o Planta Baja",
+                                                    "type": "glance"
+                                                },
+                                                {
+                                                    "entities": [
+                                                        {
+                                                            "entity": "binary_sensor.0x00158d0003031c6b_contact",
+                                                            "state_color": true
+                                                        },
+                                                        {
+                                                            "entity": "binary_sensor.0x00158d0003033d7f_contact",
+                                                            "state_color": true
+                                                        }
+                                                    ],
+                                                    "show_header_toggle": false,
+                                                    "title": "Dormitorio",
+                                                    "type": "glance"
+                                                }
+                                            ],
+                                            "type": "vertical-stack"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "horizontal-stack"
+                        }
+                    ],
+                    "panel": true,
+                    "title": "Du Maison"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.bf5f971cf225cffafaiye7",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "switch.luz_cocina_switch",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "switch.meross_18110501506294251a0934298f17935a",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "switch.meross_18110534957624251a0934298f1792ac",
+                                    "state_color": true
+                                }
+                            ],
+                            "title": "Interruptores",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.0x00158d00035c6967_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.puerta_terraza_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.0x00158d0003031c6b_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.0x00158d0003033d7f_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.0x00158d0003033e43_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.presenciacocina_occupancy",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.0x00158d00042010e4_occupancy",
+                                    "state_color": true
+                                }
+                            ],
+                            "title": "Sensores",
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entity": "media_player.salon",
+                                    "type": "media-control"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "media_player.salon",
+                                            "hold_action": {
+                                                "action": "more-info"
+                                            },
+                                            "name": " Volumen \\/ ",
+                                            "show_icon": false,
+                                            "show_name": true,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "media_player.volume_down",
+                                                "service_data": {
+                                                    "entity_id": "media_player.salon"
+                                                }
+                                            },
+                                            "type": "button"
+                                        },
+                                        {
+                                            "entity": "media_player.salon",
+                                            "hold_action": {
+                                                "action": "more-info"
+                                            },
+                                            "name": "Volumen /\\",
+                                            "show_icon": false,
+                                            "show_name": true,
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "media_player.volume_up",
+                                                "service_data": {
+                                                    "entity_id": "media_player.salon"
+                                                }
+                                            },
+                                            "type": "button"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "path": "du-maison-alternativa",
+                    "title": "Du Maison alternativa"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.spain_coronavirus_confirmed"
+                                },
+                                {
+                                    "entity": "sensor.spain_coronavirus_recovered"
+                                },
+                                {
+                                    "entity": "sensor.spain_coronavirus_current"
+                                },
+                                {
+                                    "entity": "sensor.spain_coronavirus_deaths"
+                                }
+                            ],
+                            "title": "My Title",
+                            "type": "entities"
+                        },
+                        {
+                            "card": {
+                                "columns": [
+                                    "from",
+                                    "to",
+                                    "duration",
+                                    "distance",
+                                    "icon"
+                                ],
+                                "destinations": [
+                                    {
+                                        "entity": "sensor.tiempo_viaje",
+                                        "from": "person.jairo",
+                                        "to": "zone.masmovil"
+                                    },
+                                    {
+                                        "entity": "sensor.waze_home_2_workplace",
+                                        "to": "zone.home"
+                                    }
+                                ],
+                                "header": false,
+                                "name": "Route to...",
+                                "type": "custom:ha-card-waze-travel-time",
+                                "unit": "km"
+                            },
+                            "style": "ha-card {\n  --primary-text-color: #FFFFFF;\n  --secondary-text-color: #727272;\n  --text-primary-color: #ffffff;\n  --disabled-text-color: #bdbdbd;\n  background-image: url(\"/local/imgs/card_back.png\")\n  background-repeat: no-repeat\n  background-color: rgba(50,50,50,0.3)\n  background-size: 100% 300px\n  border-radius: 20px\n  border: solid 1px rgba(100,100,100,0.3)\n  box-shadow: 3px 3px rgba(0,0,0,0.4)\n}\n",
+                            "type": "custom:mod-card"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.meross_18110501506294251a0934298f17935a_current"
+                                },
+                                {
+                                    "entity": "sensor.meross_18110534957624251a0934298f1792ac_current"
+                                }
+                            ],
+                            "hours_to_show": 24,
+                            "refresh_interval": 0,
+                            "type": "history-graph"
+                        }
+                    ],
+                    "path": "otros",
+                    "title": "Otros"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "detail": 0,
+                                    "entity": "sensor.0x00158d00042010e4_illuminance",
+                                    "graph": "line",
+                                    "hours_to_show": 24,
+                                    "name": "Luminosidad Exterior",
+                                    "type": "sensor"
+                                },
+                                {
+                                    "entity": "sensor.presenciacocina_illuminance",
+                                    "graph": "line",
+                                    "hours_to_show": 28,
+                                    "type": "sensor"
+                                }
+                            ],
+                            "title": "Gr\u00e1ficos",
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.estacionmetereologica_battery"
+                                },
+                                {
+                                    "entity": "sensor.puerta_terraza_battery"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d0003031c6b_battery"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d00042010e4_battery"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d0003033d7f_battery"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d0003033e43_battery"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d00035c6967_battery"
+                                },
+                                {
+                                    "entity": "sensor.puerta_terraza_battery"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Bater\u00eda",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.estacionmetereologica_linkquality"
+                                },
+                                {
+                                    "entity": "sensor.puerta_terraza_linkquality"
+                                },
+                                {
+                                    "entity": "sensor.luz_cocina_linkquality"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d0003033d7f_linkquality"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d0003033e43_linkquality"
+                                },
+                                {
+                                    "entity": "sensor.0x00158d00035c6967_linkquality"
+                                },
+                                {
+                                    "entity": "sensor.presenciacocina_linkquality"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "LinkQuality",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.disk_use_percent_home",
+                                "sensor.last_boot",
+                                "sensor.speedtest_download",
+                                "sensor.speedtest_upload",
+                                "sensor.speedtest_ping",
+                                "sensor.ssl_cert_expiry"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Home-Assistant",
+                            "type": "entities"
+                        },
+                        {
+                            "detail": 0,
+                            "entity": "sensor.pvpc",
+                            "graph": "line",
+                            "hours_to_show": 96,
+                            "type": "sensor"
+                        }
+                    ],
+                    "path": "self_monitoring",
+                    "title": "monitorizacion"
+                },
+                {
+                    "cards": [
+                        {
+                            "columns": 1,
+                            "entities": [
+                                {
+                                    "entity": "scene.pelicula_y_manta"
+                                },
+                                {
+                                    "entity": "scene.romantico"
+                                },
+                                {
+                                    "entity": "scene.por_defecto"
+                                },
+                                {
+                                    "entity": "scene.buenas_noches"
+                                }
+                            ],
+                            "show_icon": false,
+                            "show_name": true,
+                            "show_state": false,
+                            "title": "Escenas",
+                            "type": "glance"
+                        }
+                    ],
+                    "panel": false,
+                    "title": "Escenas y Automatismos"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.0x00158d0003033e43_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "switch.bf74042d28e39f1d19joll",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "timer.ambientador",
+                                    "state_color": true
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Ba\u00f1o Planta Baja",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.0x00158d0003031c6b_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.0x00158d0003033d7f_contact",
+                                    "state_color": true
+                                }
+                            ],
+                            "title": "Dormitorio",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.luz_cocina_switch",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.presenciacocina_occupancy",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "timer.cocina",
+                                    "state_color": true
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Cocina",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.0x00158d00035c6967_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "binary_sensor.puerta_terraza_contact",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "switch.meross_18110501506294251a0934298f17935a",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "switch.meross_18110534957624251a0934298f1792ac",
+                                    "state_color": true
+                                },
+                                {
+                                    "entity": "switch.bf5f971cf225cffafaiye7",
+                                    "state_color": true
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Sal\u00f3n",
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.0x00158d00035c6967_contact",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "binary_sensor.puerta_terraza_contact",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "switch.meross_18110501506294251a0934298f17935a",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "switch.meross_18110534957624251a0934298f1792ac",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "switch.bf5f971cf225cffafaiye7",
+                                                    "state_color": true
+                                                }
+                                            ],
+                                            "show_header_toggle": true,
+                                            "title": "Sal\u00f3n",
+                                            "type": "glance"
+                                        },
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "switch.luz_cocina_switch",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "binary_sensor.presenciacocina_occupancy",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "timer.cocina",
+                                                    "state_color": true
+                                                }
+                                            ],
+                                            "show_header_toggle": false,
+                                            "title": "Cocina",
+                                            "type": "glance"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.0x00158d0003031c6b_contact",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "binary_sensor.0x00158d0003033d7f_contact",
+                                                    "state_color": true
+                                                }
+                                            ],
+                                            "title": "Dormitorio",
+                                            "type": "glance"
+                                        },
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.0x00158d0003033e43_contact",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "switch.bf74042d28e39f1d19joll",
+                                                    "state_color": true
+                                                },
+                                                {
+                                                    "entity": "timer.ambientador",
+                                                    "state_color": true
+                                                }
+                                            ],
+                                            "show_header_toggle": false,
+                                            "title": "Ba\u00f1o Planta Baja",
+                                            "type": "glance"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "media_player.salon",
+                                            "type": "media-control"
+                                        },
+                                        {
+                                            "cards": [
+                                                {
+                                                    "entity": "media_player.salon",
+                                                    "hold_action": {
+                                                        "action": "more-info"
+                                                    },
+                                                    "name": " Volumen \\/ ",
+                                                    "show_icon": false,
+                                                    "show_name": true,
+                                                    "tap_action": {
+                                                        "action": "call-service",
+                                                        "service": "media_player.volume_down",
+                                                        "service_data": {
+                                                            "entity_id": "media_player.salon"
+                                                        }
+                                                    },
+                                                    "type": "button"
+                                                },
+                                                {
+                                                    "entity": "media_player.salon",
+                                                    "hold_action": {
+                                                        "action": "more-info"
+                                                    },
+                                                    "name": "Volumen /\\",
+                                                    "show_icon": false,
+                                                    "show_name": true,
+                                                    "tap_action": {
+                                                        "action": "call-service",
+                                                        "service": "media_player.volume_up",
+                                                        "service_data": {
+                                                            "entity_id": "media_player.salon"
+                                                        }
+                                                    },
+                                                    "type": "button"
+                                                }
+                                            ],
+                                            "type": "horizontal-stack"
+                                        }
+                                    ],
+                                    "type": "vertical-stack"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.estacionmetereologica_temperature"
+                                        },
+                                        {
+                                            "entity": "sensor.estacionmetereologica_humidity"
+                                        },
+                                        {
+                                            "entity": "sensor.estacionmetereologica_pressure"
+                                        },
+                                        {
+                                            "entity": "sensor.presenciacocina_illuminance"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "Clima interior",
+                                    "type": "entities"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "path": "no-usados-no-borrar",
+                    "title": "No usados - No Borrar"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

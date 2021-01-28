@@ -1,0 +1,50 @@
+- platform: version
+
+# Tiempo España  
+- platform: aemet
+  name: Tiempo
+  api_key: !secret aemet_api_key
+  station_id: "3191E"
+  monitored_conditions:
+    - temperature
+    - humidity
+    - pressure
+    - precipitation
+    - wind_speed
+
+- platform: command_line
+  name: SSL cert expiry
+  unit_of_measurement: days
+  scan_interval: 43200
+  command: "/usr/bin/ssl-cert-check -b -c /home/homeassistant/docker/homeassistant/certs/mrdomojarvis.duckdns.org/cert.pem  | awk '{ print $NF }'"
+#  command: "/bin/bash /usr/bin/ssl-cert-check -b -c /home/homeassistant/docker/homeassistant/certs/mrdomojarvis.duckdns.org/cert.pem  | awk '{ print $NF }'"
+
+#- platform: cert_expiry
+#  host: 192.168.1.8
+
+
+- platform: systemmonitor
+  resources:
+    - type: last_boot
+    - type: disk_use_percent
+      arg: /home
+    - type: memory_use_percent
+    - type: memory_free
+    - type: disk_free
+      arg: /
+    - type: memory_use
+    - type: processor_use
+    - type: swap_free
+    - type: swap_use_percent
+
+- platform: template
+  sensors:
+    energy_total:
+      friendly_name: Total_Energy
+      entity_id:
+        - sensor.home_cinema_mss310_power_sensor_w_0
+        - sensor.luz_salon_mss310_power_sensor_w_0
+        - sensor.lampara_power
+      value_template: "{{ (states('sensor.home_cinema_mss310_power_sensor_w_0')|float + states('sensor.luz_salon_mss310_power_sensor_w_0')|float + states('sensor.lampara_power')|float)|round(3) }}"
+      unit_of_measurement: "kWh"
+

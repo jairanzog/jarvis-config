@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "key": "core.area_registry",
+    "data": {
+        "areas": [
+            {
+                "name": "Salon",
+                "id": "60912398d6d844c4b4876eab20c8f540"
+            },
+            {
+                "name": "Cocina",
+                "id": "a81e9d73677243ea9ad627c3daa17fe7"
+            },
+            {
+                "name": "Dormitorio",
+                "id": "7690b10b1e184820a9ce4583a6cd212a"
+            },
+            {
+                "name": "Ba\u00f1o Planta Baja",
+                "id": "f04e799afc7f4d44b79b2b6ce3263d8b"
+            },
+            {
+                "name": "Ba\u00f1o Habitaci\u00f3n",
+                "id": "44a4f9e4befe419da5f74e6c07142c7d"
+            },
+            {
+                "name": "Exterior",
+                "id": "6b90402e8924490b9dd55739d3e992bb"
+            },
+            {
+                "name": "Entrada",
+                "id": "entrada"
+            }
+        ]
+    }
+}

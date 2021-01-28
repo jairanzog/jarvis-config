@@ -1,0 +1,28 @@
+{
+    "data": {
+        "items": [
+            {
+                "id": "558c78cbb5ec4c8081e9ccb92f8ff293",
+                "type": "module",
+                "url": "/hacsfiles/ha-card-waze-travel-time/ha-card-waze-travel-time.js"
+            },
+            {
+                "id": "8feda5af57d94c6a8c8e378298136fa0",
+                "type": "module",
+                "url": "/hacsfiles/lovelace-card-mod/card-mod.js"
+            },
+            {
+                "id": "d77aff244d3a47f191ef5a18d720fd26",
+                "type": "module",
+                "url": "/hacsfiles/pvpc-hourly-pricing-card/pvpc-hourly-pricing-card.js"
+            },
+            {
+                "id": "096c91aa63a74339b86da167898c5a19",
+                "type": "module",
+                "url": "/hacsfiles/travel-time-card/travel-time-card.js"
+            }
+        ]
+    },
+    "key": "lovelace_resources",
+    "version": 1
+}

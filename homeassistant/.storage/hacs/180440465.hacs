@@ -1,0 +1,61 @@
+{
+    "version": "6",
+    "key": "hacs/180440465.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@ludeeus"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": false,
+        "default_branch": "master",
+        "description": "Component to show potential breaking_changes in the current published version based on your loaded components",
+        "domain": "breaking_changes",
+        "domains": [],
+        "downloads": 0,
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "custom-components/breaking_changes",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "180440465",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "4dcf67c",
+        "installed_version": "0.4.1",
+        "open_issues": 1,
+        "last_commit": "4dcf67c",
+        "last_version": "0.4.1",
+        "last_updated": "2020-09-26T00:49:55Z",
+        "manifest_name": "Breaking Changes",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2020-09-26T00:49:55",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "0.4.1",
+            "0.4.0",
+            "0.3.6",
+            "0.3.5",
+            "0.3.4"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 57,
+        "topics": [
+            "breaking-changes",
+            "custom-component",
+            "home-assistant",
+            "homeassistant",
+            "python"
+        ],
+        "zip_release": false
+    }
+}

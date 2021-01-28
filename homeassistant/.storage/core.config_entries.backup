@@ -1,0 +1,256 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "webhook_id": "cc6d57c78646ab73dc79e5b3154206bca39bf14fc03c63d9212728876d39b542"
+                },
+                "domain": "ifttt",
+                "entry_id": "4fbc36690b5f4889a71cad3ad9eea802",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "IFTTT Webhook",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "user_id": "c112b526d200436ba8b6fe945ba5f466"
+                },
+                "domain": "cast",
+                "entry_id": "5c195e6ecea14e21b89d9753d3e1044b",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Google Cast",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "dDhR9m1VLqg:APA91bGgi4DwdDnvqUT8KqNVhPlVGfAP7zK1cbbW2RcjIIy1rp2_xdTvsJkKd54Zg_B69qo3EpAhZNJ8fyk6QI7m2v2-juoqasiXk-YWkeXYiLdn8PGv3-t5DfUmp1169pbOYgqBBmfA",
+                        "push_url": "https://ariela.surodev.com/notification/"
+                    },
+                    "app_id": "com.surodev.ariela",
+                    "app_name": "Ariela",
+                    "app_version": "1.3.8.1",
+                    "device_id": "6c54494e5b404d7da36fa1c60915e832",
+                    "device_name": "Aquaris_X_Pro",
+                    "manufacturer": "bq",
+                    "model": "bardock-pro",
+                    "os_name": "8.1.0",
+                    "os_version": "8.1.0",
+                    "supports_encryption": false,
+                    "user_id": "7e1375fa95774a3692df3e9a1c78d3b3",
+                    "webhook_id": "c088c75b0afd0f69c9b3cda6a568f3d486fdd9c5d4a7152fb1f7c44cf1852b4d"
+                },
+                "domain": "mobile_app",
+                "entry_id": "ca141260045e4039be7978e20e6fb06a",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Aquaris_X_Pro",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "dbEMVFbUe0Q:APA91bHe8w1xOOE2sf-5zYMWUBoadjxmQtTs8Ka5d82-BjzQeoNOBh9ALfMqsDWpAZtNASBbDlVpRNUobHOr_4SwnoCr6xPddesTylmBIeWN8CvjoWLvVqprPEdKbzOcLIl1ctxiI7iS",
+                        "push_url": "https://ariela.surodev.com/notification/"
+                    },
+                    "app_id": "com.surodev.ariela",
+                    "app_name": "Ariela",
+                    "app_version": "1.3.8.3",
+                    "device_id": "c5e79584f74d458384ec5ea718570c83",
+                    "device_name": "HUAWEI_P20_lite",
+                    "manufacturer": "HUAWEI",
+                    "model": "HWANE",
+                    "os_name": "9",
+                    "os_version": "9",
+                    "supports_encryption": false,
+                    "user_id": "7e1375fa95774a3692df3e9a1c78d3b3",
+                    "webhook_id": "bc0424ae835beb28f422f43364252be578fbd472ef3eac0b6176e18abd04da21"
+                },
+                "domain": "mobile_app",
+                "entry_id": "b68e27f1073f40b5aeaceb1dcab7d535",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "HUAWEI_P20_lite",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "shopping_list",
+                "entry_id": "a2e8c7d7ea4f4389b2959265bb0454c1",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Shopping List",
+                "unique_id": "shopping_list",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country": "Spain"
+                },
+                "domain": "coronavirus",
+                "entry_id": "9b3f682364374c6b9e86f1e022bc4075",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Spain",
+                "unique_id": "Spain",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "name": "PVPC",
+                    "tariff": "discrimination"
+                },
+                "domain": "pvpc_hourly_pricing",
+                "entry_id": "fb4682cf209f4ea79ce9b5166ee0801b",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "PVPC",
+                "unique_id": "discrimination",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "appdaemon": true,
+                    "netdaemon": true,
+                    "sidepanel_icon": "mdi:alpha-c-box",
+                    "sidepanel_title": "HACS",
+                    "token": "3d0418f6a1c031ac6b753a5128c988c0561cf466"
+                },
+                "domain": "hacs",
+                "entry_id": "d2e3307ef9d64a48a4a6e4cd3dc7fb1b",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "nodered",
+                "entry_id": "c061136f3b8e43fc87e50fb1bc83ecca",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Node-RED",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {},
+                "domain": "fontawesome",
+                "entry_id": "401e59bd8115453ebe43e8fa59f02e88",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {},
+                "domain": "logbook_cache",
+                "entry_id": "c4669c239bfa44aeb51dbc7f4c9db53a",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Logbook Cache",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "host": "mrdomojarvis.duckdns.org",
+                    "port": 443
+                },
+                "domain": "cert_expiry",
+                "entry_id": "e8d5beaeff664b1b95eb34429a07398c",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "mrdomojarvis.duckdns.org",
+                "unique_id": "mrdomojarvis.duckdns.org:443",
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {},
+                "domain": "simpleicons",
+                "entry_id": "b394421985ef495e8a4205c944647540",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "a97bc8c152a743b4941de60c7dc4691c",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "configuration.yaml",
+                "unique_id": null,
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

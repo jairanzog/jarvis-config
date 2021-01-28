@@ -1,0 +1,424 @@
+- id: 2be63addb62b4c5c9952a9ea34ba3e2c
+  alias: Mantenimiento - SSL expiry notification
+  trigger:
+  - below: '28'
+    entity_id: sensor.ssl_cert_expiry
+    platform: numeric_state
+  action:
+  - data:
+      message: Warning - El Certificado SSL expira en menos de 28, se ha renovado
+        el certificado
+    service: notify.mobile_app_galaxy_s20
+  - data: {}
+    service: shell_command.renovar_certificado_ssl
+  mode: single
+- id: 39b1e5e5205943ce9cdd80c5c872f823
+  alias: Mantenimiento - Purge Database
+  trigger:
+  - at: '23:15:00'
+    platform: time
+  action:
+  - data:
+      keep_days: 90
+      repack: true
+    service: recorder.purge
+  initial_state: true
+- id: '1585443406855'
+  alias: Cocina - 1.- Encender Luces
+  trigger:
+  - entity_id: binary_sensor.presencia_cocina_occupancy
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - below: '10'
+    condition: numeric_state
+    entity_id: sensor.presencia_cocina_illuminance
+  action:
+  - service: timer.start
+    data: {}
+    entity_id: timer.cocina
+  - type: turn_on
+    device_id: 60e9d8aba1d147929f7f26e153925773
+    entity_id: switch.luz_cocina
+    domain: switch
+  mode: single
+- id: '1585779410147'
+  alias: Cocina - 2.- Reiniciar Timer Si hay movimiento
+  trigger:
+  - entity_id: binary_sensor.presencia_cocina_occupancy
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: switch.luz_cocina
+    state: 'on'
+  action:
+  - data: {}
+    service: timer.start
+    entity_id: timer.cocina
+  mode: single
+- id: '1585779713964'
+  alias: Cocina - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia
+  description: ''
+  trigger:
+  - event_data:
+      entity_id: timer.cocina
+    event_type: timer.finished
+    platform: event
+  condition:
+  - condition: state
+    entity_id: binary_sensor.presencia_cocina_occupancy
+    state: 'off'
+  action:
+  - data: {}
+    entity_id: switch.luz_cocina
+    service: switch.turn_off
+  mode: single
+- id: '1585862713410'
+  alias: Cocina - 2.- Reiniciar Timer al terminar si hay movimiento
+  trigger:
+  - event_data:
+      entity_id: timer.cocina
+    event_type: timer.finished
+    platform: event
+  condition:
+  - condition: state
+    entity_id: binary_sensor.presencia_cocina_occupancy
+    state: 'on'
+  action:
+  - data: {}
+    service: timer.start
+    entity_id: timer.cocina
+  mode: single
+- id: '1585949759397'
+  alias: Baño - Lanzar Timer Ambientador
+  trigger:
+  - entity_id: switch.bf74042d28e39f1d19joll
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data:
+      entity_id: timer.ambientador
+    service: timer.start
+  mode: single
+- id: '1585949892397'
+  alias: Baño - Apagar Ambientador
+  trigger:
+  - event_data:
+      entity_id: timer.ambientador
+    event_type: timer.finished
+    platform: event
+  condition: []
+  action:
+  - data: {}
+    entity_id: switch.bf74042d28e39f1d19joll
+    service: switch.turn_off
+- id: '1587911420304'
+  alias: Notificaciones - Ejemplo Ariela y Telegram
+  description: ''
+  trigger:
+  - event: sunset
+    platform: sun
+  condition: []
+  action:
+  - data:
+      message: Ha anochecido
+    service: notify.mobile_app_galaxy_s20_jairo
+  - data:
+      message: Has anochecido
+    service: telegram_bot.send_message
+  mode: single
+- id: '1594566586809'
+  alias: Notificación Ventana abierta
+  description: ''
+  trigger:
+  - entity_id: binary_sensor.puerta_terraza_contact
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition:
+  - condition: and
+    conditions:
+    - condition: state
+      entity_id: binary_sensor.puertaterraza_contact
+      state: 'on'
+    - condition: and
+      conditions:
+      - condition: not
+        conditions:
+        - condition: zone
+          entity_id: person.jairo
+          zone: zone.home
+  action:
+  - data:
+      message: Te has ido con la ventana abierta
+    service: notify.mobile_app_galaxy_s20_jairo
+  - data:
+      message: Te has ido con la ventana abierta
+    service: telegram_bot.send_message
+  mode: single
+- id: 7edffded06964a88bc140f4d11a478f1
+  alias: set Themes - by caulecriativo.com
+  initial_state: true
+  trigger:
+    platform: state
+    entity_id: input_select.themes
+  action:
+  - service: frontend.set_theme
+    data_template:
+      name: '{{ trigger.to_state.state }}'
+- id: ac81d87d98a64d19adcf9b306ee2582e
+  alias: Salón - Encendido de Luces al Atardecer
+  trigger:
+  - below: '-2'
+    entity_id: sun.sun
+    platform: numeric_state
+    value_template: '{{ state_attr(''sun.sun'', ''elevation'') }}'
+  condition:
+  - condition: and
+    conditions:
+    - condition: or
+      conditions:
+      - condition: zone
+        entity_id: person.jairo
+        zone: zone.home
+    - before: '23:00'
+      condition: time
+    - condition: time
+      after: '9:00'
+  action:
+  - service: switch.turn_on
+    data: {}
+    entity_id: switch.luz_salon_mss310_main_channel
+  - service: switch.turn_on
+    data: {}
+    entity_id: switch.bf5f971cf225cffafaiye7
+  mode: single
+- id: '1588957172553'
+  alias: Salón - Encendido de Luces al llegar a casa por la noche
+  description: ''
+  trigger:
+  - entity_id: binary_sensor.0x00158d00035c6967_contact
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - condition: and
+    conditions:
+    - below: '-17'
+      condition: numeric_state
+      entity_id: sun.sun
+      value_template: '{{ state_attr(''sun.sun'', ''elevation'') }}'
+    - condition: state
+      entity_id: switch.bf5f971cf225cffafaiye7
+      state: 'off'
+  action:
+  - data: {}
+    entity_id: switch.luz_salon_mss310_main_channel
+    service: switch.turn_on
+  - data: {}
+    entity_id: switch.bf5f971cf225cffafaiye7
+    service: switch.turn_on
+  mode: single
+- id: '1590607875312'
+  alias: Salon - Encender la luz en día nublado
+  description: ''
+  trigger:
+  - below: '65'
+    entity_id: sensor.presenciaexterior_illuminance
+    platform: numeric_state
+  condition:
+  - condition: and
+    conditions:
+    - after: '17:00'
+      condition: time
+    - above: '-17'
+      condition: numeric_state
+      entity_id: sun.sun
+      value_template: '{{ state_attr(''sun.sun'', ''elevation'') }}'
+    - condition: or
+      conditions:
+      - condition: zone
+        entity_id: person.jairo
+        zone: zone.home
+  action:
+  - data: {}
+    entity_id: switch.luz_salon_mss310_main_channel
+    service: switch.turn_on
+  - data: {}
+    entity_id: switch.bf5f971cf225cffafaiye7
+    service: switch.turn_on
+- id: '1592779443063'
+  alias: Refresco Eventos
+  description: ''
+  trigger:
+  - event_data: {}
+    event_type: Force_Update
+    platform: event
+  condition: []
+  action:
+  - data: {}
+    entity_id: group.all_sensors
+    service: homeassistant.update_entity
+- id: '1607623998353'
+  alias: Alarmas -  Inundación
+  description: ''
+  trigger:
+  - device_id: 8380a889654f46c88c11efbe8af41c29
+    domain: binary_sensor
+    entity_id: binary_sensor.0x00158d0005cf0f24_water_leak
+    for:
+      hours: 0
+      minutes: 1
+      seconds: 0
+    platform: device
+    type: moist
+  condition: []
+  action:
+  - data:
+      message: Tu casa se está inundando!!!
+    service: telegram_bot.send_message
+  - data:
+      message: Tu casa se está inundando!!!
+    service: notify.mobile_app_galaxy_s20
+  mode: single
+- id: '1607639916109'
+  alias: Dormitorio - Lampara
+  description: ''
+  trigger:
+  - device_id: 995b06af1d8e4ccd842cf973fdcb2516
+    domain: binary_sensor
+    entity_id: binary_sensor.0x00158d000636d4c8_occupancy
+    platform: device
+    type: motion
+  condition: []
+  action:
+  - data: {}
+    entity_id: switch.0x00158d0002326a02_switch
+    service: switch.turn_on
+- id: dormitorio_1
+  alias: Dormitorio - 1.- Encender Lampara
+  trigger:
+  - entity_id: binary_sensor.presencia_habitacion_occupancy
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - condition: and
+    conditions:
+    - condition: numeric_state
+      entity_id: sensor.presencia_habitacion_illuminance
+      below: '15'
+    - after: '10:00:00'
+      before: 00:30:00
+      condition: time
+  action:
+  - service: timer.start
+    data: {}
+    entity_id: timer.dormitorio
+  - service: switch.turn_on
+    data: {}
+    entity_id: switch.lampara_habitacion_principal
+  mode: single
+- id: dormitorio_2
+  alias: Dormitorio - 2.- Reiniciar Timer Si hay movimiento
+  trigger:
+  - entity_id: binary_sensor.presencia_habitacion_occupancy
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: switch.lampara_habitacion_principal
+    state: 'on'
+  action:
+  - data: {}
+    entity_id: timer.dormitorio
+    service: timer.start
+  mode: single
+- id: dormitorio_3
+  alias: Dormitorio - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia
+  description: ''
+  trigger:
+  - event_data:
+      entity_id: timer.dormitorio
+    event_type: timer.finished
+    platform: event
+  condition:
+  - condition: state
+    entity_id: binary_sensor.presencia_habitacion_occupancy
+    state: 'off'
+  action:
+  - data: {}
+    entity_id: switch.lampara_habitacion_principal
+    service: switch.turn_off
+  mode: single
+- id: dormitorio_4
+  alias: Dormitorio - 2- Reiniciar Timer al terminar si hay movimiento
+  trigger:
+  - event_data:
+      entity_id: timer.dormitorio
+    event_type: timer.finished
+    platform: event
+  condition:
+  - condition: state
+    entity_id: binary_sensor.presencia_habitacion_occupancy
+    state: 'on'
+  action:
+  - data: {}
+    entity_id: timer.dormitorio
+    service: timer.start
+  mode: single
+- id: '1608477352831'
+  alias: Alarmas - Extraños entrando en Casa
+  description: ''
+  trigger:
+  - from: 'off'
+    platform: state
+    to: 'on'
+    entity_id: binary_sensor.presencia_cocina_occupancy
+  - from: 'off'
+    platform: state
+    to: 'on'
+    entity_id: binary_sensor.presencia_habitacion_occupancy
+  condition:
+  - condition: not
+    conditions:
+    - condition: or
+      conditions:
+      - condition: zone
+        entity_id: person.jairo
+        zone: zone.home
+      - condition: zone
+        entity_id: person.cristina
+        zone: zone.home
+  action:
+  - data:
+      message: Han entrado en tu casa!!
+    service: telegram_bot.send_message
+  - data:
+      message: Han entrado en tu casa!!
+    service: notify.mobile_app_galaxy_s20
+  mode: single
+- id: '1610479985695'
+  alias: Low battery level detection & notification for all battery sensors
+  description: ''
+  use_blueprint:
+    path: Sbyx/low-battery-level-detection-notification-for-all-battery-sensors.yaml
+    input:
+      day: '4'
+      time: '19:00:00'
+      actions:
+      - service: notify.mobile_app_galaxy_s20
+        data:
+          message: 'Batería baja en los siguientes sensores: {{sensors|replace("_","
+            ")}}'
+      threshold: 15
+      exclude:
+        entity_id:
+        - sensor.huawei_p20_lite_huawei_p20_lite_battery_sensor
+        - sensor.galaxy_s20_galaxy_s20_battery_sensor

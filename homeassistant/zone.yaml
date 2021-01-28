@@ -1,0 +1,14 @@
+  - name: MasMovil
+    latitude: !secret latitude_masmovil
+    longitude: !secret longitude_masmovil 
+    radius: 120
+    icon: mdi:worker
+
+  - name: Arganda
+    latitude: !secret latitude_arganda
+    longitude: !secret longitude_arganda
+    radius: 120
+
+  - name: Casa
+    latitude: !secret latitude_casa
+    longitude: !secret longitude_casa

@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "key": "http",
+    "data": {
+        "ssl_certificate": "/config/certs/mrdomojarvis.duckdns.org/fullchain.pem",
+        "ssl_key": "/config/certs/mrdomojarvis.duckdns.org/privkey.pem",
+        "base_url": "https://mrdomojarvis.duckdns.org:8123",
+        "cors_allowed_origins": [
+            "https://cast.home-assistant.io"
+        ],
+        "ssl_profile": "modern",
+        "ip_ban_enabled": true,
+        "server_port": 8123,
+        "login_attempts_threshold": -1
+    }
+}

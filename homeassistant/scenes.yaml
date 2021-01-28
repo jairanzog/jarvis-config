@@ -1,0 +1,57 @@
+- id: f827f888dde9486290a2a12af56c6caf
+  name: Pelicula y Manta
+  entities:
+    switch.bf5f971cf225cffafaiye7:
+      friendly_name: Luz Entrada
+      state: 'off'
+    switch.home_cinema_mss310_main_channel:
+      current_power_w: 0
+      friendly_name: Home Cinema
+      state: 'on'
+      today_energy_kwh: total_consumption_kwh
+    switch.luz_salon_mss310_main_channel:
+      current_power_w: 16.901
+      friendly_name: Luz Salón
+      state: 'off'
+      today_energy_kwh: total_consumption_kwh
+  icon: mdi:mdi-film
+- id: ac03abb914e2457aa1bd5291c9a76930
+  name: Por defecto
+  entities:
+    switch.bf5f971cf225cffafaiye7:
+      friendly_name: Luz Entrada
+      state: 'off'
+    switch.home_cinema_mss310_main_channel:
+      current_power_w: 0
+      friendly_name: Home Cinema
+      state: 'off'
+      today_energy_kwh: total_consumption_kwh
+    switch.luz_salon_mss310_main_channel:
+      current_power_w: 16.901
+      friendly_name: Luz Salón
+      state: 'on'
+      today_energy_kwh: total_consumption_kwh
+  icon: mdi:mdi-film
+- id: '1601687027439'
+  name: Buenas Noches
+  entities:
+    switch.bf5f971cf225cffafaiye7:
+      friendly_name: Luz Entrada
+      state: 'on'
+    switch.bf74042d28e39f1d19joll:
+      friendly_name: Ambientador
+      state: 'off'
+    switch.home_cinema_mss310_main_channel:
+      current_power_w: 0
+      friendly_name: Home Cinema
+      state: 'off'
+      today_energy_kwh: total_consumption_kwh
+    switch.luz_salon_mss310_main_channel:
+      current_power_w: 16.901
+      friendly_name: Luz Salón
+      state: 'off'
+      today_energy_kwh: total_consumption_kwh
+    switch.luztecho_switch:
+      friendly_name: Cocina
+      linkquality: 49
+      state: 'off'

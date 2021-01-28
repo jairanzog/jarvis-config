@@ -1,0 +1,16 @@
+
+switch:
+  platform: broadlink
+  host: Direccion_IP
+  mac: 'Dirección_MAC'
+  switches:
+    aire_comedor:
+      friendly_name: "Aire Acondicionado Comedor"
+      command_on: 'paquete de datos on'
+      command_off: 'paquete de datos off'
+
+switch:
+  - platform: command_line
+    switches:
+      reinicio_servidor:
+        command_off: "/usr/sbin/reboot"

@@ -1,0 +1,59 @@
+# all the ports will have to be configured with an additional 1 at the beginning to indicate that there is a mapping there
+
+version: '3'
+services:
+  homeassistant:
+    container_name: dockerized-home-assistant
+    image: homeassistant/raspberrypi3-homeassistant:2020.12.2
+    volumes:
+      - /home/homeassistant/docker/homeassistant:/config
+    devices:
+      - /dev/ttyACM0:/dev/ttyACM0
+    environment:
+      - TZ=Europe/Madrid
+    restart: always
+    network_mode: host
+
+###########
+  mosquitto:
+    container_name: dockerized-mosquitto
+    image: eclipse-mosquitto
+    volumes:
+      - /home/homeassistant/docker/mosquitto/config/mosquitto.conf:/mosquitto.conf
+    ports:
+      - "1883:1883"
+      - "9001:9001" 
+    environment:
+      - TZ=Europe/Madrid
+    restart: always
+    network_mode: host
+
+
+###########
+#  zigbee2mqttAssistant:
+#    image: carldebilly/zigbee2mqttassistant
+#    container_name: zigbee2mqttAssistant
+#    environment:
+#      - Z2MA_SETTINGS__MQTTSERVER=192.168.1.8
+#      - Z2MA_SETTINGS__MQTTUSERNAME=homeassistant
+#      - Z2MA_SETTINGS__MQTTPASSWORD=home-assistant
+      # Set to your TimeZone when using on Linux https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+      # Won't work if you're using the Windows version of the container
+#      - TZ=Europe/Madrid
+#    ports:
+#      - 8880:80
+#    restart: unless-stopped
+####################################
+#  zigbee2mqtt:
+#    container_name: dockerized-zigbee2mqtt
+#    image: docker.io/koenkk/zigbee2mqtt:latest
+#    volumes:
+#      - /home/homeassistant/docker/zigbee2mqtt/data:/app/data
+#      - /run/udev:/run/udev:ro
+#    devices:
+#      - /dev/ttyACM0:/dev/ttyACM0
+#    restart: always
+#    privileged: true
+#    environment:
+#      - TZ=Europe/Madrid
+#    network_mode: host

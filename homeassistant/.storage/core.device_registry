@@ -1,0 +1,647 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "5c195e6ecea14e21b89d9753d3e1044b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "8fe59dd6756b84535f4f0974807cdea7"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Sal\u00f3n",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ff95244408e3462dacf86623147ff307",
+                "via_device_id": null,
+                "area_id": "60912398d6d844c4b4876eab20c8f540",
+                "name_by_user": "Google Home Sal\u00f3n",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5c195e6ecea14e21b89d9753d3e1044b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "b16b5bc37e281ef86c10a960d8728636"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Ba\u00f1o",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f0b08fa43e034cc19704924d7bf40302",
+                "via_device_id": null,
+                "area_id": "44a4f9e4befe419da5f74e6c07142c7d",
+                "name_by_user": "Google Home Ba\u00f1o",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0002913303"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "MiJia door & window contact sensor (MCCGQ01LM)",
+                "name": "puerta_terraza",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "4db31b18dd9c450e873ae7ed5c327845",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d00042010e4"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Aqara human body movement and illuminance sensor (RTCGQ11LM)",
+                "name": "presencia_exterior",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "f6f4e694c0024488b281262884a5853b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d00042482f8"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Aqara human body movement and illuminance sensor (RTCGQ11LM)",
+                "name": "presencia_cocina",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "edb752b8c4a04c8186321ce0b1225edd",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0003033d7f"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "MiJia door & window contact sensor (MCCGQ01LM)",
+                "name": "puerta_bano_principal",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "950b85cee61348c799c1b035be9d2d45",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0003033e43"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "MiJia door & window contact sensor (MCCGQ01LM)",
+                "name": "puerta_bano_planta_baja",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "c9dc8cd74e144e9ab9d4608fcdf543cc",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d00035c6967"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "MiJia door & window contact sensor (MCCGQ01LM)",
+                "name": "puerta_principal",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "e13bb959d668408e836b3a7c4dbf2414",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0003031c6b"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "MiJia door & window contact sensor (MCCGQ01LM)",
+                "name": "ventana_habitacion",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "06b8701751ff42419de8b4a32e5efc31",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00124b001e731e24"
+                    ]
+                ],
+                "manufacturer": "SONOFF",
+                "model": "Zigbee smart switch (BASICZBR3)",
+                "name": "luz_cocina",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "60e9d8aba1d147929f7f26e153925773",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0002c11abb"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Aqara temperature, humidity and pressure sensor (WSDCGQ11LM)",
+                "name": "termometro_habitacion",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "630e4f793e424ed38fbd497a3e972f0a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5c195e6ecea14e21b89d9753d3e1044b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "7b1381360e418d49d300473558ebdded"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "MIBOX4",
+                "name": "Android\u00a0TV",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ad8f8998336b4938af805b178349adb2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5c195e6ecea14e21b89d9753d3e1044b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "87ac8926085a4a7d8abb4d8cfc1b9f34"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "AirReceiver",
+                "name": "MIBOX4-141",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "92b22efa3378431dbaf5bd7ea9e8f90f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a72aa640beab44cdbc1a5f69217c7677"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "meross_cloud",
+                        "#BASE:18110534957624251a0934298f1792ac"
+                    ]
+                ],
+                "manufacturer": "Meross",
+                "model": "mss310 2.0.0",
+                "name": "Home Cinema",
+                "sw_version": "2.1.15",
+                "entry_type": null,
+                "id": "3ce1d98db6ca4d42b170aa24ce503f6a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a72aa640beab44cdbc1a5f69217c7677"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "meross_cloud",
+                        "#BASE:18110501506294251a0934298f17935a"
+                    ]
+                ],
+                "manufacturer": "Meross",
+                "model": "mss310 2.0.0",
+                "name": "Luz Sal\u00f3n",
+                "sw_version": "2.1.15",
+                "entry_type": null,
+                "id": "1030991dc5394c979c4174afded45959",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "dee867b4c5a14ba9af0ab36a782e1e43"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "ecf6e274b45b4a92b9edc620fe2f682d"
+                    ]
+                ],
+                "manufacturer": "HUAWEI",
+                "model": "HWANE",
+                "name": "HUAWEI_P20_lite",
+                "sw_version": "9",
+                "entry_type": null,
+                "id": "12b369d839634d5aad8763ecf7b4fb8b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5c195e6ecea14e21b89d9753d3e1044b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "8b3908394c381bc97c88dbc18373b237"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "MIBOX3",
+                "name": "MIBOX3",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "5846ff205b494cb28f3137e7a83bee87",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a72aa640beab44cdbc1a5f69217c7677"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "meross_cloud",
+                        "manager#API"
+                    ]
+                ],
+                "manufacturer": "Meross",
+                "model": "Software Sensor",
+                "name": "Meross Manager API Stats",
+                "sw_version": "0.4.1.0rc7",
+                "entry_type": null,
+                "id": "bb8ad59b10fd48799a1966c3a1fe45b7",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0005cf0f24"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Aqara water leak sensor (SJCGQ11LM)",
+                "name": "sensor_inundacion",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "8380a889654f46c88c11efbe8af41c29",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0005865130"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Aqara vibration sensor (DJT11LM)",
+                "name": "sensor_vibracion",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "b72be67fce5b44d6ae25fb26e0904d59",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d000636d4c8"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Aqara human body movement and illuminance sensor (RTCGQ11LM)",
+                "name": "presencia_habitacion",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "995b06af1d8e4ccd842cf973fdcb2516",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0002326a02"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Mi power plug ZigBee (ZNCZ02LM)",
+                "name": "lampara_habitacion_principal",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "a9988417002c4f78899490d5192a202b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "133ee76ff64b40d2a4fc9d8a81363405"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "c861058525d74634858ecf55221a447a"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "y2s",
+                "name": "Galaxy_S20_Jairo",
+                "sw_version": "11",
+                "entry_type": null,
+                "id": "590948975d9d4419b76c8e403c7bc5a8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1940d4247dfe1e642393b04c9cfc81ba"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.9.0",
+                "entry_type": "service",
+                "id": "b2dfb5f948f5e4a77359dd87047abacf",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5a2c8e355801b0e142d31fecdcf41a76"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.bf5f971cf225cffafaiye7"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Luz Entrada",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "766eb188467826505c57acefd9a34442",
+                "via_device_id": null,
+                "area_id": "entrada",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5a2c8e355801b0e142d31fecdcf41a76"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.bf74042d28e39f1d19joll"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Ambientador",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0366ef11b78627a05bce142caec4afca",
+                "via_device_id": null,
+                "area_id": "f04e799afc7f4d44b79b2b6ce3263d8b",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0004446062"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Aqara temperature, humidity and pressure sensor (WSDCGQ11LM)",
+                "name": "termometro_exterior",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "ce4d972357304738bbfe47a3fbfca506",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5c195e6ecea14e21b89d9753d3e1044b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "4a53796c7fc4c55beeaf7d9312627340"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "MIBOX4",
+                "name": "Android\u00a0TV",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "36b6f695a98741c7f37d20883c67986b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c743c26d4174e40e2be2a78961450c8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "cdec34a66e43405d8c5dd0604da8d262"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "y2s",
+                "name": "Galaxy_S20__Jairo",
+                "sw_version": "11",
+                "entry_type": null,
+                "id": "8598f5a7fd615faa864f1a306a2f491f",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

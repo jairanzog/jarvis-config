@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/local/community/dual-gauge-card/dual-gauge-card.js",
+                "type": "module",
+                "id": "fbcf3ca4cc1441dd8d7488372297a7ef"
+            },
+            {
+                "url": "/local/community/search-card//search-card.js?v=0",
+                "type": "module",
+                "id": "ce845b4f8a724acb8ab1f5d9454a254d"
+            },
+            {
+                "url": "/local/community/lovelace-card-mod/card-mod.js",
+                "type": "module",
+                "id": "9508a994e4e149978d40cc8389f04e38"
+            },
+            {
+                "url": "/local/community/battery-state-card/battery-state-card.js",
+                "type": "module",
+                "id": "96ffb5397e8e41728401ef49bdafbe78"
+            },
+            {
+                "url": "/local/community/lovelace-auto-entities/auto-entities.js",
+                "type": "module",
+                "id": "f282935339054b37b1fbb3101ac5b1d9"
+            },
+            {
+                "url": "/local/community/lovelace-card-tools/card-tools.js",
+                "type": "module",
+                "id": "601f1592679f4574a7b3e173bc6b45d0"
+            }
+        ]
+    }
+}

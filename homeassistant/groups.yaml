@@ -1,0 +1,20 @@
+switches:
+  name: interruptores
+  entities: 
+    - switch.bf5f971cf225cffafaiye7
+    - switch.luz_salon_mss310_main_channel
+    - switch.home_cinema_mss310_main_channel
+    - switch.bf74042d28e39f1d19joll
+    - switch.lampara_habitacion_principal
+    - switch.luz_cocina
+sensores:
+  name: sensores
+  entities:
+    - binary_sensor.puerta_principal_contact
+    - binary_sensor.puerta_terraza_contact
+    - binary_sensor.ventanadormitorio_contact
+    - binary_sensor.banodormitorio_contact
+    - binary_sensor.banoplantabaja_contact
+    - binary_sensor.presenciacocina_occupancy
+    - binary_sensor.presenciaexterior_occupancy
+    - binary_sensor.0x00158d000636d4c8_occupancy

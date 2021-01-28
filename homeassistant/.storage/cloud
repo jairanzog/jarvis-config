@@ -1,0 +1,11 @@
+{
+    "data": {
+        "alexa_enabled": false,
+        "cloud_user": "a1ba798e6efe4d619e001116f3454ac8",
+        "google_allow_unlock": false,
+        "google_enabled": false,
+        "google_local_webhook_id": "984788a93e3b0620934d65f5477866f52185dd63f6eb0fa702f3fb19d71833aa"
+    },
+    "key": "cloud",
+    "version": 1
+}

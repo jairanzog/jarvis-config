@@ -1,0 +1,60 @@
+{
+    "version": "6",
+    "key": "hacs/159025199.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@kalanda"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": false,
+        "default_branch": "master",
+        "description": "AEMET integration for Home Assistant",
+        "domain": "aemet",
+        "domains": [],
+        "downloads": 0,
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "kalanda/homeassistant-aemet-sensor",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "159025199",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "19b328b",
+        "installed_version": "v1.4.0",
+        "open_issues": 0,
+        "last_commit": "19b328b",
+        "last_version": "v1.4.0",
+        "last_updated": "2020-12-19T15:39:23Z",
+        "manifest_name": "AEMET - Agencia estatal de meteorologia (Spain)",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2020-12-19T15:39:23",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "v1.4.0",
+            "v1.3.0",
+            "v1.2",
+            "v1.1"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 19,
+        "topics": [
+            "aemet",
+            "hacs",
+            "hassio",
+            "homeassistant",
+            "homeassistant-components"
+        ],
+        "zip_release": false
+    }
+}

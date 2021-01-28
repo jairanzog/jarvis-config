@@ -1,0 +1,873 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.jairo",
+                "state": "Casa",
+                "attributes": {
+                    "editable": true,
+                    "id": "amazfit_gts_jairo",
+                    "latitude": 40.6063102,
+                    "longitude": -3.6962162,
+                    "gps_accuracy": 13,
+                    "source": "device_tracker.galaxy_s20",
+                    "user_id": "8ac1851ca930495ba24e72ddbb624356",
+                    "friendly_name": "Jairo"
+                },
+                "last_changed": "2021-01-28T18:26:18.037519+00:00",
+                "last_updated": "2021-01-28T19:28:18.335057+00:00",
+                "context": {
+                    "id": "b276001ddd103733a499c84e7e804918",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "person.cristina",
+                "state": "unknown",
+                "attributes": {
+                    "editable": true,
+                    "id": "cristina",
+                    "user_id": "ad410cbc97194e56a36c416197740f7c",
+                    "friendly_name": "Cristina"
+                },
+                "last_changed": "2021-01-26T02:18:25.587127+00:00",
+                "last_updated": "2021-01-26T02:19:13.846026+00:00",
+                "context": {
+                    "id": "6a69ba593ae9802f3c120bfdc4c40799",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "var.home_mode",
+                "state": "casa",
+                "attributes": {
+                    "friendly_name": "home_mode"
+                },
+                "last_changed": "2021-01-26T02:18:33.616412+00:00",
+                "last_updated": "2021-01-26T02:18:33.616412+00:00",
+                "context": {
+                    "id": "12cf2f9e8ee713bbd4748004498d5a7b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "input_select.themes",
+                "state": "Caule Black Aqua",
+                "attributes": {
+                    "options": [
+                        "Caule Black Rose",
+                        "Caule Black Purple",
+                        "Caule Black Blue",
+                        "Caule Black Aqua",
+                        "Caule Black Green",
+                        "Caule Black Yellow",
+                        "Caule Black Orange",
+                        "Caule Black Coral",
+                        "Caule Black Pink",
+                        "Caule Black Gray",
+                        "Caule Dark Rose",
+                        "Caule Dark Purple",
+                        "Caule Dark Blue",
+                        "Caule Dark Aqua",
+                        "Caule Dark Green",
+                        "Caule Dark Yellow",
+                        "Caule Dark Orange",
+                        "Caule Dark Coral",
+                        "Caule Dark Pink",
+                        "Caule Dark Gray",
+                        "Caule Light Rose",
+                        "Caule Light Purple",
+                        "Caule Light Blue",
+                        "Caule Light Aqua",
+                        "Caule Light Green",
+                        "Caule Light Yellow",
+                        "Caule Light Orange",
+                        "Caule Light Coral",
+                        "Caule Light Pink",
+                        "Caule Light Gray",
+                        "Caule Black Rose Glass",
+                        "Caule Black Purple Glass",
+                        "Caule Black Blue Glass",
+                        "Caule Black Aqua Glass",
+                        "Caule Black Green Glass",
+                        "Caule Black Yellow Glass",
+                        "Caule Black Orange Glass",
+                        "Caule Black Coral Glass",
+                        "Caule Black Pink Glass",
+                        "Caule Black Gray Glass",
+                        "default"
+                    ],
+                    "editable": false,
+                    "friendly_name": "Themes",
+                    "icon": "mdi:format-paint"
+                },
+                "last_changed": "2021-01-26T02:18:33.632015+00:00",
+                "last_updated": "2021-01-26T02:18:33.632015+00:00",
+                "context": {
+                    "id": "3eb91b8d45c458565f5682718fa57565",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "timer.cocina",
+                "state": "idle",
+                "attributes": {
+                    "duration": "0:03:00",
+                    "editable": false,
+                    "friendly_name": "La cocina se apagar\u00e1 en"
+                },
+                "last_changed": "2021-01-28T19:25:44.002486+00:00",
+                "last_updated": "2021-01-28T19:25:44.002486+00:00",
+                "context": {
+                    "id": "98441b214f8f20af3bd6d7475e293e00",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "timer.ambientador",
+                "state": "idle",
+                "attributes": {
+                    "duration": "0:20:00",
+                    "editable": false,
+                    "friendly_name": "El ambientador se apagar\u00e1 en"
+                },
+                "last_changed": "2021-01-28T19:14:30.003687+00:00",
+                "last_updated": "2021-01-28T19:14:30.003687+00:00",
+                "context": {
+                    "id": "c5dc76f48affaa24ec70c7ace8cf6c44",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "timer.dormitorio",
+                "state": "active",
+                "attributes": {
+                    "duration": "0:05:00",
+                    "editable": false,
+                    "finishes_at": "2021-01-28T19:36:13+00:00",
+                    "remaining": "0:05:00"
+                },
+                "last_changed": "2021-01-28T19:31:13.888539+00:00",
+                "last_updated": "2021-01-28T19:31:13.888539+00:00",
+                "context": {
+                    "id": "dbf7e5664a37d9c2f9c9ee55b64560c7",
+                    "parent_id": "4868bea3f851544b40d6aad4393a8940",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.huawei_p20_lite",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "friendly_name": "HUAWEI_P20_lite"
+                },
+                "last_changed": "2021-01-26T02:18:37.432368+00:00",
+                "last_updated": "2021-01-26T02:18:37.432368+00:00",
+                "context": {
+                    "id": "955b80c5dca20b866e9a0b4dfc4ab1b5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.galaxy_s20",
+                "state": "Casa",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 82,
+                    "latitude": 40.6063102,
+                    "longitude": -3.6962162,
+                    "gps_accuracy": 13,
+                    "friendly_name": "Galaxy_S20_Jairo"
+                },
+                "last_changed": "2021-01-28T19:29:03.162852+00:00",
+                "last_updated": "2021-01-28T19:29:03.162852+00:00",
+                "context": {
+                    "id": "82adbd2264a8e387ad8d60fb17c335bd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.galaxy_s20_jairo",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "friendly_name": "Galaxy_S20__Jairo"
+                },
+                "last_changed": "2021-01-26T02:18:37.434421+00:00",
+                "last_updated": "2021-01-26T02:18:37.434421+00:00",
+                "context": {
+                    "id": "10a3fd2caf8f31f8a9ef2fd7c180ba5a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.luz_cocina",
+                "state": "off",
+                "attributes": {
+                    "linkquality": 49,
+                    "state": "OFF",
+                    "friendly_name": "Luz Cocina"
+                },
+                "last_changed": "2021-01-28T19:25:44.118432+00:00",
+                "last_updated": "2021-01-28T19:25:44.118432+00:00",
+                "context": {
+                    "id": "9b0210e6c425d727366160ef5b4b2570",
+                    "parent_id": "8a22dae6c9dd02cfc57a47c7b7dee379",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.lampara_habitacion_principal",
+                "state": "on",
+                "attributes": {
+                    "consumption": 0.15,
+                    "energy": 0.15,
+                    "linkquality": 49,
+                    "power": 5.6,
+                    "state": "ON",
+                    "temperature": 41,
+                    "friendly_name": "Lampara habitaci\u00f3n"
+                },
+                "last_changed": "2021-01-28T19:31:14.389119+00:00",
+                "last_updated": "2021-01-28T19:31:21.596478+00:00",
+                "context": {
+                    "id": "d721aaa5fa414019244de2d39dde646a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pvpc",
+                "state": "0.14351",
+                "attributes": {
+                    "attribution": "Data retrieved from api.esios.ree.es by REE",
+                    "tariff": "discrimination",
+                    "min_price": 0.06054,
+                    "min_price_at": 2,
+                    "next_best_at": [
+                        22,
+                        21,
+                        20,
+                        19
+                    ],
+                    "price_last_day_23h": 0.06507,
+                    "price_00h": 0.06299,
+                    "price_01h": 0.06197,
+                    "price_02h": 0.06054,
+                    "price_03h": 0.06188,
+                    "price_04h": 0.06231,
+                    "price_05h": 0.07195,
+                    "price_06h": 0.08286,
+                    "price_07h": 0.08188,
+                    "price_08h": 0.08144,
+                    "price_09h": 0.08052,
+                    "price_10h": 0.07934,
+                    "price_11h": 0.14311,
+                    "price_12h": 0.14159,
+                    "price_13h": 0.13855,
+                    "price_14h": 0.13514,
+                    "price_15h": 0.1374,
+                    "price_16h": 0.14352,
+                    "price_17h": 0.14913,
+                    "price_18h": 0.14731,
+                    "price_19h": 0.14351,
+                    "price_20h": 0.14281,
+                    "price_21h": 0.06829,
+                    "price_22h": 0.06123,
+                    "unit_of_measurement": "\u20ac/kWh",
+                    "friendly_name": "PVPC",
+                    "icon": "mdi:currency-eur"
+                },
+                "last_changed": "2021-01-28T19:00:00.004111+00:00",
+                "last_updated": "2021-01-28T19:00:00.004111+00:00",
+                "context": {
+                    "id": "1a6ff611d1047a68bfc047a1cc08e80f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_ping",
+                "state": "13.321",
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Madrid",
+                    "server_country": "Spain",
+                    "server_id": "21349",
+                    "unit_of_measurement": "ms",
+                    "friendly_name": "SpeedTest Ping",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-01-28T19:09:37.066187+00:00",
+                "last_updated": "2021-01-28T19:09:37.066187+00:00",
+                "context": {
+                    "id": "8cdf5dc449f8b18dde456c8c24d999a8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_download",
+                "state": "21.81",
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Madrid",
+                    "server_country": "Spain",
+                    "server_id": "21349",
+                    "bytes_received": 28067312,
+                    "unit_of_measurement": "Mbit/s",
+                    "friendly_name": "SpeedTest Download",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-01-28T19:09:37.067520+00:00",
+                "last_updated": "2021-01-28T19:09:37.067520+00:00",
+                "context": {
+                    "id": "b17ee6e3f7e494014f6034b896bb3c76",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_upload",
+                "state": "16.71",
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Madrid",
+                    "server_country": "Spain",
+                    "server_id": "21349",
+                    "bytes_sent": 21995520,
+                    "unit_of_measurement": "Mbit/s",
+                    "friendly_name": "SpeedTest Upload",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-01-28T19:09:37.068735+00:00",
+                "last_updated": "2021-01-28T19:09:37.068735+00:00",
+                "context": {
+                    "id": "8316178dca513e61c8c8ba2a3945c994",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.ssl_expiry_notification",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2be63addb62b4c5c9952a9ea34ba3e2c",
+                    "friendly_name": "Mantenimiento - SSL expiry notification"
+                },
+                "last_changed": "2021-01-28T18:49:43.945009+00:00",
+                "last_updated": "2021-01-28T18:49:43.945009+00:00",
+                "context": {
+                    "id": "f48d511489da47ddf23df6627fd26853",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.purge_database",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-27T23:15:00.004179+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "39b1e5e5205943ce9cdd80c5c872f823",
+                    "friendly_name": "Mantenimiento - Purge Database"
+                },
+                "last_changed": "2021-01-28T18:49:43.945605+00:00",
+                "last_updated": "2021-01-28T18:49:43.945605+00:00",
+                "context": {
+                    "id": "014aaddb651a344f46e33d58a51bec35",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.encender_luces_cocina",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T19:22:44.380546+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1585443406855",
+                    "friendly_name": "Cocina - 1.- Encender Luces"
+                },
+                "last_changed": "2021-01-28T18:49:43.946102+00:00",
+                "last_updated": "2021-01-28T19:22:44.425595+00:00",
+                "context": {
+                    "id": "d442fc3651d2e89a7d0cca2f8bdbb32a",
+                    "parent_id": "b3ebc6a3dc055e1c224779d28a56e29c",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.reiniciar_timer_cocina",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T17:07:20.434672+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1585779410147",
+                    "friendly_name": "Cocina - 2.- Reiniciar Timer Si hay movimiento"
+                },
+                "last_changed": "2021-01-28T18:49:43.946587+00:00",
+                "last_updated": "2021-01-28T18:49:43.946587+00:00",
+                "context": {
+                    "id": "6cc4f96992076d2122d593819691d8d5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.apagar_luz_cocina",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T19:25:44.007725+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1585779713964",
+                    "friendly_name": "Cocina - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia"
+                },
+                "last_changed": "2021-01-28T18:49:43.947074+00:00",
+                "last_updated": "2021-01-28T19:25:44.038860+00:00",
+                "context": {
+                    "id": "9b0210e6c425d727366160ef5b4b2570",
+                    "parent_id": "8a22dae6c9dd02cfc57a47c7b7dee379",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.reiniciar_timer_cocina_si_hay_movimiento",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T18:38:05.007094+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1585862713410",
+                    "friendly_name": "Cocina - 2.- Reiniciar Timer al terminar si hay movimiento"
+                },
+                "last_changed": "2021-01-28T18:49:43.947562+00:00",
+                "last_updated": "2021-01-28T18:49:43.947562+00:00",
+                "context": {
+                    "id": "0d3f2a64ebc1409e057f530fba0bc956",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.timer_ambientador",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T18:54:30.375187+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1585949759397",
+                    "friendly_name": "Ba\u00f1o - Lanzar Timer Ambientador"
+                },
+                "last_changed": "2021-01-28T18:49:43.948051+00:00",
+                "last_updated": "2021-01-28T18:54:30.397583+00:00",
+                "context": {
+                    "id": "62720cc0309de8dfca3044fa89d41965",
+                    "parent_id": "685c1a0de5e3a044e574a290f9b8c74d",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.apagar_ambientador",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T19:14:30.009338+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1585949892397",
+                    "friendly_name": "Ba\u00f1o - Apagar Ambientador"
+                },
+                "last_changed": "2021-01-28T18:49:43.948536+00:00",
+                "last_updated": "2021-01-28T19:14:31.885451+00:00",
+                "context": {
+                    "id": "60be55d4a4a00b4ad18d756312e16a32",
+                    "parent_id": "bcc52269946e0ac7fdac13b39d1a2f1f",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.mi_notificacion",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T17:29:27.022145+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1587911420304",
+                    "friendly_name": "Notificaciones - Ejemplo Ariela y Telegram"
+                },
+                "last_changed": "2021-01-28T18:49:43.949019+00:00",
+                "last_updated": "2021-01-28T18:49:43.949019+00:00",
+                "context": {
+                    "id": "957e1984c8d60736bc85683ea67fd18f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.nueva_automatizacion_3",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-21T19:50:53.837777+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1594566586809",
+                    "friendly_name": "Notificaci\u00f3n Ventana abierta"
+                },
+                "last_changed": "2021-01-28T18:49:43.949506+00:00",
+                "last_updated": "2021-01-28T18:49:43.949506+00:00",
+                "context": {
+                    "id": "1300c1c986f1bb6c501d8560b4db738b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.set_themes_by_caulecriativo_com",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-15T01:42:06.427343+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "7edffded06964a88bc140f4d11a478f1",
+                    "friendly_name": "set Themes - by caulecriativo.com"
+                },
+                "last_changed": "2021-01-28T18:49:43.950062+00:00",
+                "last_updated": "2021-01-28T18:49:43.950062+00:00",
+                "context": {
+                    "id": "d41536f1d8dbc5fb580f7c09b9b033e5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.salon_encendido_de_luces_al_atardecer",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T18:55:28.025191+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "ac81d87d98a64d19adcf9b306ee2582e",
+                    "friendly_name": "Sal\u00f3n - Encendido de Luces al Atardecer"
+                },
+                "last_changed": "2021-01-28T18:49:43.950553+00:00",
+                "last_updated": "2021-01-28T18:55:28.771156+00:00",
+                "context": {
+                    "id": "07a0e366a49fc82d994dd28f00e85b22",
+                    "parent_id": "27849bd33e9408204a46ef989d4cbc33",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.nueva_automatizacion",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T18:49:59.616091+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1588957172553",
+                    "friendly_name": "Sal\u00f3n - Encendido de Luces al llegar a casa por la noche"
+                },
+                "last_changed": "2021-01-28T18:49:43.951042+00:00",
+                "last_updated": "2021-01-28T18:50:00.524771+00:00",
+                "context": {
+                    "id": "f079ebb7ffbeb702f9da0cb272a617b9",
+                    "parent_id": "172e3a4fbb3e15564b68dc7529d48a89",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.salon_encender_la_luz_en_dia_nublado",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-21T19:50:23.309119+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1590607875312",
+                    "friendly_name": "Salon - Encender la luz en d\u00eda nublado"
+                },
+                "last_changed": "2021-01-28T18:49:43.951527+00:00",
+                "last_updated": "2021-01-28T18:49:43.951527+00:00",
+                "context": {
+                    "id": "c1ea10e9e35822757352ad00ebc0820f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.refresco_eventos",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1592779443063",
+                    "friendly_name": "Refresco Eventos"
+                },
+                "last_changed": "2021-01-28T18:49:43.952017+00:00",
+                "last_updated": "2021-01-28T18:49:43.952017+00:00",
+                "context": {
+                    "id": "be2f90b51cc0212921f609f7c9d1704f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.alarma_inundacion",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1607623998353",
+                    "friendly_name": "Alarmas -  Inundaci\u00f3n"
+                },
+                "last_changed": "2021-01-28T18:49:43.952500+00:00",
+                "last_updated": "2021-01-28T18:49:43.952500+00:00",
+                "context": {
+                    "id": "372285b996c33ce19530e2f3216ea903",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.dormitorio_1_encender_lampara",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T19:31:13.873938+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "dormitorio_1",
+                    "friendly_name": "Dormitorio - 1.- Encender Lampara"
+                },
+                "last_changed": "2021-01-28T18:49:43.952981+00:00",
+                "last_updated": "2021-01-28T19:31:13.905492+00:00",
+                "context": {
+                    "id": "dbf7e5664a37d9c2f9c9ee55b64560c7",
+                    "parent_id": "4868bea3f851544b40d6aad4393a8940",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.dormitorio_2_reiniciar_timer_si_hay_movimiento",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T19:10:03.273398+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "dormitorio_2",
+                    "friendly_name": "Dormitorio - 2.- Reiniciar Timer Si hay movimiento"
+                },
+                "last_changed": "2021-01-28T18:49:43.953468+00:00",
+                "last_updated": "2021-01-28T19:10:03.311852+00:00",
+                "context": {
+                    "id": "6ebf75b79ad78d902d9e98d4b4e7f16b",
+                    "parent_id": "ea781cf8d1c2ea2120e4c94ebdd91d25",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.dormitorio_3_apagar_luz_cuando_timer_acaba_y_no_se_detecta_presencia",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-28T19:25:19.014642+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "dormitorio_3",
+                    "friendly_name": "Dormitorio - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia"
+                },
+                "last_changed": "2021-01-28T18:49:43.953957+00:00",
+                "last_updated": "2021-01-28T19:25:19.042659+00:00",
+                "context": {
+                    "id": "8f174e1ebdcc171acee3c74fae7e47ed",
+                    "parent_id": "3117b35fc609a7ea280ca8498b343cfa",
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.dormitorio_2_reiniciar_timer_al_terminar_si_hay_movimiento",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-27T18:55:35.006242+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "dormitorio_4",
+                    "friendly_name": "Dormitorio - 2- Reiniciar Timer al terminar si hay movimiento"
+                },
+                "last_changed": "2021-01-28T18:49:43.954447+00:00",
+                "last_updated": "2021-01-28T18:49:43.954447+00:00",
+                "context": {
+                    "id": "6d32151b01e802014199213b31bf2cda",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.alarma_entrando_en_casa",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-27T18:55:14.581341+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1608477352831",
+                    "friendly_name": "Alarmas - Extra\u00f1os entrando en Casa"
+                },
+                "last_changed": "2021-01-28T18:49:43.954932+00:00",
+                "last_updated": "2021-01-28T18:49:43.954932+00:00",
+                "context": {
+                    "id": "88f60faa03dfe71de2ac5fc38b15b654",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.low_battery_level_detection_notification_for_all_battery_sensors",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-01-12T19:40:14.347957+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1610479985695",
+                    "friendly_name": "Low battery level detection & notification for all battery sensors"
+                },
+                "last_changed": "2021-01-28T18:49:43.955420+00:00",
+                "last_updated": "2021-01-28T18:49:43.955420+00:00",
+                "context": {
+                    "id": "415fd51c78444ea8fe229fa9ff8a740c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-01-28T19:31:23.814841+00:00"
+        }
+    ]
+}

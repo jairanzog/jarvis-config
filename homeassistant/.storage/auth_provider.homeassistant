@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "salt": "758aea22c335ce1b8e07105bdaa6e7b8886cfcd67ddd3d8ad54347e442adc694",
+        "users": [
+            {
+                "password": "JDJiJDEyJGlmb0c5LzhaeUJBaTQwRnZrN0xDZ09YaWl0QUE4djN2Ry91T1ZjVmJ1T0xlNGk4VHhuc1dl",
+                "username": "jarvis"
+            },
+            {
+                "password": "JDJiJDEyJEswenFKZ2w3YU9taHkvRWFCQlJYWU8wMnVkNmdEa1p1UXR2LjNXODBsaWJIckdvelQveUlD",
+                "username": "invitado"
+            },
+            {
+                "password": "JDJiJDEyJHBBVXNTc2JFajVUcGUuSEdxZ24wUnVZTFFtR0x0aGtJb0RxUEVTOVdRUTU2eTZjaUhXTklt",
+                "username": "jairo"
+            },
+            {
+                "password": "JDJiJDEyJDBreVB0YTg1S1VRRHFnMFVKMjBkNnVGamRmUnFpaDhhS2YvZkNNRnJEcUJvRDZEYlNuaXRh",
+                "username": "cristina"
+            },
+            {
+                "username": "jiranzo",
+                "password": "JDJiJDEyJENTRUFGSThWejN5UWM4d09ya0dISWU1TGVSTUYwRjNYdnVoRS5tcGtUeFhLNGRsNzVSY3lx"
+            }
+        ]
+    }
+}

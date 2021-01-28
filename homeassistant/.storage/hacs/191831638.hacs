@@ -1,0 +1,59 @@
+{
+    "version": "6",
+    "key": "hacs/191831638.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@albertogeniola"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": true,
+        "default_branch": "master",
+        "description": "Custom component that leverages the Meross IoT library to integrate with Homeassistant",
+        "domain": "meross_cloud",
+        "domains": [],
+        "downloads": 0,
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "albertogeniola/meross-homeassistant",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "191831638",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "fe8f677",
+        "installed_version": "v1.0.5",
+        "open_issues": 28,
+        "last_commit": "fe8f677",
+        "last_version": "v1.0.5",
+        "last_updated": "2021-01-25T22:40:17Z",
+        "manifest_name": "Meross Cloud IoT",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-01-25T22:40:17",
+        "releases": true,
+        "render_readme": false,
+        "published_tags": [
+            "v1.0.5",
+            "v1.0.4-post1",
+            "v1.0.3",
+            "v1.0.2",
+            "v1.0.0"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 212,
+        "topics": [
+            "homeassistant",
+            "meross",
+            "meross-homeassistant"
+        ],
+        "zip_release": false
+    }
+}

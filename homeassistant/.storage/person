@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "device_trackers": [
+                    "device_tracker.galaxy_s20"
+                ],
+                "id": "amazfit_gts_jairo",
+                "name": "Jairo",
+                "user_id": "8ac1851ca930495ba24e72ddbb624356",
+                "picture": null
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.huawei_p20_lite"
+                ],
+                "id": "cristina",
+                "name": "Cristina",
+                "user_id": "ad410cbc97194e56a36c416197740f7c"
+            }
+        ]
+    }
+}

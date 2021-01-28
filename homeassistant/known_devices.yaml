@@ -1,0 +1,21 @@
+
+mibox3:
+  icon:
+  mac: BT_3C:BD:3E:6F:27:46
+  name: MIBOX3
+  picture:
+  track: true
+
+mibox4:
+  icon:
+  mac: BT_D4:5E:EC:3F:48:B9
+  name: MIBOX4
+  picture:
+  track: true
+
+tv_del_salon:
+  icon:
+  mac: BT_40:2F:86:8E:E5:97
+  name: TV del salón
+  picture:
+  track: true

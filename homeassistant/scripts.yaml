@@ -1,0 +1,9 @@
+spotify_musica_romantica:
+  alias: "Musica Romantica"
+  sequence:
+    - service: media_player.play_media
+      data_template:
+        entity_id: media_player.salon
+        media_content_id: "spotify:album:1cpPC5ajJoGTIKAzdQScRj"
+        media_content_type: playlist
+

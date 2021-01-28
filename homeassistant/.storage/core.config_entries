@@ -1,0 +1,313 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "5c195e6ecea14e21b89d9753d3e1044b",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "user_id": "c112b526d200436ba8b6fe945ba5f466"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "9b3f682364374c6b9e86f1e022bc4075",
+                "version": 1,
+                "domain": "coronavirus",
+                "title": "Spain",
+                "data": {
+                    "country": "Spain"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "Spain"
+            },
+            {
+                "entry_id": "fb4682cf209f4ea79ce9b5166ee0801b",
+                "version": 1,
+                "domain": "pvpc_hourly_pricing",
+                "title": "PVPC",
+                "data": {
+                    "name": "PVPC",
+                    "tariff": "discrimination"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "discrimination"
+            },
+            {
+                "entry_id": "a97bc8c152a743b4941de60c7dc4691c",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "configuration.yaml",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "import",
+                "connection_class": "local_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "a72aa640beab44cdbc1a5f69217c7677",
+                "version": 1,
+                "domain": "meross_cloud",
+                "title": "mrdomojarvis@gmail.com",
+                "data": {
+                    "password": "G@RB@nc1T@2021",
+                    "stored_credentials": {
+                        "issued_on": "2020-09-28T17:44:18.709439",
+                        "key": "31c2fa8f5f20c0960d928fb666314ab9",
+                        "token": "ace15f7ecdb86e1ff7687976d833651a37ad206ba52d97a3ab4e9de083f6c744",
+                        "user_email": "mrdomojarvis@gmail.com",
+                        "user_id": "136037"
+                    },
+                    "username": "mrdomojarvis@gmail.com"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_push",
+                "unique_id": "meross_cloud"
+            },
+            {
+                "entry_id": "cc341f1961f64de681c354dae18849d4",
+                "version": 1,
+                "domain": "speedtestdotnet",
+                "title": "SpeedTest",
+                "data": {},
+                "options": {
+                    "manual": false,
+                    "scan_interval": 30,
+                    "server_id": ""
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "import",
+                "connection_class": "local_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "0724e03d55554217a35f57d1369c2fb1",
+                "version": 1,
+                "domain": "gdacs",
+                "title": "0, 0",
+                "data": {
+                    "categories": [],
+                    "latitude": 0,
+                    "longitude": 0,
+                    "radius": 500,
+                    "scan_interval": 300
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "0, 0"
+            },
+            {
+                "entry_id": "dee867b4c5a14ba9af0ab36a782e1e43",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "HUAWEI_P20_lite",
+                "data": {
+                    "app_data": {
+                        "push_token": "dbEMVFbUe0Q:APA91bHe8w1xOOE2sf-5zYMWUBoadjxmQtTs8Ka5d82-BjzQeoNOBh9ALfMqsDWpAZtNASBbDlVpRNUobHOr_4SwnoCr6xPddesTylmBIeWN8CvjoWLvVqprPEdKbzOcLIl1ctxiI7iS",
+                        "push_url": "https://ariela.surodev.com/notification/"
+                    },
+                    "app_id": "com.surodev.ariela",
+                    "app_name": "Ariela",
+                    "app_version": "1.3.8.5",
+                    "device_id": "ecf6e274b45b4a92b9edc620fe2f682d",
+                    "device_name": "HUAWEI_P20_lite",
+                    "manufacturer": "HUAWEI",
+                    "model": "HWANE",
+                    "os_name": "9",
+                    "os_version": "9",
+                    "supports_encryption": false,
+                    "user_id": "7e1375fa95774a3692df3e9a1c78d3b3",
+                    "webhook_id": "4e418fb0947a3c3d5a78cafc2abb00b913a8fa793d05f6d0f01ed1452feef871"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "133ee76ff64b40d2a4fc9d8a81363405",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Galaxy_S20",
+                "data": {
+                    "app_data": {
+                        "push_token": "cP5kGbS2SjyslXGq8GBSpg:APA91bGHCbDr_iFb_V3yo5R0x7r6ja2mGTkrt-pxFyiI83etBJbv-FFC4v0tlbykUh7hg_nEUYQLE8o2Rt1TKrTGb4Q4m5IDh6vY6ht6xxoPpPGS2cbV_a0nvlzwPpAEt4MR_PGWe8y8",
+                        "push_url": "https://ariela.surodev.com/notification/"
+                    },
+                    "app_id": "com.surodev.ariela",
+                    "app_name": "Ariela",
+                    "app_version": "1.4.6",
+                    "device_id": "c861058525d74634858ecf55221a447a",
+                    "device_name": "Galaxy_S20_Jairo",
+                    "manufacturer": "samsung",
+                    "model": "y2s",
+                    "os_name": "10",
+                    "os_version": "11",
+                    "supports_encryption": false,
+                    "user_id": "7e1375fa95774a3692df3e9a1c78d3b3",
+                    "webhook_id": "3632311c8baa9292ffeb8579c216ae1a0825fa7b71cd62bd681d5e4bf5ec1659"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": null
+            },
+            {
+                "entry_id": "1940d4247dfe1e642393b04c9cfc81ba",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "4b0993fd548daf7052198dc7fd5ec562b70955ce"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "5a2c8e355801b0e142d31fecdcf41a76",
+                "version": 1,
+                "domain": "tuya",
+                "title": "mrdomojarvis@gmail.com",
+                "data": {
+                    "country_code": "34",
+                    "password": "G@RB@nc1T@2021",
+                    "platform": "smart_life",
+                    "username": "mrdomojarvis@gmail.com"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "bfbc69374010141cb96169c3490f40d9",
+                "version": 1,
+                "domain": "shopping_list",
+                "title": "Shopping List",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "import",
+                "connection_class": "local_push",
+                "unique_id": "shopping_list"
+            },
+            {
+                "entry_id": "00254f8858afc4dccf19a273e93c6362",
+                "version": 2,
+                "domain": "openweathermap",
+                "title": "OpenWeatherMap",
+                "data": {
+                    "name": "OpenWeatherMap",
+                    "latitude": 40.6062234,
+                    "longitude": -3.6959634,
+                    "mode": "onecall_hourly",
+                    "language": "es",
+                    "api_key": "a86aff24d2f75e5e67bd7d94bd7034ef"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "40.6062234--3.6959634"
+            },
+            {
+                "entry_id": "c4506ccb7e318bed6006c234868e7bdb",
+                "version": 1,
+                "domain": "cert_expiry",
+                "title": "mrdomojarvis.duckdns.org",
+                "data": {
+                    "host": "mrdomojarvis.duckdns.org",
+                    "port": 443
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_poll",
+                "unique_id": "mrdomojarvis.duckdns.org:443"
+            },
+            {
+                "entry_id": "9c743c26d4174e40e2be2a78961450c8",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Galaxy_S20__Jairo",
+                "data": {
+                    "app_id": "com.surodev.ariela",
+                    "app_name": "Ariela",
+                    "app_version": "1.4.6",
+                    "device_name": "Galaxy_S20__Jairo",
+                    "manufacturer": "samsung",
+                    "model": "y2s",
+                    "os_name": "11",
+                    "os_version": "11",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_token": "cP5kGbS2SjyslXGq8GBSpg:APA91bGHCbDr_iFb_V3yo5R0x7r6ja2mGTkrt-pxFyiI83etBJbv-FFC4v0tlbykUh7hg_nEUYQLE8o2Rt1TKrTGb4Q4m5IDh6vY6ht6xxoPpPGS2cbV_a0nvlzwPpAEt4MR_PGWe8y8",
+                        "push_url": "https://ariela.surodev.com/notification/"
+                    },
+                    "webhook_id": "542bc46430b5cc1bea344fbac8d532ed91a3e07bdac70437cdeeae6515603cbc",
+                    "user_id": "ae0dea9d46584dc68b566de8e6f6012d",
+                    "device_id": "cdec34a66e43405d8c5dd0604da8d262"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": null
+            }
+        ]
+    }
+}
