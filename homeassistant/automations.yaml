@@ -8,7 +8,7 @@
   - data:
       message: Warning - El Certificado SSL expira en menos de 28, se ha renovado
         el certificado
-    service: notify.mobile_app_galaxy_s20
+    service: notify.mobile_app_galaxy_s20_jairo
   - data: {}
     service: shell_command.renovar_certificado_ssl
   mode: single
@@ -31,9 +31,17 @@
     platform: state
     to: 'on'
   condition:
-  - below: '10'
-    condition: numeric_state
-    entity_id: sensor.presencia_cocina_illuminance
+  - condition: and
+    conditions:
+    - condition: numeric_state
+      entity_id: sensor.presencia_cocina_illuminance
+      below: '10'
+    - condition: state
+      entity_id: input_boolean.cocina_encendido_manual
+      state: 'off'
+    - condition: state
+      entity_id: input_boolean.fuera_de_casa
+      state: 'off'
   action:
   - service: timer.start
     data: {}
@@ -68,9 +76,14 @@
     event_type: timer.finished
     platform: event
   condition:
-  - condition: state
-    entity_id: binary_sensor.presencia_cocina_occupancy
-    state: 'off'
+  - condition: and
+    conditions:
+    - condition: state
+      entity_id: binary_sensor.presencia_cocina_occupancy
+      state: 'off'
+    - condition: state
+      entity_id: input_boolean.cocina_apagado_manual
+      state: 'off'
   action:
   - data: {}
     entity_id: switch.luz_cocina
@@ -141,25 +154,21 @@
     platform: state
     to: 'off'
   condition:
-  - condition: and
+  - condition: not
     conditions:
-    - condition: state
-      entity_id: binary_sensor.puertaterraza_contact
-      state: 'on'
-    - condition: and
+    - condition: or
       conditions:
-      - condition: not
-        conditions:
-        - condition: zone
-          entity_id: person.jairo
-          zone: zone.home
+      - condition: zone
+        entity_id: person.jairo
+        zone: zone.casa
   action:
   - data:
       message: Te has ido con la ventana abierta
     service: notify.mobile_app_galaxy_s20_jairo
-  - data:
+  - service: notify.whatsapp
+    data:
       message: Te has ido con la ventana abierta
-    service: telegram_bot.send_message
+      title: Ventanas Abiertas
   mode: single
 - id: 7edffded06964a88bc140f4d11a478f1
   alias: set Themes - by caulecriativo.com
@@ -174,7 +183,7 @@
 - id: ac81d87d98a64d19adcf9b306ee2582e
   alias: Salón - Encendido de Luces al Atardecer
   trigger:
-  - below: '-2'
+  - below: '1'
     entity_id: sun.sun
     platform: numeric_state
     value_template: '{{ state_attr(''sun.sun'', ''elevation'') }}'
@@ -186,10 +195,11 @@
       - condition: zone
         entity_id: person.jairo
         zone: zone.home
-    - before: '23:00'
-      condition: time
     - condition: time
-      after: '9:00'
+      before: '23:00'
+    - condition: state
+      entity_id: input_boolean.fuera_de_casa
+      state: 'off'
   action:
   - service: switch.turn_on
     data: {}
@@ -197,6 +207,14 @@
   - service: switch.turn_on
     data: {}
     entity_id: switch.bf5f971cf225cffafaiye7
+  - service: notify.mobile_app_galaxy_s20_jairo
+    data:
+      title: Luces Encendidas
+      message: encendido de luces al atardecer
+  - service: notify.whatsapp
+    data:
+      title: Encendido Luces
+      message: Se han encendido las luces!
   mode: single
 - id: '1588957172553'
   alias: Salón - Encendido de Luces al llegar a casa por la noche
@@ -209,12 +227,49 @@
   condition:
   - condition: and
     conditions:
-    - below: '-17'
+    - below: '-1'
       condition: numeric_state
       entity_id: sun.sun
       value_template: '{{ state_attr(''sun.sun'', ''elevation'') }}'
+      attribute: elevation
     - condition: state
       entity_id: switch.bf5f971cf225cffafaiye7
+      state: 'off'
+    - condition: state
+      entity_id: switch.luz_salon_mss310_main_channel
+      state: 'off'
+  action:
+  - data: {}
+    entity_id: switch.bf5f971cf225cffafaiye7
+    service: switch.turn_on
+  - data: {}
+    entity_id: switch.luz_salon_mss310_main_channel
+    service: switch.turn_on
+  mode: single
+- id: '1590607875312'
+  alias: Salon - Encender la luz en día nublado
+  description: ''
+  trigger:
+  - below: '65'
+    entity_id: sensor.presencia_exterior_illuminance
+    platform: numeric_state
+  condition:
+  - condition: and
+    conditions:
+    - after: '17:00'
+      condition: time
+    - condition: numeric_state
+      entity_id: sun.sun
+      value_template: '{{ state_attr(''sun.sun'', ''elevation'') }}'
+      above: '1'
+      attribute: elevation
+    - condition: or
+      conditions:
+      - condition: zone
+        entity_id: person.jairo
+        zone: zone.home
+    - condition: state
+      entity_id: input_boolean.fuera_de_casa
       state: 'off'
   action:
   - data: {}
@@ -224,34 +279,6 @@
     entity_id: switch.bf5f971cf225cffafaiye7
     service: switch.turn_on
   mode: single
-- id: '1590607875312'
-  alias: Salon - Encender la luz en día nublado
-  description: ''
-  trigger:
-  - below: '65'
-    entity_id: sensor.presenciaexterior_illuminance
-    platform: numeric_state
-  condition:
-  - condition: and
-    conditions:
-    - after: '17:00'
-      condition: time
-    - above: '-17'
-      condition: numeric_state
-      entity_id: sun.sun
-      value_template: '{{ state_attr(''sun.sun'', ''elevation'') }}'
-    - condition: or
-      conditions:
-      - condition: zone
-        entity_id: person.jairo
-        zone: zone.home
-  action:
-  - data: {}
-    entity_id: switch.luz_salon_mss310_main_channel
-    service: switch.turn_on
-  - data: {}
-    entity_id: switch.bf5f971cf225cffafaiye7
-    service: switch.turn_on
 - id: '1592779443063'
   alias: Refresco Eventos
   description: ''
@@ -279,12 +306,12 @@
     type: moist
   condition: []
   action:
+  - service: notify.whatsapp
+    data:
+      message: Tu Casa Se está inundando!
   - data:
       message: Tu casa se está inundando!!!
-    service: telegram_bot.send_message
-  - data:
-      message: Tu casa se está inundando!!!
-    service: notify.mobile_app_galaxy_s20
+    service: notify.mobile_app_galaxy_s20_jairo
   mode: single
 - id: '1607639916109'
   alias: Dormitorio - Lampara
@@ -316,6 +343,9 @@
     - after: '10:00:00'
       before: 00:30:00
       condition: time
+    - condition: state
+      entity_id: input_boolean.fuera_de_casa
+      state: 'off'
   action:
   - service: timer.start
     data: {}
@@ -402,7 +432,7 @@
     service: telegram_bot.send_message
   - data:
       message: Han entrado en tu casa!!
-    service: notify.mobile_app_galaxy_s20
+    service: notify.mobile_app_galaxy_s20_jairo
   mode: single
 - id: '1610479985695'
   alias: Low battery level detection & notification for all battery sensors
@@ -410,15 +440,78 @@
   use_blueprint:
     path: Sbyx/low-battery-level-detection-notification-for-all-battery-sensors.yaml
     input:
-      day: '4'
+      day: 4
       time: '19:00:00'
       actions:
-      - service: notify.mobile_app_galaxy_s20
+      - service: notify.whatsapp
         data:
           message: 'Batería baja en los siguientes sensores: {{sensors|replace("_","
             ")}}'
-      threshold: 15
+      - service: notify.mobile_app_galaxy_s20_jairo
+        data:
+          message: '  message: ''Batería baja en los siguientes sensores: {{sensors|replace("_","
+            ")}}'''
+      threshold: 25
       exclude:
         entity_id:
         - sensor.huawei_p20_lite_huawei_p20_lite_battery_sensor
-        - sensor.galaxy_s20_galaxy_s20_battery_sensor
+        - sensor.sensor.galaxy_s20_jairo_battery_sensor
+        - binary_sensor.blink_vigila_bebes_battery
+- id: '1612488343402'
+  alias: Temperatura Habiitación por debajo de 18
+  description: ''
+  trigger:
+  - platform: numeric_state
+    entity_id: sensor.0x00158d0002c11abb_temperature
+    below: '18'
+    attribute: temperature
+  condition:
+  - condition: and
+    conditions:
+    - condition: state
+      entity_id: binary_sensor.0x00158d0003031c6b_contact
+      state: 'true'
+      attribute: contact
+    - condition: state
+      entity_id: binary_sensor.puerta_terraza_contact
+      state: 'true'
+      attribute: contact
+  action:
+  - service: notify.whatsapp
+    data:
+      message: Temperatura por debajo de 18 grados
+  mode: single
+- id: '1612909625000'
+  alias: Send a camera snapshot when motion is detected
+  description: ''
+  use_blueprint:
+    path: vorion/send-camera-snapshot-notification-on-motion.yaml
+    input:
+      notification_message: '{{ motion_sensor_name }} detected movement!'
+      delay: '0'
+      motion_sensor: binary_sensor.blink_vigila_bebes_motion_detected
+      camera: camera.blink_vigila_bebes
+      notify_device: 7d32452c016afe55854cc7181aa58fd8
+      notification_title: Motion detected!
+- id: '1612912361902'
+  alias: Gestión luz Cocina
+  description: ''
+  use_blueprint:
+    path: freakshock88/motion_illuminance_activated_entity.yaml
+    input:
+      motion_sensor: binary_sensor.presencia_cocina_occupancy
+      target_entity: switch.luz_cocina
+      illuminance_sensor: sensor.presencia_cocina_illuminance
+      illuminance_cutoff: '10'
+      no_motion_wait: '4'
+      turn_off_blocker_entity: binary_sensor.presencia_cocina_occupancy
+      target_off_entity: switch.luz_cocina
+- id: '1613908449293'
+  alias: Certificate Expiration
+  description: ''
+  use_blueprint:
+    path: bkbilly/certificate-expiration.yaml
+    input:
+      days_input: 30
+      certificate_input: sensor.cert_expiry_timestamp_mrdomojarvis_duckdns_org
+      notify_device: 7d32452c016afe55854cc7181aa58fd8

@@ -29,6 +29,13 @@ mqtt:
 #INTEGRACIONES
 ############################
 
+stream: 
+
+media_source:
+
+ media_dirs:
+    local: /media
+    recordings: /media/recordings
 shopping_list:
 
 breaking_changes:
@@ -45,6 +52,8 @@ speedtestdotnet:
     - download
     - upload
 
+dhcp: 
+
 telegram_bot:
   - platform: polling
     api_key: !secret telegram_api_key
@@ -56,14 +65,14 @@ shell_command:
 
 webhook:
 
-zigbee2mqtt_networkmap:
-  topic: Casa
+#zigbee2mqtt_networkmap:
+#  topic: Casa
 
-panel_iframe:
-  networkmap:
-    title: 'Zigbee Map'
-    url: '/local/community/zigbee2mqtt_networkmap/map.html?engine=circo'
-    icon: 'mdi:graphql'
+#panel_iframe:
+#  networkmap:
+#    title: 'Zigbee Map'
+#    url: '/local/community/zigbee2mqtt_networkmap/map.html?engine=circo'
+#    icon: 'mdi:graphql'
 
 #lovelace:
 #  mode: yaml
@@ -111,6 +120,14 @@ system_health:
 mobile_app:
 
 notify:
+  - name: WhatsApp
+    platform: rest
+    resource: https://api.callmebot.com/whatsapp.php
+    data:
+      source: HA
+      phone: !secret whatsapp_jairo_number
+      apikey: !secret whatsapp_jairo_key      #enter your apikey here (see Setup above)
+
   - name: Home_Assistant
     platform: smtp
     server: smtp.gmail.com
@@ -153,6 +170,17 @@ history:
 # View all events in a logbook
 logbook:
 
+input_boolean:
+  cocina_encendido_manual:
+    name: "Cocina Encendido Manual"
+    initial: off
+  cocina_apagado_manual:
+    name: "Cocina Apagado Manual"
+    initial: off
+  fuera_de_casa:
+    name: "Modo Fuera de Casa"
+    initial: off
+
 # Enables a map showing the location of tracked devices
 map:
 
@@ -162,13 +190,13 @@ sun:
 alexa:
   smart_home:
 
-#recorder:
-#  purge_keep_days: 7
-#  purge_interval: 1
-#  exclude:
-#    domains:
-#      - media_player
-#      - device_tracker
+recorder:
+  purge_keep_days: 7
+  purge_interval: 1
+  exclude:
+    domains:
+      - media_player
+      - device_tracker
 
 #influxdb:
 #  host: !secret influxdb_host
