@@ -32,6 +32,26 @@
                 "url": "/local/community/lovelace-card-tools/card-tools.js",
                 "type": "module",
                 "id": "601f1592679f4574a7b3e173bc6b45d0"
+            },
+            {
+                "url": "/hacsfiles/lovelace-card-mod/card-mod.js",
+                "type": "module",
+                "id": "7e87e46dc34a4147af058e60c3755c63"
+            },
+            {
+                "url": "/hacsfiles/lovelace-card-tools/card-tools.js",
+                "type": "module",
+                "id": "4732968116d74b43a71e6ff63e22ea90"
+            },
+            {
+                "url": "/hacsfiles/apexcharts-card/apexcharts-card.js",
+                "type": "module",
+                "id": "b4d2b641c3964602bce48ad8f4f8cf0f"
+            },
+            {
+                "url": "/hacsfiles/miflora-card/miflora-card.js",
+                "type": "module",
+                "id": "25e1fdf9b3e043e292cfda0efeef9c86"
             }
         ]
     }

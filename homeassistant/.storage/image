@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "key": "image",
+    "data": {
+        "items": [
+            {
+                "id": "ee7ea1003830f600c6d5730caebe72dc",
+                "filesize": 33098,
+                "content_type": "image/jpeg",
+                "name": "photo_500@19-09-2019_23-21-39.jpg",
+                "uploaded_at": "2021-03-28T21:22:22.733168+00:00"
+            },
+            {
+                "id": "f33febbc119a4c0448f196f8846f78f8",
+                "filesize": 46742,
+                "content_type": "image/jpeg",
+                "name": "photo_1275@28-09-2019_20-44-48.jpg",
+                "uploaded_at": "2021-03-28T21:25:08.669032+00:00"
+            },
+            {
+                "id": "15c1913af792b176a5a1a177e8916495",
+                "filesize": 25468,
+                "content_type": "image/jpeg",
+                "name": "photo_617@22-09-2019_03-57-37.jpg",
+                "uploaded_at": "2021-03-28T21:26:42.334728+00:00"
+            },
+            {
+                "id": "69e76b420267eeeac2a56aba5ff19602",
+                "filesize": 67239,
+                "content_type": "image/jpeg",
+                "name": "IMG-20190912-WA0038.jpg",
+                "uploaded_at": "2021-03-28T21:29:08.228341+00:00"
+            },
+            {
+                "id": "453f5c2cbe9aaa54fc61d30dcf9a246f",
+                "filesize": 33067,
+                "content_type": "image/jpeg",
+                "name": "photo_500@19-09-2019_23-21-39.jpg",
+                "uploaded_at": "2021-03-28T22:03:12.408807+00:00"
+            }
+        ]
+    }
+}

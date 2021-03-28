@@ -5,20 +5,21 @@
         "items": [
             {
                 "device_trackers": [
-                    "device_tracker.galaxy_s20"
-                ],
-                "id": "amazfit_gts_jairo",
-                "name": "Jairo",
-                "user_id": "8ac1851ca930495ba24e72ddbb624356",
-                "picture": null
-            },
-            {
-                "device_trackers": [
-                    "device_tracker.huawei_p20_lite"
+                    "device_tracker.huawei_p20_lite_cristina"
                 ],
                 "id": "cristina",
                 "name": "Cristina",
-                "user_id": "ad410cbc97194e56a36c416197740f7c"
+                "user_id": "ad410cbc97194e56a36c416197740f7c",
+                "picture": "/api/image/serve/69e76b420267eeeac2a56aba5ff19602/512x512"
+            },
+            {
+                "name": "Jairo",
+                "device_trackers": [
+                    "device_tracker.galaxy_s20_jairo"
+                ],
+                "user_id": null,
+                "picture": "/api/image/serve/453f5c2cbe9aaa54fc61d30dcf9a246f/512x512",
+                "id": "jairo"
             }
         ]
     }

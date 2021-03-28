@@ -335,28 +335,6 @@
             },
             {
                 "config_entries": [
-                    "dee867b4c5a14ba9af0ab36a782e1e43"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "mobile_app",
-                        "ecf6e274b45b4a92b9edc620fe2f682d"
-                    ]
-                ],
-                "manufacturer": "HUAWEI",
-                "model": "HWANE",
-                "name": "HUAWEI_P20_lite",
-                "sw_version": "9",
-                "entry_type": null,
-                "id": "12b369d839634d5aad8763ecf7b4fb8b",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null
-            },
-            {
-                "config_entries": [
                     "5c195e6ecea14e21b89d9753d3e1044b"
                 ],
                 "connections": [],
@@ -489,50 +467,6 @@
             },
             {
                 "config_entries": [
-                    "133ee76ff64b40d2a4fc9d8a81363405"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "mobile_app",
-                        "c861058525d74634858ecf55221a447a"
-                    ]
-                ],
-                "manufacturer": "samsung",
-                "model": "y2s",
-                "name": "Galaxy_S20_Jairo",
-                "sw_version": "11",
-                "entry_type": null,
-                "id": "590948975d9d4419b76c8e403c7bc5a8",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null
-            },
-            {
-                "config_entries": [
-                    "1940d4247dfe1e642393b04c9cfc81ba"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "hacs",
-                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
-                    ]
-                ],
-                "manufacturer": "hacs.xyz",
-                "model": "",
-                "name": "HACS",
-                "sw_version": "1.9.0",
-                "entry_type": "service",
-                "id": "b2dfb5f948f5e4a77359dd87047abacf",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null
-            },
-            {
-                "config_entries": [
                     "5a2c8e355801b0e142d31fecdcf41a76"
                 ],
                 "connections": [],
@@ -621,27 +555,314 @@
             },
             {
                 "config_entries": [
-                    "9c743c26d4174e40e2be2a78961450c8"
+                    "aceab7ef60035844e0ae93fb09631218"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.11.3",
+                "entry_type": "service",
+                "id": "2e9f4b90cda2ff127ac81b2ec0e4f1a4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5c195e6ecea14e21b89d9753d3e1044b"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "26066f198136e1c6a356dc677e2d2a6b"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "MiTV-MSSP3",
+                "name": "tele",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "cb829ea1fd7419ad2657d75cd5d80e52",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4000de9bba929712f8593774e6040db0"
                 ],
                 "connections": [],
                 "identifiers": [
                     [
                         "mobile_app",
-                        "cdec34a66e43405d8c5dd0604da8d262"
+                        "af2425cbf106437da30e82da3459bb30"
                     ]
                 ],
                 "manufacturer": "samsung",
                 "model": "y2s",
-                "name": "Galaxy_S20__Jairo",
+                "name": "Galaxy_S20_Jairo",
                 "sw_version": "11",
                 "entry_type": null,
-                "id": "8598f5a7fd615faa864f1a306a2f491f",
+                "id": "7d32452c016afe55854cc7181aa58fd8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": "config_entry"
+            },
+            {
+                "config_entries": [
+                    "872a3d82df495192cb061b2c5b2d009e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "37e800a560a844cd9ecc6a5450ce5e8e"
+                    ]
+                ],
+                "manufacturer": "HUAWEI",
+                "model": "HWANE",
+                "name": "HUAWEI_P20_lite_Cristina",
+                "sw_version": "9",
+                "entry_type": null,
+                "id": "a4efcea5cc8c3d310774f0d3da81aba2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "3fa741f3ad6a77f6380e747b91c6a951"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "e0babed66c064dbfb7f466a50f0001d8"
+                    ]
+                ],
+                "manufacturer": "bq",
+                "model": "Aquaris_M10_FHD",
+                "name": "Tablet_Jairo",
+                "sw_version": "6.0",
+                "entry_type": null,
+                "id": "ae24c0a96c476f023d1a9b534d3ec548",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "46e63e40afb7ca7536b1fc5dc9cb71ab"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "4aefe69c2dc84fbea930fe9ef2c8e7bf"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "y2s",
+                "name": "Galaxy_S20_Jairo",
+                "sw_version": "11",
+                "entry_type": null,
+                "id": "b0870d3b99e88529a58e966602398c42",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": "config_entry"
+            },
+            {
+                "config_entries": [
+                    "575866493de9792215232a300696d7b6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "52123acb141b44859f86317ab705430e"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "y2s",
+                "name": "Galaxy_S20_Jairo",
+                "sw_version": "11",
+                "entry_type": null,
+                "id": "e3c148c76e6dcf89c7e4d6d3fba300c7",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": "config_entry"
+            },
+            {
+                "config_entries": [
+                    "ea0c3555ed2cc5bb730600db8acf0022"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "85481c09b81543b1817c68fef44b04f5"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "y2s",
+                "name": "Galaxy_S20_Jairo",
+                "sw_version": "11",
+                "entry_type": null,
+                "id": "6324e84b243b256bc9955dd4700395e0",
                 "via_device_id": null,
                 "area_id": null,
                 "name_by_user": null,
                 "disabled_by": null
             }
         ],
-        "deleted_devices": []
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "3e5c7f1af595495d9b767aae10576053"
+                    ]
+                ],
+                "id": "d74185b1a201abfc3237351919dc10c9",
+                "orphaned_timestamp": 1616965537.249532
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "9d4f423e1d754a0990f58afcea033c8f"
+                    ]
+                ],
+                "id": "a16b3f9516fb68cb794badc721ee0fc1",
+                "orphaned_timestamp": 1616965543.6571782
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "8f9b545f882548b5b14f51782907ba9f"
+                    ]
+                ],
+                "id": "9b53e9a40f61d9be61bf87e1992a1179",
+                "orphaned_timestamp": 1616965549.244716
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "60a3f1167d7d46a18ad2c470da107d7f"
+                    ]
+                ],
+                "id": "e0089f76b82b44668e482b02fc56597f",
+                "orphaned_timestamp": 1616965554.8306491
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "3e6412481108430ca69e022f17049a35"
+                    ]
+                ],
+                "id": "c876d49f96449c6a450fd7d2b3741cd7",
+                "orphaned_timestamp": 1616965560.1463253
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "52fbb1b5aac94606ab6172d3a8af544f"
+                    ]
+                ],
+                "id": "95a767c81e216712be91fd7d0028c57d",
+                "orphaned_timestamp": 1616965564.867336
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "2addaf7a6fbe470dae29e63b46647e6e"
+                    ]
+                ],
+                "id": "8efa8560f2e9cf259621b5ba3d7dcfbd",
+                "orphaned_timestamp": 1616965570.070003
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "2dea1abdc50445d19add75d8b2c7e191"
+                    ]
+                ],
+                "id": "42179abfa2304015718b8a3b6ea59962",
+                "orphaned_timestamp": 1616965781.9340928
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "d0f028c9dbc04fc99eb6a69dbf076ff2"
+                    ]
+                ],
+                "id": "feedf3430943e8824fd5a57c861f5acb",
+                "orphaned_timestamp": 1616965787.254497
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "aa48ba4422144091a69718f81b3d7b31"
+                    ]
+                ],
+                "id": "7f054af30d8216be81fe0cf0fadfdba4",
+                "orphaned_timestamp": 1616966189.5862234
+            },
+            {
+                "config_entries": [],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "7057972febaf445698ea52e2e3989d6e"
+                    ]
+                ],
+                "id": "816af6dca3b4aad5ea1e3ca71c3be352",
+                "orphaned_timestamp": 1616966195.5950701
+            }
+        ]
     }
 }

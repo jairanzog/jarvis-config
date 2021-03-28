@@ -30,6 +30,18 @@
             {
                 "name": "Entrada",
                 "id": "entrada"
+            },
+            {
+                "name": "Consumos",
+                "id": "consumos"
+            },
+            {
+                "name": "Clima_Habitacion",
+                "id": "clima_habitacion"
+            },
+            {
+                "name": "Otros",
+                "id": "otros"
             }
         ]
     }
