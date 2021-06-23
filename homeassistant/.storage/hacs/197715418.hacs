@@ -13,7 +13,7 @@
         "domain": "",
         "domains": [],
         "downloads": 0,
-        "etag_repository": "W/\"0044c9b10a7802676610e86c1b27b9c2567c2c8f22d82b933cb95fc7837deccf\"",
+        "etag_repository": "W/\"b4781e4831516f245be38d9290aac369255da228e04fa4648ae8070a0fd71361\"",
         "file_name": "miflora-card.js",
         "filename": "",
         "first_install": false,
@@ -28,7 +28,7 @@
         "installed": true,
         "installed_commit": "889ee81",
         "installed_version": "0.1.0",
-        "open_issues": 11,
+        "open_issues": 12,
         "last_commit": "889ee81",
         "last_version": "0.1.0",
         "last_updated": "2020-06-06T04:43:54Z",
@@ -43,7 +43,7 @@
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 9,
+        "stargazers_count": 10,
         "topics": [],
         "zip_release": false
     }

@@ -307,7 +307,7 @@
                 "entry_type": null,
                 "id": "3ce1d98db6ca4d42b170aa24ce503f6a",
                 "via_device_id": null,
-                "area_id": null,
+                "area_id": "consumos",
                 "name_by_user": null,
                 "disabled_by": null
             },
@@ -451,72 +451,6 @@
                 "identifiers": [
                     [
                         "mqtt",
-                        "zigbee2mqtt_0x00158d0002326a02"
-                    ]
-                ],
-                "manufacturer": "Xiaomi",
-                "model": "Mi power plug ZigBee (ZNCZ02LM)",
-                "name": "lampara_habitacion_principal",
-                "sw_version": "Zigbee2MQTT 1.17.0",
-                "entry_type": null,
-                "id": "a9988417002c4f78899490d5192a202b",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null
-            },
-            {
-                "config_entries": [
-                    "5a2c8e355801b0e142d31fecdcf41a76"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "tuya",
-                        "tuya.bf5f971cf225cffafaiye7"
-                    ]
-                ],
-                "manufacturer": "Smart Life",
-                "model": "switch",
-                "name": "Luz Entrada",
-                "sw_version": null,
-                "entry_type": null,
-                "id": "766eb188467826505c57acefd9a34442",
-                "via_device_id": null,
-                "area_id": "entrada",
-                "name_by_user": null,
-                "disabled_by": null
-            },
-            {
-                "config_entries": [
-                    "5a2c8e355801b0e142d31fecdcf41a76"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "tuya",
-                        "tuya.bf74042d28e39f1d19joll"
-                    ]
-                ],
-                "manufacturer": "Smart Life",
-                "model": "switch",
-                "name": "Ambientador",
-                "sw_version": null,
-                "entry_type": null,
-                "id": "0366ef11b78627a05bce142caec4afca",
-                "via_device_id": null,
-                "area_id": "f04e799afc7f4d44b79b2b6ce3263d8b",
-                "name_by_user": null,
-                "disabled_by": null
-            },
-            {
-                "config_entries": [
-                    "a97bc8c152a743b4941de60c7dc4691c"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "mqtt",
                         "zigbee2mqtt_0x00158d0004446062"
                     ]
                 ],
@@ -548,28 +482,6 @@
                 "sw_version": null,
                 "entry_type": null,
                 "id": "36b6f695a98741c7f37d20883c67986b",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null
-            },
-            {
-                "config_entries": [
-                    "aceab7ef60035844e0ae93fb09631218"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "hacs",
-                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
-                    ]
-                ],
-                "manufacturer": "hacs.xyz",
-                "model": "",
-                "name": "HACS",
-                "sw_version": "1.11.3",
-                "entry_type": "service",
-                "id": "2e9f4b90cda2ff127ac81b2ec0e4f1a4",
                 "via_device_id": null,
                 "area_id": null,
                 "name_by_user": null,
@@ -618,28 +530,6 @@
                 "area_id": null,
                 "name_by_user": null,
                 "disabled_by": "config_entry"
-            },
-            {
-                "config_entries": [
-                    "872a3d82df495192cb061b2c5b2d009e"
-                ],
-                "connections": [],
-                "identifiers": [
-                    [
-                        "mobile_app",
-                        "37e800a560a844cd9ecc6a5450ce5e8e"
-                    ]
-                ],
-                "manufacturer": "HUAWEI",
-                "model": "HWANE",
-                "name": "HUAWEI_P20_lite_Cristina",
-                "sw_version": "9",
-                "entry_type": null,
-                "id": "a4efcea5cc8c3d310774f0d3da81aba2",
-                "via_device_id": null,
-                "area_id": null,
-                "name_by_user": null,
-                "disabled_by": null
             },
             {
                 "config_entries": [
@@ -709,23 +599,221 @@
             },
             {
                 "config_entries": [
-                    "ea0c3555ed2cc5bb730600db8acf0022"
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x5c0272fffeda6fe6"
+                    ]
+                ],
+                "manufacturer": "TuYa",
+                "model": "Wireless switch with 3 buttons (TS0043)",
+                "name": "interruptor_principal",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "293a757def1d6beb3256f6aa5b87197e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "a97bc8c152a743b4941de60c7dc4691c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "zigbee2mqtt_0x00158d0002326a02"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Mi power plug ZigBee (ZNCZ02LM)",
+                "name": "lampara",
+                "sw_version": "Zigbee2MQTT 1.17.0",
+                "entry_type": null,
+                "id": "a9988417002c4f78899490d5192a202b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "095a8410e5fda8bb18d7470411ebb2bd"
                 ],
                 "connections": [],
                 "identifiers": [
                     [
                         "mobile_app",
-                        "85481c09b81543b1817c68fef44b04f5"
+                        "47be3dbfe68b41f6aaee6af0257ec7a7"
                     ]
                 ],
                 "manufacturer": "samsung",
                 "model": "y2s",
-                "name": "Galaxy_S20_Jairo",
+                "name": "Galaxy_S20__Jairo",
                 "sw_version": "11",
                 "entry_type": null,
-                "id": "6324e84b243b256bc9955dd4700395e0",
+                "id": "c20734ffa09eae812e700a8bebdcadc5",
                 "via_device_id": null,
                 "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e825e12fadbdd70b20004c6e4d038876"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "3b3087368387495ea89b7d17c3ff3be2"
+                    ]
+                ],
+                "manufacturer": "HUAWEI",
+                "model": "HWANE",
+                "name": "HUAWEI_P20_lite",
+                "sw_version": "9",
+                "entry_type": null,
+                "id": "84edf752a34b56f8250671d24fc213e1",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "1e3eaa5adcdfa9b6065c60c81a1eda12"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.12.3",
+                "entry_type": "service",
+                "id": "2e9f4b90cda2ff127ac81b2ec0e4f1a4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5a2c8e355801b0e142d31fecdcf41a76"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.bf5f971cf225cffafaiye7"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Luz Entrada",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "766eb188467826505c57acefd9a34442",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "5a2c8e355801b0e142d31fecdcf41a76"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "tuya",
+                        "tuya.bf74042d28e39f1d19joll"
+                    ]
+                ],
+                "manufacturer": "Smart Life",
+                "model": "switch",
+                "name": "Ambientador",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0366ef11b78627a05bce142caec4afca",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "059ee9dbb9baa304af705cd8f3006259"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "yeelight",
+                        "0x000000000e9f8ace"
+                    ]
+                ],
+                "manufacturer": "Yeelight",
+                "model": "colora",
+                "name": "yeelight_colora_0x000000000e9f8ace",
+                "sw_version": "7",
+                "entry_type": null,
+                "id": "5b5fd3dfb8190c3267a187b6fb2fa265",
+                "via_device_id": null,
+                "area_id": "7690b10b1e184820a9ce4583a6cd212a",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "aa034cebee89c3360305b08b90d97979"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "openweathermap",
+                        "40.6062234-"
+                    ]
+                ],
+                "manufacturer": "OpenWeather",
+                "model": null,
+                "name": "OpenWeatherMap",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "c0070c72e027d3cf50c13b5541575319",
+                "via_device_id": null,
+                "area_id": "6b90402e8924490b9dd55739d3e992bb",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "aa034cebee89c3360305b08b90d97979"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "openweathermap",
+                        "40.6062234--3.6959634"
+                    ]
+                ],
+                "manufacturer": "OpenWeather",
+                "model": null,
+                "name": "OpenWeatherMap",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "b3e21e484e46320a41bc3c5a69df5f3b",
+                "via_device_id": null,
+                "area_id": "6b90402e8924490b9dd55739d3e992bb",
                 "name_by_user": null,
                 "disabled_by": null
             }
@@ -733,135 +821,152 @@
         "deleted_devices": [
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "3e5c7f1af595495d9b767aae10576053"
+                        "mac",
+                        "02:42:3e:99:f2:e6"
                     ]
                 ],
-                "id": "d74185b1a201abfc3237351919dc10c9",
-                "orphaned_timestamp": 1616965537.249532
+                "identifiers": [],
+                "id": "d804eb76aa7639f6f618c4ff0bb8be35",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
                 "connections": [],
                 "identifiers": [
                     [
-                        "mobile_app",
-                        "9d4f423e1d754a0990f58afcea033c8f"
+                        "deconz",
+                        "00212E07258B"
                     ]
                 ],
-                "id": "a16b3f9516fb68cb794badc721ee0fc1",
-                "orphaned_timestamp": 1616965543.6571782
+                "id": "786a58cf7d494e9ca6d4bf730db431a5",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "8f9b545f882548b5b14f51782907ba9f"
+                        "zigbee",
+                        "00:21:2e:ff:ff:07:25:8b"
                     ]
                 ],
-                "id": "9b53e9a40f61d9be61bf87e1992a1179",
-                "orphaned_timestamp": 1616965549.244716
+                "identifiers": [
+                    [
+                        "deconz",
+                        "00:21:2e:ff:ff:07:25:8b"
+                    ]
+                ],
+                "id": "cbd644db609982b3fc7f9d2312855741",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "60a3f1167d7d46a18ad2c470da107d7f"
+                        "mac",
+                        "02:42:ff:1b:b2:ff"
                     ]
                 ],
-                "id": "e0089f76b82b44668e482b02fc56597f",
-                "orphaned_timestamp": 1616965554.8306491
+                "identifiers": [],
+                "id": "51e1e917ba8f2a965109b9354716a9ff",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "3e6412481108430ca69e022f17049a35"
+                        "mac",
+                        "d2:e2:75:24:3f:63"
                     ]
                 ],
-                "id": "c876d49f96449c6a450fd7d2b3741cd7",
-                "orphaned_timestamp": 1616965560.1463253
+                "identifiers": [],
+                "id": "bbb7230f8e2ae88a3813ca8dfaa64cef",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "52fbb1b5aac94606ab6172d3a8af544f"
+                        "mac",
+                        "f2:f2:f6:d9:c5:79"
                     ]
                 ],
-                "id": "95a767c81e216712be91fd7d0028c57d",
-                "orphaned_timestamp": 1616965564.867336
+                "identifiers": [],
+                "id": "7724743888eb62c854642848e3eee742",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "2addaf7a6fbe470dae29e63b46647e6e"
+                        "mac",
+                        "22:93:48:3e:fd:3e"
                     ]
                 ],
-                "id": "8efa8560f2e9cf259621b5ba3d7dcfbd",
-                "orphaned_timestamp": 1616965570.070003
+                "identifiers": [],
+                "id": "05466e55fc3b63096f5740275c86566f",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "2dea1abdc50445d19add75d8b2c7e191"
+                        "mac",
+                        "de:29:ee:86:97:ee"
                     ]
                 ],
-                "id": "42179abfa2304015718b8a3b6ea59962",
-                "orphaned_timestamp": 1616965781.9340928
+                "identifiers": [],
+                "id": "7f127565d97efafe908d04a6ec37d035",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "d0f028c9dbc04fc99eb6a69dbf076ff2"
+                        "mac",
+                        "aa:15:bb:40:8d:12"
                     ]
                 ],
-                "id": "feedf3430943e8824fd5a57c861f5acb",
-                "orphaned_timestamp": 1616965787.254497
+                "identifiers": [],
+                "id": "4b1f3c1ffc825d027173b98663cb29f3",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "aa48ba4422144091a69718f81b3d7b31"
+                        "mac",
+                        "c6:81:e0:44:e7:67"
                     ]
                 ],
-                "id": "7f054af30d8216be81fe0cf0fadfdba4",
-                "orphaned_timestamp": 1616966189.5862234
+                "identifiers": [],
+                "id": "f4b29d708e0b8404484b3db235cafd14",
+                "orphaned_timestamp": 1624482641.2984695
             },
             {
                 "config_entries": [],
-                "connections": [],
-                "identifiers": [
+                "connections": [
                     [
-                        "mobile_app",
-                        "7057972febaf445698ea52e2e3989d6e"
+                        "mac",
+                        "52:2a:8c:d6:72:7b"
                     ]
                 ],
-                "id": "816af6dca3b4aad5ea1e3ca71c3be352",
-                "orphaned_timestamp": 1616966195.5950701
+                "identifiers": [],
+                "id": "a21aff5bb08f40a9393a1c9d85005e8b",
+                "orphaned_timestamp": 1624482641.2984695
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "8a:eb:ab:16:4d:5e"
+                    ]
+                ],
+                "identifiers": [],
+                "id": "fb763d9a2ff122e86cb4e84db6661f7e",
+                "orphaned_timestamp": 1624482641.2984695
             }
         ]
     }

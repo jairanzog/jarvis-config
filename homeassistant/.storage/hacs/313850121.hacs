@@ -1,0 +1,63 @@
+{
+    "version": "6",
+    "key": "hacs/313850121.hacs",
+    "data": {
+        "archived": false,
+        "authors": [
+            "@al-one"
+        ],
+        "category": "integration",
+        "content_in_root": false,
+        "country": [],
+        "config_flow": true,
+        "default_branch": "master",
+        "description": "Xiaomi Miio Yeelink/Yeelight devices for Home Assistant",
+        "domain": "miio_yeelink",
+        "domains": [],
+        "downloads": 0,
+        "etag_repository": "W/\"2e117c12212678c6bcf6cb957b540e57f52d68bb74764f82f670f2f0f6e0db7a\"",
+        "file_name": "",
+        "filename": "",
+        "first_install": false,
+        "fork": false,
+        "full_name": "al-one/hass-miio-yeelink",
+        "hacs": null,
+        "hide": false,
+        "hide_default_branch": false,
+        "homeassistant": null,
+        "id": "313850121",
+        "iot_class": null,
+        "installed": true,
+        "installed_commit": "f32d6e9",
+        "installed_version": "v0.1.7",
+        "open_issues": 0,
+        "last_commit": "62ffed1",
+        "last_version": "v0.1.8",
+        "last_updated": "2021-06-19T09:05:53Z",
+        "manifest_name": "Miio For Yeelink",
+        "new": false,
+        "persistent_directory": null,
+        "pushed_at": "2021-06-19T09:05:53",
+        "releases": true,
+        "render_readme": true,
+        "published_tags": [
+            "v0.1.8",
+            "v0.1.7",
+            "v0.1.6",
+            "v0.1.5",
+            "v0.1.3"
+        ],
+        "selected_tag": null,
+        "show_beta": false,
+        "stargazers_count": 61,
+        "topics": [
+            "yeelight",
+            "home-assistant",
+            "xiaomi",
+            "miio",
+            "miot",
+            "yeelink"
+        ],
+        "zip_release": false
+    }
+}

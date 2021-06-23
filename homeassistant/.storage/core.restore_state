@@ -5,23 +5,27 @@
         {
             "state": {
                 "entity_id": "person.cristina",
-                "state": "unknown",
+                "state": "Casa",
                 "attributes": {
                     "editable": false,
                     "id": "cristina",
+                    "latitude": 40.6063628,
+                    "longitude": -3.6962318,
+                    "gps_accuracy": 15,
+                    "source": "device_tracker.huawei_p20_lite",
                     "user_id": "ad410cbc97194e56a36c416197740f7c",
                     "friendly_name": "Cristina",
                     "entity_picture": "/api/image/serve/69e76b420267eeeac2a56aba5ff19602/512x512"
                 },
-                "last_changed": "2021-03-28T22:46:18.252168+00:00",
-                "last_updated": "2021-03-28T22:46:48.135989+00:00",
+                "last_changed": "2021-06-06T12:52:43.758313+00:00",
+                "last_updated": "2021-06-06T12:53:21.963569+00:00",
                 "context": {
-                    "id": "49517899f0d89617477feeaad72dba2b",
+                    "id": "6b0e19ce1b088b45505392207f28e91a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -30,22 +34,23 @@
                 "attributes": {
                     "editable": false,
                     "id": "jairo",
-                    "latitude": 40.6063793,
-                    "longitude": -3.6962288,
-                    "gps_accuracy": 12,
+                    "latitude": 40.6063524,
+                    "longitude": -3.6962285,
+                    "gps_accuracy": 11,
                     "source": "device_tracker.galaxy_s20_jairo",
+                    "user_id": "e8481eb3424840c99b533e3f092e166c",
                     "friendly_name": "Jairo",
                     "entity_picture": "/api/image/serve/453f5c2cbe9aaa54fc61d30dcf9a246f/512x512"
                 },
-                "last_changed": "2021-03-28T22:46:18.252815+00:00",
-                "last_updated": "2021-03-28T22:46:48.137019+00:00",
+                "last_changed": "2021-06-23T18:00:43.034793+00:00",
+                "last_updated": "2021-06-23T20:42:29.287503+00:00",
                 "context": {
-                    "id": "f0cbf987b84aef82c103a35696a7ce5b",
+                    "id": "8c9ac43f6c86f2b5250c0d28e461b9ba",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -54,69 +59,15 @@
                 "attributes": {
                     "friendly_name": "home_mode"
                 },
-                "last_changed": "2021-03-28T22:46:29.369399+00:00",
-                "last_updated": "2021-03-28T22:46:29.369399+00:00",
+                "last_changed": "2021-06-06T12:53:09.946954+00:00",
+                "last_updated": "2021-06-06T12:53:09.946954+00:00",
                 "context": {
-                    "id": "275d929a40295b9bc2559522e60e377a",
+                    "id": "886f6985a23012d45f4d78523aec76fe",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "input_boolean.cocina_encendido_manual",
-                "state": "off",
-                "attributes": {
-                    "editable": false,
-                    "friendly_name": "Cocina Encendido Manual"
-                },
-                "last_changed": "2021-03-28T22:46:29.405756+00:00",
-                "last_updated": "2021-03-28T22:46:29.405756+00:00",
-                "context": {
-                    "id": "763d7184cd2fb3617379b0f2e6cd1c02",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "input_boolean.cocina_apagado_manual",
-                "state": "off",
-                "attributes": {
-                    "editable": false,
-                    "friendly_name": "Cocina Apagado Manual"
-                },
-                "last_changed": "2021-03-28T22:46:29.406080+00:00",
-                "last_updated": "2021-03-28T22:46:29.406080+00:00",
-                "context": {
-                    "id": "4fbafb2c6e22616440e3291bfb64b5d8",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "input_boolean.fuera_de_casa",
-                "state": "off",
-                "attributes": {
-                    "editable": false,
-                    "friendly_name": "Modo Fuera de Casa"
-                },
-                "last_changed": "2021-03-28T22:46:29.406379+00:00",
-                "last_updated": "2021-03-28T22:46:29.406379+00:00",
-                "context": {
-                    "id": "9a47cf8eb54e96f5e0a4b84fa48e5b28",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -127,15 +78,15 @@
                     "editable": false,
                     "friendly_name": "La cocina se apagar\u00e1 en"
                 },
-                "last_changed": "2021-03-28T22:46:29.445755+00:00",
-                "last_updated": "2021-03-28T22:46:29.445755+00:00",
+                "last_changed": "2021-06-06T12:53:10.999346+00:00",
+                "last_updated": "2021-06-06T12:53:10.999346+00:00",
                 "context": {
-                    "id": "e05179c8ca8d7364c3b3e91a1bb1f864",
+                    "id": "b36b627105faa5a9c93f3de8cc5f2663",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -146,15 +97,15 @@
                     "editable": false,
                     "friendly_name": "El ambientador se apagar\u00e1 en"
                 },
-                "last_changed": "2021-03-28T22:46:29.446234+00:00",
-                "last_updated": "2021-03-28T22:46:29.446234+00:00",
+                "last_changed": "2021-06-19T15:58:01.003018+00:00",
+                "last_updated": "2021-06-19T15:58:01.003018+00:00",
                 "context": {
-                    "id": "f80a18601d5fd3074daf536afd810d9f",
+                    "id": "a999596bc72f8a7efd129c9e2cfaf810",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -164,15 +115,15 @@
                     "duration": "0:05:00",
                     "editable": false
                 },
-                "last_changed": "2021-03-28T22:46:29.446586+00:00",
-                "last_updated": "2021-03-28T22:46:29.446586+00:00",
+                "last_changed": "2021-06-06T12:53:11.000044+00:00",
+                "last_updated": "2021-06-06T12:53:11.000044+00:00",
                 "context": {
-                    "id": "0748bdd88b662da510857f279f62f88f",
+                    "id": "012dafb2d870d6eed46e93d39b861172",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -226,434 +177,255 @@
                     "friendly_name": "Themes",
                     "icon": "mdi:format-paint"
                 },
-                "last_changed": "2021-03-28T22:46:29.455747+00:00",
-                "last_updated": "2021-03-28T22:46:29.455747+00:00",
+                "last_changed": "2021-06-06T12:53:11.000566+00:00",
+                "last_updated": "2021-06-06T12:53:11.000566+00:00",
                 "context": {
-                    "id": "e08c42c3c7f2f2c7167da20545d8b62b",
+                    "id": "5aebbf36ea303f2736c1a208d89c0386",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.speedtest_ping",
-                "state": "11.232",
+                "entity_id": "input_boolean.cocina_encendido_manual",
+                "state": "off",
                 "attributes": {
-                    "attribution": "Data retrieved from Speedtest.net by Ookla",
-                    "server_name": "Madrid",
-                    "server_country": "Spain",
-                    "server_id": "21349",
-                    "unit_of_measurement": "ms",
-                    "friendly_name": "SpeedTest Ping",
-                    "icon": "mdi:speedometer"
+                    "editable": false,
+                    "friendly_name": "Cocina Encendido Manual"
                 },
-                "last_changed": "2021-03-28T23:17:38.433791+00:00",
-                "last_updated": "2021-03-28T23:17:38.433791+00:00",
+                "last_changed": "2021-06-06T12:53:11.003931+00:00",
+                "last_updated": "2021-06-06T12:53:11.003931+00:00",
                 "context": {
-                    "id": "7e075616151e6de670fa2489785b681c",
+                    "id": "dcf4eca5925835959e1e37a8a5e034c4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.speedtest_download",
-                "state": "13.85",
+                "entity_id": "input_boolean.cocina_apagado_manual",
+                "state": "off",
                 "attributes": {
-                    "attribution": "Data retrieved from Speedtest.net by Ookla",
-                    "server_name": "Madrid",
-                    "server_country": "Spain",
-                    "server_id": "21349",
-                    "bytes_received": 17643820,
-                    "unit_of_measurement": "Mbit/s",
-                    "friendly_name": "SpeedTest Download",
-                    "icon": "mdi:speedometer"
+                    "editable": false,
+                    "friendly_name": "Cocina Apagado Manual"
                 },
-                "last_changed": "2021-03-28T23:17:38.434521+00:00",
-                "last_updated": "2021-03-28T23:17:38.434521+00:00",
+                "last_changed": "2021-06-06T12:53:11.004380+00:00",
+                "last_updated": "2021-06-06T12:53:11.004380+00:00",
                 "context": {
-                    "id": "7ed91b3c4c337ad219dc52e2fb100a92",
+                    "id": "d8d21072accba9337de56d40a7bbb5b4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.speedtest_upload",
-                "state": "15.48",
+                "entity_id": "input_boolean.fuera_de_casa",
+                "state": "off",
                 "attributes": {
-                    "attribution": "Data retrieved from Speedtest.net by Ookla",
-                    "server_name": "Madrid",
-                    "server_country": "Spain",
-                    "server_id": "21349",
-                    "bytes_sent": 19513344,
-                    "unit_of_measurement": "Mbit/s",
-                    "friendly_name": "SpeedTest Upload",
-                    "icon": "mdi:speedometer"
+                    "editable": false,
+                    "friendly_name": "Modo Fuera de Casa"
                 },
-                "last_changed": "2021-03-28T23:17:38.435495+00:00",
-                "last_updated": "2021-03-28T23:17:38.435495+00:00",
+                "last_changed": "2021-06-06T12:53:11.004705+00:00",
+                "last_updated": "2021-06-06T12:53:11.004705+00:00",
                 "context": {
-                    "id": "80ee9e5a123d72ffa69418e29f069f2f",
+                    "id": "3b029a60684c9d434d5346c49390c57b",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "sensor.pvpc",
-                "state": "0.05465",
+                "entity_id": "input_boolean.raining_mode",
+                "state": "off",
                 "attributes": {
-                    "attribution": "Data retrieved from api.esios.ree.es by REE",
-                    "tariff": "discrimination",
-                    "min_price": 0.05178,
-                    "min_price_at": 2,
-                    "next_best_at": [
-                        2,
-                        1,
-                        0,
-                        23,
-                        3,
-                        10,
-                        9,
-                        4,
-                        21,
-                        8,
-                        5,
-                        7,
-                        6,
-                        13,
-                        14,
-                        12,
-                        15,
-                        11,
-                        16,
-                        17,
-                        20,
-                        19,
-                        18
-                    ],
-                    "price_22h": 0.05757,
-                    "price_23h": 0.05465,
-                    "price_next_day_00h": 0.05233,
-                    "price_next_day_01h": 0.05181,
-                    "price_next_day_02h": 0.05178,
-                    "price_next_day_03h": 0.05693,
-                    "price_next_day_04h": 0.07217,
-                    "price_next_day_05h": 0.07629,
-                    "price_next_day_06h": 0.08069,
-                    "price_next_day_07h": 0.07756,
-                    "price_next_day_08h": 0.07521,
-                    "price_next_day_09h": 0.06771,
-                    "price_next_day_10h": 0.06395,
-                    "price_next_day_11h": 0.11689,
-                    "price_next_day_12h": 0.10789,
-                    "price_next_day_13h": 0.09822,
-                    "price_next_day_14h": 0.10225,
-                    "price_next_day_15h": 0.11534,
-                    "price_next_day_16h": 0.12503,
-                    "price_next_day_17h": 0.13974,
-                    "price_next_day_18h": 0.15407,
-                    "price_next_day_19h": 0.14952,
-                    "price_next_day_20h": 0.14619,
-                    "price_next_day_21h": 0.07468,
-                    "unit_of_measurement": "\u20ac/kWh",
-                    "friendly_name": "PVPC",
-                    "icon": "mdi:currency-eur"
+                    "editable": true,
+                    "friendly_name": "Raining_Mode"
                 },
-                "last_changed": "2021-03-28T23:00:00.024244+00:00",
-                "last_updated": "2021-03-28T23:00:00.024244+00:00",
+                "last_changed": "2021-06-06T12:53:13.465897+00:00",
+                "last_updated": "2021-06-06T12:53:13.465897+00:00",
                 "context": {
-                    "id": "9d1175898b076272aedc4bf89c200709",
+                    "id": "6b7ea8ae52f5c124e42e3ec910b6d9c0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.huawei_p20_lite_cristina_connectivity_sensor",
-                "state": "connected",
-                "attributes": {
-                    "type": "WIFI",
-                    "subtype": "",
-                    "icon": "mdi:access-point-network",
-                    "state": "connected",
-                    "unit_of_measurement": "",
-                    "friendly_name": "HUAWEI_P20_lite_Cristina Connectivity Sensor",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-28T22:46:35.652479+00:00",
-                "last_updated": "2021-03-28T22:46:35.652479+00:00",
-                "context": {
-                    "id": "64b80ff2aa61da6bf01d44d08a34ab23",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.huawei_p20_lite_cristina_battery_sensor",
-                "state": "97.0",
-                "attributes": {
-                    "state": 97,
-                    "voltage": "4130 mV",
-                    "temperature": "22.0",
-                    "charging_state": "discharging",
-                    "power": "Unplugged",
-                    "device_class": "battery",
-                    "unit_of_measurement": "%",
-                    "health": "good",
-                    "technology": "Li-poly",
-                    "icon": "mdi:battery",
-                    "friendly_name": "HUAWEI_P20_lite_Cristina Battery Sensor"
-                },
-                "last_changed": "2021-03-28T22:46:35.653271+00:00",
-                "last_updated": "2021-03-28T22:46:35.653271+00:00",
-                "context": {
-                    "id": "fa4782ea989eb6670ecc029752fe1c44",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "device_tracker.huawei_p20_lite_cristina",
-                "state": "unknown",
-                "attributes": {
-                    "source_type": "gps",
-                    "friendly_name": "HUAWEI_P20_lite_Cristina"
-                },
-                "last_changed": "2021-03-28T22:46:35.654263+00:00",
-                "last_updated": "2021-03-28T22:46:35.654263+00:00",
-                "context": {
-                    "id": "ea979b8a721139f98436672d5404b103",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "device_tracker.tablet_jairo",
-                "state": "unknown",
-                "attributes": {
-                    "source_type": "gps",
-                    "friendly_name": "Tablet_Jairo"
-                },
-                "last_changed": "2021-03-28T22:46:35.654933+00:00",
-                "last_updated": "2021-03-28T22:46:35.654933+00:00",
-                "context": {
-                    "id": "94cb5f26b70542bd2afce47eacb9e546",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "device_tracker.galaxy_s20_jairo",
-                "state": "Casa",
-                "attributes": {
-                    "source_type": "gps",
-                    "battery_level": 87,
-                    "latitude": 40.6063793,
-                    "longitude": -3.6962288,
-                    "gps_accuracy": 12,
-                    "friendly_name": "Galaxy_S20_Jairo"
-                },
-                "last_changed": "2021-03-28T22:46:35.656506+00:00",
-                "last_updated": "2021-03-28T22:46:35.656506+00:00",
-                "context": {
-                    "id": "c4efe2471f27037d9d58b705468712f7",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.ssl_expiry_notification",
-                "state": "off",
+                "state": "on",
                 "attributes": {
-                    "last_triggered": null,
+                    "last_triggered": "2021-03-29T15:34:04.808774+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "2be63addb62b4c5c9952a9ea34ba3e2c",
                     "friendly_name": "Mantenimiento - SSL expiry notification"
                 },
-                "last_changed": "2021-03-28T23:08:59.234267+00:00",
-                "last_updated": "2021-03-28T23:08:59.234267+00:00",
+                "last_changed": "2021-06-06T12:53:15.457100+00:00",
+                "last_updated": "2021-06-06T12:53:15.457100+00:00",
                 "context": {
-                    "id": "82947ebfda978b287357a7a7d89faa58",
+                    "id": "6a5832dc7c194dbf3eb7db9c0f19192d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.purge_database",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T23:15:00.006383+00:00",
+                    "last_triggered": "2021-06-22T23:15:00.005350+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "39b1e5e5205943ce9cdd80c5c872f823",
                     "friendly_name": "Mantenimiento - Purge Database"
                 },
-                "last_changed": "2021-03-28T23:08:59.295739+00:00",
-                "last_updated": "2021-03-28T23:15:00.033894+00:00",
+                "last_changed": "2021-06-06T12:53:15.458220+00:00",
+                "last_updated": "2021-06-22T23:15:00.031756+00:00",
                 "context": {
-                    "id": "b8b4d3a40a693acdae227092652967f2",
+                    "id": "80de9969b9ad045b8498ec2f0f4b72d2",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.encender_luces_cocina",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T21:00:18.388979+00:00",
+                    "last_triggered": "2021-05-15T18:22:58.271274+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585443406855",
                     "friendly_name": "Cocina - 1.- Encender Luces"
                 },
-                "last_changed": "2021-03-28T23:08:59.296393+00:00",
-                "last_updated": "2021-03-28T23:08:59.296393+00:00",
+                "last_changed": "2021-06-06T12:53:15.459091+00:00",
+                "last_updated": "2021-06-06T12:53:15.459091+00:00",
                 "context": {
-                    "id": "23c247533c184fdbb98feae489fd7cb4",
+                    "id": "4bd1132f55f11788398588bdae55e776",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.reiniciar_timer_cocina",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T19:54:51.111536+00:00",
+                    "last_triggered": "2021-05-15T18:22:58.272817+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585779410147",
                     "friendly_name": "Cocina - 2.- Reiniciar Timer Si hay movimiento"
                 },
-                "last_changed": "2021-03-28T23:08:59.296929+00:00",
-                "last_updated": "2021-03-28T23:08:59.296929+00:00",
+                "last_changed": "2021-06-06T12:53:15.459842+00:00",
+                "last_updated": "2021-06-06T12:53:15.459842+00:00",
                 "context": {
-                    "id": "2752d48db8dbda2d5cb0aa4991d7bbc3",
+                    "id": "59d18f717339716643fdbcfed92404a1",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.apagar_luz_cocina",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T21:03:18.007960+00:00",
+                    "last_triggered": "2021-05-15T17:01:12.005927+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585779713964",
                     "friendly_name": "Cocina - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia"
                 },
-                "last_changed": "2021-03-28T23:08:59.297456+00:00",
-                "last_updated": "2021-03-28T23:08:59.297456+00:00",
+                "last_changed": "2021-06-06T12:53:15.460570+00:00",
+                "last_updated": "2021-06-06T12:53:15.460570+00:00",
                 "context": {
-                    "id": "b6a3009ecd167927b7748bc74c73c736",
+                    "id": "9e352a5cd82d2b2be7a1bef1a5f48293",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.reiniciar_timer_cocina_si_hay_movimiento",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T20:00:51.006893+00:00",
+                    "last_triggered": "2021-05-15T16:58:12.010308+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585862713410",
                     "friendly_name": "Cocina - 2.- Reiniciar Timer al terminar si hay movimiento"
                 },
-                "last_changed": "2021-03-28T23:08:59.297990+00:00",
-                "last_updated": "2021-03-28T23:08:59.297990+00:00",
+                "last_changed": "2021-06-06T12:53:15.461300+00:00",
+                "last_updated": "2021-06-06T12:53:15.461300+00:00",
                 "context": {
-                    "id": "8d1e1005912c390a036e4569c00bd7f5",
+                    "id": "ca5aa91aaf2bb83d923e98623532340d",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.timer_ambientador",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-27T08:15:40.748971+00:00",
+                    "last_triggered": "2021-06-19T15:38:01.043699+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585949759397",
                     "friendly_name": "Ba\u00f1o - Lanzar Timer Ambientador"
                 },
-                "last_changed": "2021-03-28T23:08:59.298513+00:00",
-                "last_updated": "2021-03-28T23:08:59.298513+00:00",
+                "last_changed": "2021-06-06T12:53:15.462211+00:00",
+                "last_updated": "2021-06-19T15:38:01.053535+00:00",
                 "context": {
-                    "id": "c1a9c81c7502a34c18d4d2b403b66e79",
-                    "parent_id": null,
+                    "id": "6677d97ab09b193cdf92c55509544f81",
+                    "parent_id": "67f4c058430d2f8d7eb22ef05c8884cc",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.apagar_ambientador",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-27T08:35:40.005819+00:00",
+                    "last_triggered": "2021-06-19T15:58:01.009920+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1585949892397",
                     "friendly_name": "Ba\u00f1o - Apagar Ambientador"
                 },
-                "last_changed": "2021-03-28T23:08:59.299041+00:00",
-                "last_updated": "2021-03-28T23:08:59.299041+00:00",
+                "last_changed": "2021-06-06T12:53:15.463297+00:00",
+                "last_updated": "2021-06-19T15:58:02.471936+00:00",
                 "context": {
-                    "id": "0de134eab94008277a85d0119a93c4b7",
-                    "parent_id": null,
+                    "id": "ee2483a44afd83eae8bdfdb57dc49643",
+                    "parent_id": "8076bb5e2fcfcce2e01e8a4d7f31f049",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -666,36 +438,36 @@
                     "id": "1587911420304",
                     "friendly_name": "Notificaciones - Ejemplo Ariela y Telegram"
                 },
-                "last_changed": "2021-03-28T23:08:59.237808+00:00",
-                "last_updated": "2021-03-28T23:08:59.237808+00:00",
+                "last_changed": "2021-06-06T12:53:15.464066+00:00",
+                "last_updated": "2021-06-06T12:53:15.464066+00:00",
                 "context": {
-                    "id": "71ba5543e17702c10df60b941e6ce7d7",
+                    "id": "3f27f6f2d5630ffc5d077b8ab0944087",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.nueva_automatizacion_3",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T23:12:29.778160+00:00",
+                    "last_triggered": "2021-05-10T15:34:18.203587+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1594566586809",
                     "friendly_name": "Notificaci\u00f3n Ventana abierta"
                 },
-                "last_changed": "2021-03-28T23:08:59.299568+00:00",
-                "last_updated": "2021-03-28T23:12:30.642537+00:00",
+                "last_changed": "2021-06-06T12:53:15.464747+00:00",
+                "last_updated": "2021-06-06T12:53:15.464747+00:00",
                 "context": {
-                    "id": "4528b3c65682c0e893d181d60d2090bf",
-                    "parent_id": "1b6949503a6af49dc7c0227f61e93e45",
+                    "id": "78e81337277ad8804ed2336887746cf2",
+                    "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -708,78 +480,78 @@
                     "id": "7edffded06964a88bc140f4d11a478f1",
                     "friendly_name": "set Themes - by caulecriativo.com"
                 },
-                "last_changed": "2021-03-28T23:08:59.300093+00:00",
-                "last_updated": "2021-03-28T23:08:59.300093+00:00",
+                "last_changed": "2021-06-06T12:53:15.465487+00:00",
+                "last_updated": "2021-06-06T12:53:15.465487+00:00",
                 "context": {
-                    "id": "2a7f8b522cdd46566ab66dc115a2cde5",
+                    "id": "f7d6a258abf4d46bd40673943072e335",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.salon_encendido_de_luces_al_atardecer",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T23:09:07.372309+00:00",
+                    "last_triggered": "2021-06-23T19:42:33.603306+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "ac81d87d98a64d19adcf9b306ee2582e",
                     "friendly_name": "Sal\u00f3n - Encendido de Luces al Atardecer"
                 },
-                "last_changed": "2021-03-28T23:08:59.300642+00:00",
-                "last_updated": "2021-03-28T23:09:09.222899+00:00",
+                "last_changed": "2021-06-06T12:53:15.466241+00:00",
+                "last_updated": "2021-06-23T19:42:37.046595+00:00",
                 "context": {
-                    "id": "9adede696b1974d96cd31ac9c1cc0638",
-                    "parent_id": "c1e6c5025418bd179b743567a5bc304c",
+                    "id": "6637e1df8326af5637a177c95645dc1e",
+                    "parent_id": "5178df20b229e6e7e092919453dee240",
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.nueva_automatizacion",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-24T19:54:00.803877+00:00",
+                    "last_triggered": "2021-05-08T19:24:31.442572+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1588957172553",
                     "friendly_name": "Sal\u00f3n - Encendido de Luces al llegar a casa por la noche"
                 },
-                "last_changed": "2021-03-28T23:08:59.301175+00:00",
-                "last_updated": "2021-03-28T23:08:59.301175+00:00",
+                "last_changed": "2021-06-06T12:53:15.466973+00:00",
+                "last_updated": "2021-06-06T12:53:15.466973+00:00",
                 "context": {
-                    "id": "c6db1fcdb968dfafcc5506e6819f0c31",
+                    "id": "3fde062ee2597cbd3acdbc611523f1b7",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.salon_encender_la_luz_en_dia_nublado",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-01-21T19:50:23.309119+00:00",
+                    "last_triggered": "2021-05-14T19:11:06.412658+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1590607875312",
                     "friendly_name": "Salon - Encender la luz en d\u00eda nublado"
                 },
-                "last_changed": "2021-03-28T23:08:59.301707+00:00",
-                "last_updated": "2021-03-28T23:08:59.301707+00:00",
+                "last_changed": "2021-06-06T12:53:15.467698+00:00",
+                "last_updated": "2021-06-06T12:53:15.467698+00:00",
                 "context": {
-                    "id": "b8591eaf2d8e5fb38749549dbf6126e7",
+                    "id": "6664e14c2e35ab2475f38c1b564a75b7",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -792,15 +564,15 @@
                     "id": "1592779443063",
                     "friendly_name": "Refresco Eventos"
                 },
-                "last_changed": "2021-03-28T23:08:59.302239+00:00",
-                "last_updated": "2021-03-28T23:08:59.302239+00:00",
+                "last_changed": "2021-06-06T12:53:15.468593+00:00",
+                "last_updated": "2021-06-06T12:53:15.468593+00:00",
                 "context": {
-                    "id": "23af0f92d766702a85d0629fbf488c4c",
+                    "id": "d524cd92087683cd18dd5b25ecc42c71",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -813,36 +585,36 @@
                     "id": "1607623998353",
                     "friendly_name": "Alarmas -  Inundaci\u00f3n"
                 },
-                "last_changed": "2021-03-28T23:08:59.302765+00:00",
-                "last_updated": "2021-03-28T23:08:59.302765+00:00",
+                "last_changed": "2021-06-06T12:53:15.469402+00:00",
+                "last_updated": "2021-06-06T12:53:15.469402+00:00",
                 "context": {
-                    "id": "e3c4487111174c8dd7fba46016293647",
+                    "id": "a886beb879c0596e2456f98c2c5ecd6a",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_1_encender_lampara",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T21:00:36.882455+00:00",
+                    "last_triggered": "2021-05-14T23:40:26.948946+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_1",
                     "friendly_name": "Dormitorio - 1.- Encender Lampara"
                 },
-                "last_changed": "2021-03-28T23:08:59.303290+00:00",
-                "last_updated": "2021-03-28T23:08:59.303290+00:00",
+                "last_changed": "2021-06-06T12:53:15.470177+00:00",
+                "last_updated": "2021-06-06T12:53:15.470177+00:00",
                 "context": {
-                    "id": "38f2ad4ce5af585016397ab44d98d960",
+                    "id": "0ad5fa692c6c6bd7b8b6e5af17472154",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -855,57 +627,57 @@
                     "id": "dormitorio_2",
                     "friendly_name": "Dormitorio - 2.- Reiniciar Timer Si hay movimiento"
                 },
-                "last_changed": "2021-03-28T23:08:59.303814+00:00",
-                "last_updated": "2021-03-28T23:08:59.303814+00:00",
+                "last_changed": "2021-06-06T12:53:15.470920+00:00",
+                "last_updated": "2021-06-06T12:53:15.470920+00:00",
                 "context": {
-                    "id": "0023679971cbbee2a4f3c6d922927c1b",
+                    "id": "454abb2d7bc834cc4e2078e51906e8f0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_3_apagar_luz_cuando_timer_acaba_y_no_se_detecta_presencia",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T21:05:36.007373+00:00",
+                    "last_triggered": "2021-05-14T23:45:26.006249+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_3",
                     "friendly_name": "Dormitorio - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia"
                 },
-                "last_changed": "2021-03-28T23:08:59.304336+00:00",
-                "last_updated": "2021-03-28T23:08:59.304336+00:00",
+                "last_changed": "2021-06-06T12:53:15.472223+00:00",
+                "last_updated": "2021-06-06T12:53:15.472223+00:00",
                 "context": {
-                    "id": "5e9416ea4245d0941be602e26b1e262a",
+                    "id": "4c3a329ffae426134e532a1bd3ffebd0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.dormitorio_2_reiniciar_timer_al_terminar_si_hay_movimiento",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T20:41:06.008970+00:00",
+                    "last_triggered": "2021-05-14T19:15:25.007314+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "dormitorio_4",
                     "friendly_name": "Dormitorio - 2- Reiniciar Timer al terminar si hay movimiento"
                 },
-                "last_changed": "2021-03-28T23:08:59.304918+00:00",
-                "last_updated": "2021-03-28T23:08:59.304918+00:00",
+                "last_changed": "2021-06-06T12:53:15.473262+00:00",
+                "last_updated": "2021-06-06T12:53:15.473262+00:00",
                 "context": {
-                    "id": "cf846794b2e9cc634834875b848f8e64",
+                    "id": "ace96d342fb422138cf40900fbcb3940",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -918,36 +690,36 @@
                     "id": "1608477352831",
                     "friendly_name": "Alarmas - Extra\u00f1os entrando en Casa"
                 },
-                "last_changed": "2021-03-28T23:08:59.305464+00:00",
-                "last_updated": "2021-03-28T23:08:59.305464+00:00",
+                "last_changed": "2021-06-06T12:53:15.474077+00:00",
+                "last_updated": "2021-06-06T12:53:15.474077+00:00",
                 "context": {
-                    "id": "d0193896b2351b2bf6d4b55383d89330",
+                    "id": "2e3f0de373b83e14a959f210df2c5463",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.low_battery_level_detection_notification_for_all_battery_sensors",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T22:59:06.997349+00:00",
+                    "last_triggered": "2021-06-10T19:00:00.023233+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1610479985695",
                     "friendly_name": "Low battery level detection & notification for all battery sensors"
                 },
-                "last_changed": "2021-03-28T23:08:59.306047+00:00",
-                "last_updated": "2021-03-28T23:08:59.306047+00:00",
+                "last_changed": "2021-06-06T12:53:15.474858+00:00",
+                "last_updated": "2021-06-10T19:00:02.344335+00:00",
                 "context": {
-                    "id": "f537b6a93ebd654eee3b7e1681bc7869",
+                    "id": "14af0f9e4029323bfddb7bc5ae7f8218",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
@@ -960,574 +732,621 @@
                     "id": "1612488343402",
                     "friendly_name": "Temperatura Habiitaci\u00f3n por debajo de 18"
                 },
-                "last_changed": "2021-03-28T23:08:59.306578+00:00",
-                "last_updated": "2021-03-28T23:08:59.306578+00:00",
+                "last_changed": "2021-06-06T12:53:15.475611+00:00",
+                "last_updated": "2021-06-06T12:53:15.475611+00:00",
                 "context": {
-                    "id": "eec762fc87694dfd94f306f590cbe571",
+                    "id": "eecb837b5cac1c656cdc9f2e6c5c2b51",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "automation.turn_on_light_switch_scene_script_or_group_based_on_motion_and_illuminance",
-                "state": "off",
-                "attributes": {
-                    "last_triggered": "2021-02-09T23:32:55.259894+00:00",
-                    "mode": "restart",
-                    "current": 0,
-                    "id": "1612912361902",
-                    "friendly_name": "Gesti\u00f3n luz Cocina"
-                },
-                "last_changed": "2021-03-28T23:08:59.243566+00:00",
-                "last_updated": "2021-03-28T23:08:59.243566+00:00",
-                "context": {
-                    "id": "0d84ddd6b784003e03e1f44133146e14",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "automation.certificate_expiration",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": "2021-03-28T15:00:00.009897+00:00",
+                    "last_triggered": "2021-06-15T15:00:00.010151+00:00",
                     "mode": "single",
                     "current": 0,
                     "id": "1613908449293",
                     "friendly_name": "Certificate Expiration"
                 },
-                "last_changed": "2021-03-28T23:08:59.307102+00:00",
-                "last_updated": "2021-03-28T23:08:59.307102+00:00",
+                "last_changed": "2021-06-06T12:53:15.476360+00:00",
+                "last_updated": "2021-06-15T15:00:00.013190+00:00",
                 "context": {
-                    "id": "a3eff0df30f052d466c183ec08bb1223",
+                    "id": "d9d587833481a4466d9bffe45dcacca0",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "switch.luz_cocina",
+                "entity_id": "automation.boton",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-03-29T14:05:41.438291+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1617017045318",
+                    "friendly_name": "Cocina - Boton Encendido Manual"
+                },
+                "last_changed": "2021-06-06T12:53:15.477092+00:00",
+                "last_updated": "2021-06-06T12:53:15.477092+00:00",
+                "context": {
+                    "id": "6ff01e1953635229cab9f7915253a82b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.cocina_boton_apagado_manual",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-04-15T21:22:50.685899+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1617018471149",
+                    "friendly_name": "Cocina - Boton Apagado Manual"
+                },
+                "last_changed": "2021-06-06T12:53:15.477990+00:00",
+                "last_updated": "2021-06-06T12:53:15.477990+00:00",
+                "context": {
+                    "id": "2381e38ab0a9911b24ad487c54552352",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.general_modo_fuera_de_casa",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-04-17T11:19:32.379543+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1617018946819",
+                    "friendly_name": "General - Modo Fuera de Casa"
+                },
+                "last_changed": "2021-06-06T12:53:15.478868+00:00",
+                "last_updated": "2021-06-06T12:53:15.478868+00:00",
+                "context": {
+                    "id": "408bb7bc5431407e246844b024afa506",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.general_modo_casa",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-04-17T17:34:20.760102+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1617018985624",
+                    "friendly_name": "General - Modo Casa"
+                },
+                "last_changed": "2021-06-06T12:53:15.479626+00:00",
+                "last_updated": "2021-06-06T12:53:15.479626+00:00",
+                "context": {
+                    "id": "fa93bd1ee1ac718bd0978778b07d8767",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.nueva_automatizacion_4",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-05-15T18:22:57.964563+00:00",
+                    "mode": "restart",
+                    "current": 0,
+                    "id": "1620582981026",
+                    "friendly_name": "Bombilla"
+                },
+                "last_changed": "2021-06-06T12:53:15.480350+00:00",
+                "last_updated": "2021-06-06T12:53:15.480350+00:00",
+                "context": {
+                    "id": "8a52aadca7772c73e9ce61ec3a035e38",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.lights_flickering_when_raining",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-05-09T18:48:38.169529+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "2be63addb62b4c5c9952a9aa34ba3e2a",
+                    "friendly_name": "Dormitorio - Luces Parpadeando cuando llueve"
+                },
+                "last_changed": "2021-06-06T12:53:15.481075+00:00",
+                "last_updated": "2021-06-06T12:53:15.481075+00:00",
+                "context": {
+                    "id": "7528fb993b74db24494dacefdcaf6bcd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.dormitorio_prueba_luces_parpadeando",
                 "state": "off",
                 "attributes": {
-                    "linkquality": 26,
-                    "state": "OFF",
-                    "friendly_name": "Luz Cocina"
+                    "last_triggered": "2021-05-09T20:11:09.895122+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1620586470010",
+                    "friendly_name": "Dormitorio - Prueba Luces Parpadeando"
                 },
-                "last_changed": "2021-03-28T22:46:37.048110+00:00",
-                "last_updated": "2021-03-28T23:27:20.074155+00:00",
+                "last_changed": "2021-06-06T12:53:15.481825+00:00",
+                "last_updated": "2021-06-06T12:53:15.481825+00:00",
                 "context": {
-                    "id": "4addc155019565065539cd87fd39d0f0",
+                    "id": "1f7be5c4bd776e13bf42fe99a3aa0bb3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T23:31:48.100724+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "switch.lampara_habitacion_principal",
-                "state": "off",
+                "entity_id": "sensor.pvpc",
+                "state": "unavailable",
                 "attributes": {
-                    "friendly_name": "Lampara habitaci\u00f3n"
+                    "unit_of_measurement": "\u20ac/kWh",
+                    "friendly_name": "PVPC",
+                    "icon": "mdi:currency-eur"
                 },
-                "last_changed": "2021-03-28T21:58:25.004634+00:00",
-                "last_updated": "2021-03-28T21:58:25.004634+00:00",
+                "last_changed": "2021-06-06T12:53:15.497771+00:00",
+                "last_updated": "2021-06-06T12:53:15.497771+00:00",
                 "context": {
-                    "id": "b1903959ea2f3c4b517b4c74b669894f",
+                    "id": "1d590455952cdefa1ad9ad987b577e4e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T22:13:42.786954+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "device_tracker.galaxy_s20_jairo_2",
+                "entity_id": "device_tracker.tablet_jairo",
                 "state": "unknown",
                 "attributes": {
                     "source_type": "gps",
-                    "friendly_name": "Galaxy_S20_Jairo"
+                    "friendly_name": "Tablet_Jairo"
                 },
-                "last_changed": "2021-03-28T21:15:59.691715+00:00",
-                "last_updated": "2021-03-28T21:15:59.691715+00:00",
+                "last_changed": "2021-06-06T12:53:16.370650+00:00",
+                "last_updated": "2021-06-06T12:53:16.370650+00:00",
                 "context": {
-                    "id": "4aa8a6387b622a9eb562e3878a8c8886",
+                    "id": "8966fece0e3512c9fe7768ce286c29ce",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T21:16:35.561986+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_a2dp_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo A2DP Sensor",
-                    "icon": "mdi:bluetooth-audio",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.994351+00:00",
-                "last_updated": "2021-03-26T18:18:29.994351+00:00",
-                "context": {
-                    "id": "e01e52720916de254918908a26f08318",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.519512+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_accelerometer_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Accelerometer Sensor",
-                    "icon": "mdi:axis-arrow",
-                    "device_class": "pressure"
-                },
-                "last_changed": "2021-03-26T18:18:29.995080+00:00",
-                "last_updated": "2021-03-26T18:18:29.995080+00:00",
-                "context": {
-                    "id": "8a4ec433c1a2f2b775d46cbda2f3f7bf",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.521599+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_availability_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Availability Sensor",
-                    "icon": "mdi:lifebuoy",
-                    "device_class": "timestamp",
-                    "state": ""
-                },
-                "last_changed": "2021-03-28T21:07:57.156619+00:00",
-                "last_updated": "2021-03-28T21:07:57.156619+00:00",
-                "context": {
-                    "id": "61d5d7ce44e3ce832c46a75285f6b6e6",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T21:09:41.905901+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.galaxy_s20_jairo_battery_sensor",
-                "state": "100.0",
+                "state": "53.0",
                 "attributes": {
-                    "state": 100,
-                    "voltage": "4361 mV",
-                    "temperature": "31.5",
-                    "charging_state": "full",
-                    "power": "AC",
+                    "state": 53,
+                    "voltage": "3852 mV",
+                    "temperature": "25.5",
+                    "charging_state": "discharging",
+                    "power": "Unplugged",
                     "device_class": "battery",
                     "unit_of_measurement": "%",
                     "health": "good",
                     "technology": "Li-ion",
-                    "icon": "mdi:battery",
-                    "friendly_name": "Galaxy_S20_Jairo Battery Sensor"
+                    "icon": "mdi:battery-60",
+                    "friendly_name": "Galaxy_S20__Jairo Battery Sensor"
                 },
-                "last_changed": "2021-03-28T21:07:14.098389+00:00",
-                "last_updated": "2021-03-28T21:07:14.098389+00:00",
+                "last_changed": "2021-06-23T20:32:38.250264+00:00",
+                "last_updated": "2021-06-23T21:08:11.383117+00:00",
                 "context": {
-                    "id": "8d7787e5e5e96fd00d5c889ee0bfc73b",
+                    "id": "d34081db6880e717a022ac475aae4469",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T21:09:41.903851+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_bluetooth_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Bluetooth Sensor",
-                    "icon": "mdi:bluetooth",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.996629+00:00",
-                "last_updated": "2021-03-26T18:18:29.996629+00:00",
-                "context": {
-                    "id": "2f3ac569a2dba90822ef3967cf320c08",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.527169+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_call_state_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Call State Sensor",
-                    "icon": "mdi:phone-hangup",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.997136+00:00",
-                "last_updated": "2021-03-26T18:18:29.997136+00:00",
-                "context": {
-                    "id": "038750ef43f93bc1dc3612fb539c4576",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.528962+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_hfp_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo HFP Sensor",
-                    "icon": "mdi:phone-bluetooth",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.997638+00:00",
-                "last_updated": "2021-03-26T18:18:29.997638+00:00",
-                "context": {
-                    "id": "f96c1bd9f31bef1f105f313d74914c52",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.530755+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_light_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "lux",
-                    "friendly_name": "Galaxy_S20_Jairo Light Sensor",
-                    "icon": "mdi:led-on",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.998140+00:00",
-                "last_updated": "2021-03-26T18:18:29.998140+00:00",
-                "context": {
-                    "id": "e06a5fd83a675466bbe58dc22bb649e5",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.532608+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_motion_detection_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Motion Detection Sensor",
-                    "icon": "mdi:run-fast",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.998722+00:00",
-                "last_updated": "2021-03-26T18:18:29.998722+00:00",
-                "context": {
-                    "id": "66b2a5bf07e09d4f9a03136dd5063edc",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.534428+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_nfc_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo NFC Sensor",
-                    "icon": "mdi:nfc",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.999386+00:00",
-                "last_updated": "2021-03-26T18:18:29.999386+00:00",
-                "context": {
-                    "id": "b14c585d2d9f557a4c1d29a9f220f751",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.536224+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_notification_grabber_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Notification Grabber Sensor",
-                    "icon": "mdi:bell",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:29.999940+00:00",
-                "last_updated": "2021-03-26T18:18:29.999940+00:00",
-                "context": {
-                    "id": "86d817f61aad845575ee0eadd288c246",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.538026+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.galaxy_s20_jairo_pressure_sensor",
-                "state": "unknown",
+                "state": "940",
                 "attributes": {
-                    "unit_of_measurement": "hPa",
-                    "friendly_name": "Galaxy_S20_Jairo Pressure Sensor",
+                    "state": 940,
+                    "sensor_name": "LPS22H Barometer Sensor",
+                    "vendor": "STMicroelectronics",
+                    "version": 1,
+                    "power": "1.0 mA",
+                    "resolution": 0.000244140625,
+                    "max_range": 1260,
                     "icon": "mdi:thermometer",
+                    "unit_of_measurement": "hPa",
+                    "friendly_name": "Galaxy_S20__Jairo Pressure Sensor",
                     "device_class": "pressure"
                 },
-                "last_changed": "2021-03-26T18:18:30.000456+00:00",
-                "last_updated": "2021-03-26T18:18:30.000456+00:00",
+                "last_changed": "2021-06-23T21:08:11.444088+00:00",
+                "last_updated": "2021-06-23T21:08:11.444088+00:00",
                 "context": {
-                    "id": "0bfce76a5c854c9723048eaa68326760",
+                    "id": "4ba79411e0534d8fa41e7da937b263bb",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T20:29:26.539840+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_screen_state_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Screen State Sensor",
-                    "icon": "mdi:cellphone-android",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:30.000961+00:00",
-                "last_updated": "2021-03-26T18:18:30.000961+00:00",
-                "context": {
-                    "id": "b1c3a97ad4ca8156c823bb3b612d2db2",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.541661+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_proximity_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "cm",
-                    "friendly_name": "Galaxy_S20_Jairo Proximity Sensor",
-                    "icon": "mdi:ruler",
-                    "device_class": "pressure"
-                },
-                "last_changed": "2021-03-26T18:18:30.001462+00:00",
-                "last_updated": "2021-03-26T18:18:30.001462+00:00",
-                "context": {
-                    "id": "a2656ab7b772ee9a0d878f2aa872c1c7",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.543532+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_step_counter_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "steps",
-                    "friendly_name": "Galaxy_S20_Jairo Step Counter Sensor",
-                    "icon": "mdi:run-fast",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:30.001959+00:00",
-                "last_updated": "2021-03-26T18:18:30.001959+00:00",
-                "context": {
-                    "id": "e4ad11b326108c1f95679902eb0dd59d",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.545413+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "sensor.galaxy_s20_jairo_wifi_sensor",
-                "state": "unknown",
-                "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo WiFi Sensor",
-                    "icon": "mdi:wifi",
-                    "device_class": "illuminance"
-                },
-                "last_changed": "2021-03-26T18:18:30.002465+00:00",
-                "last_updated": "2021-03-26T18:18:30.002465+00:00",
-                "context": {
-                    "id": "e66648f333d8cd63bfd7db33391ea29e",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T20:29:26.547238+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
                 "entity_id": "sensor.galaxy_s20_jairo_connectivity_sensor",
-                "state": "unknown",
+                "state": "connected",
                 "attributes": {
-                    "unit_of_measurement": "",
-                    "friendly_name": "Galaxy_S20_Jairo Connectivity Sensor",
+                    "type": "MOBILE",
+                    "subtype": "LTE",
                     "icon": "mdi:access-point-network",
+                    "state": "connected",
+                    "unit_of_measurement": "",
+                    "friendly_name": "Galaxy_S20__Jairo Connectivity Sensor",
                     "device_class": "illuminance"
                 },
-                "last_changed": "2021-03-26T18:18:30.003064+00:00",
-                "last_updated": "2021-03-26T18:18:30.003064+00:00",
+                "last_changed": "2021-06-06T12:53:16.372929+00:00",
+                "last_updated": "2021-06-23T18:44:09.807784+00:00",
                 "context": {
-                    "id": "0ec350aa3ab769a9d659a1a5bd1072ea",
+                    "id": "aacda0f643a5122cd51b36c6f9032aeb",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T20:29:26.548854+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "device_tracker.galaxy_s20_jairo_3",
-                "state": "unknown",
+                "entity_id": "sensor.galaxy_s20_jairo_bluetooth_sensor",
+                "state": "true",
                 "attributes": {
-                    "source_type": "gps",
-                    "friendly_name": "Galaxy_S20_Jairo"
+                    "state": "true",
+                    "name": "Galaxy S20+ Jairo",
+                    "icon": "mdi:bluetooth",
+                    "mac": "02:00:00:00:00:00",
+                    "bonded_devices": [
+                        {
+                            "name": "Tronsmart Element T6 Mini",
+                            "mac": "F4:4E:FD:76:B4:50"
+                        },
+                        {
+                            "name": "Ford Audio",
+                            "mac": "00:23:3D:36:C3:80"
+                        },
+                        {
+                            "name": "Energy Tower",
+                            "mac": "30:22:81:51:25:7D"
+                        },
+                        {
+                            "name": "Mpow Swift",
+                            "mac": "1C:52:16:62:E6:8D"
+                        },
+                        {
+                            "name": "OLAF",
+                            "mac": "68:88:A1:45:CF:FD"
+                        },
+                        {
+                            "name": "HD 4.50BTNC",
+                            "mac": "00:16:94:3C:82:B5"
+                        },
+                        {
+                            "name": "LG-RK1D(A3)",
+                            "mac": "FC:58:FA:C6:16:A3"
+                        },
+                        {
+                            "name": "CAR BT",
+                            "mac": "CE:21:15:D7:39:A0"
+                        },
+                        {
+                            "name": "BT-2IN1",
+                            "mac": "CA:4D:C9:F6:23:86"
+                        }
+                    ],
+                    "discovered_devices": [
+                        {
+                            "name": "[TV] Morki TV",
+                            "mac": "C0:97:27:47:36:37",
+                            "rssi": -88
+                        },
+                        {
+                            "name": "MiTV-AESP0 8209",
+                            "mac": "B8:C6:AA:9A:C6:7B",
+                            "rssi": -75
+                        },
+                        {
+                            "name": "OLAF",
+                            "mac": "68:88:A1:45:CF:FD",
+                            "rssi": -49
+                        },
+                        {
+                            "name": "BRC1H 01:4E:38",
+                            "mac": "50:61:F6:01:4E:38",
+                            "rssi": -91
+                        },
+                        {
+                            "name": "tele",
+                            "mac": "B4:C9:B9:23:51:F2",
+                            "rssi": -66
+                        },
+                        {
+                            "name": "Mi Air2",
+                            "mac": "9C:97:89:61:13:9E",
+                            "rssi": -71
+                        },
+                        {
+                            "name": "MIBOX3",
+                            "mac": "3C:BD:3E:6F:27:46",
+                            "rssi": -72
+                        },
+                        {
+                            "name": "MIBOX4",
+                            "mac": "D4:5E:EC:3F:48:B9",
+                            "rssi": -66
+                        },
+                        {
+                            "name": "PC-1522169584",
+                            "mac": "60:F6:77:68:08:84",
+                            "rssi": -83
+                        },
+                        {
+                            "name": "SMI-M1",
+                            "mac": "D6:FD:6C:89:5A:2D",
+                            "rssi": -72
+                        },
+                        {
+                            "name": "TV\u00a0del sal\u00f3n",
+                            "mac": "40:2F:86:8E:E5:97",
+                            "rssi": -90
+                        },
+                        {
+                            "name": "LG LAS454B(4E)",
+                            "mac": "08:EF:3B:EB:EF:4E",
+                            "rssi": -55
+                        },
+                        {
+                            "name": "Mi Smart Band 5",
+                            "mac": "C0:0B:0C:02:2A:27",
+                            "rssi": -85
+                        },
+                        {
+                            "name": "",
+                            "mac": "7D:8B:27:E7:6F:1F",
+                            "rssi": -84
+                        },
+                        {
+                            "name": "Amazfit GTS",
+                            "mac": "E1:67:DE:41:81:3F",
+                            "rssi": -91
+                        }
+                    ],
+                    "unit_of_measurement": "",
+                    "friendly_name": "Galaxy_S20__Jairo Bluetooth Sensor",
+                    "device_class": "illuminance"
                 },
-                "last_changed": "2021-03-28T20:55:06.022056+00:00",
-                "last_updated": "2021-03-28T20:55:06.022056+00:00",
+                "last_changed": "2021-06-23T05:12:36.737862+00:00",
+                "last_updated": "2021-06-23T21:08:22.062700+00:00",
                 "context": {
-                    "id": "c01cbc76a243b6a2779644fd7f85595a",
+                    "id": "94b93eb466ba1510211c34be436cbee3",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T20:55:16.632723+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "device_tracker.galaxy_s20_jairo_4",
-                "state": "unknown",
+                "entity_id": "sensor.galaxy_s20_jairo_call_state_sensor",
+                "state": "idle",
                 "attributes": {
-                    "source_type": "gps",
-                    "friendly_name": "Galaxy_S20_Jairo"
+                    "icon": "mdi:phone-hangup",
+                    "state": "idle",
+                    "unit_of_measurement": "",
+                    "friendly_name": "Galaxy_S20__Jairo Call State Sensor",
+                    "device_class": "illuminance"
                 },
-                "last_changed": "2021-03-28T20:56:37.785252+00:00",
-                "last_updated": "2021-03-28T20:56:37.785252+00:00",
+                "last_changed": "2021-06-23T18:58:37.068636+00:00",
+                "last_updated": "2021-06-23T18:58:37.068636+00:00",
                 "context": {
-                    "id": "1428d196249872a883334fa90d8b0430",
+                    "id": "bbbc481122aa9ac60c1c5df7a0eb406e",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T20:56:53.926747+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         },
         {
             "state": {
-                "entity_id": "device_tracker.galaxy_s20_jairo_5",
-                "state": "unknown",
-                "attributes": {
-                    "source_type": "gps",
-                    "friendly_name": "Galaxy_S20_Jairo"
-                },
-                "last_changed": "2021-03-28T20:59:47.390089+00:00",
-                "last_updated": "2021-03-28T20:59:47.390089+00:00",
-                "context": {
-                    "id": "ab50c7d1d59249f415c69ce3b7f6909f",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T21:04:22.541396+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "device_tracker.galaxy_s20_jairo_7",
-                "state": "unknown",
-                "attributes": {
-                    "source_type": "gps",
-                    "friendly_name": "Galaxy_S20_Jairo"
-                },
-                "last_changed": "2021-03-28T21:05:19.418857+00:00",
-                "last_updated": "2021-03-28T21:05:19.418857+00:00",
-                "context": {
-                    "id": "9999932305841546c97e5a6256de0ea0",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T21:05:54.807456+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "device_tracker.galaxy_s20_jairo_6",
-                "state": "unknown",
-                "attributes": {
-                    "source_type": "gps",
-                    "friendly_name": "Galaxy_S20_Jairo"
-                },
-                "last_changed": "2021-03-28T21:05:10.839854+00:00",
-                "last_updated": "2021-03-28T21:05:10.839854+00:00",
-                "context": {
-                    "id": "3fa6a6740cb884162d4dd1c22928cbb7",
-                    "parent_id": null,
-                    "user_id": null
-                }
-            },
-            "last_seen": "2021-03-28T21:06:04.841744+00:00"
-        },
-        {
-            "state": {
-                "entity_id": "person.jairo_2",
+                "entity_id": "device_tracker.galaxy_s20_jairo",
                 "state": "Casa",
                 "attributes": {
-                    "editable": false,
-                    "id": "galaxy_s20_jairo",
-                    "latitude": 40.6063793,
-                    "longitude": -3.6962288,
-                    "gps_accuracy": 12,
-                    "source": "device_tracker.galaxy_s20_jairo",
-                    "user_id": "8ac1851ca930495ba24e72ddbb624356",
-                    "friendly_name": "Jairo",
-                    "entity_picture": "/api/image/serve/ee7ea1003830f600c6d5730caebe72dc/512x512"
+                    "source_type": "gps",
+                    "battery_level": 53,
+                    "latitude": 40.6063524,
+                    "longitude": -3.6962285,
+                    "gps_accuracy": 11,
+                    "friendly_name": "Galaxy_S20__Jairo"
                 },
-                "last_changed": "2021-03-28T21:58:42.800108+00:00",
-                "last_updated": "2021-03-28T21:58:42.800108+00:00",
+                "last_changed": "2021-06-23T20:42:29.286665+00:00",
+                "last_updated": "2021-06-23T20:42:29.286665+00:00",
                 "context": {
-                    "id": "5290d8fdaf19a082a30dd4ee5a208d12",
+                    "id": "dcfdf37ce8aa0df96ccda5eee1fbefa4",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2021-03-28T21:59:36.538596+00:00"
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.huawei_p20_lite_battery_sensor",
+                "state": "42.0",
+                "attributes": {
+                    "state": 42,
+                    "voltage": "3756 mV",
+                    "temperature": "24.0",
+                    "charging_state": "discharging",
+                    "power": "Unplugged",
+                    "device_class": "battery",
+                    "unit_of_measurement": "%",
+                    "health": "good",
+                    "technology": "Li-poly",
+                    "icon": "mdi:battery-50",
+                    "friendly_name": "HUAWEI_P20_lite Battery Sensor"
+                },
+                "last_changed": "2021-06-06T12:53:16.382022+00:00",
+                "last_updated": "2021-06-06T12:53:16.382022+00:00",
+                "context": {
+                    "id": "da14d16dd6ea51bb0dcaefed11e9c2a1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.huawei_p20_lite_connectivity_sensor",
+                "state": "connected",
+                "attributes": {
+                    "type": "MOBILE",
+                    "subtype": "LTE",
+                    "icon": "mdi:access-point-network",
+                    "state": "connected",
+                    "unit_of_measurement": "",
+                    "friendly_name": "HUAWEI_P20_lite Connectivity Sensor",
+                    "device_class": "illuminance"
+                },
+                "last_changed": "2021-06-06T12:53:16.382768+00:00",
+                "last_updated": "2021-06-06T12:53:16.382768+00:00",
+                "context": {
+                    "id": "7d74885976d04b03797d2790e89766c9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.huawei_p20_lite",
+                "state": "Casa",
+                "attributes": {
+                    "source_type": "gps",
+                    "battery_level": 60,
+                    "latitude": 40.6063628,
+                    "longitude": -3.6962318,
+                    "gps_accuracy": 15,
+                    "friendly_name": "HUAWEI_P20_lite"
+                },
+                "last_changed": "2021-06-06T12:53:16.384390+00:00",
+                "last_updated": "2021-06-06T12:53:16.384390+00:00",
+                "context": {
+                    "id": "aefc7e4ce705416fec83a7e8005f38a3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_ping",
+                "state": "14.053",
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Madrid",
+                    "server_country": "Spain",
+                    "server_id": "19859",
+                    "unit_of_measurement": "ms",
+                    "friendly_name": "SpeedTest Ping",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-06-23T20:57:17.085021+00:00",
+                "last_updated": "2021-06-23T20:57:17.085021+00:00",
+                "context": {
+                    "id": "551ee55e410d26c587b5a9de3b2be02f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_download",
+                "state": "15.21",
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Madrid",
+                    "server_country": "Spain",
+                    "server_id": "19859",
+                    "bytes_received": 21114628,
+                    "unit_of_measurement": "Mbit/s",
+                    "friendly_name": "SpeedTest Download",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-06-23T20:57:17.085679+00:00",
+                "last_updated": "2021-06-23T20:57:17.085679+00:00",
+                "context": {
+                    "id": "5fe6cce1d1eba2ebac3a7e4e915abefc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.speedtest_upload",
+                "state": "20.68",
+                "attributes": {
+                    "attribution": "Data retrieved from Speedtest.net by Ookla",
+                    "server_name": "Madrid",
+                    "server_country": "Spain",
+                    "server_id": "19859",
+                    "bytes_sent": 29589504,
+                    "unit_of_measurement": "Mbit/s",
+                    "friendly_name": "SpeedTest Upload",
+                    "icon": "mdi:speedometer"
+                },
+                "last_changed": "2021-06-23T20:57:17.086344+00:00",
+                "last_updated": "2021-06-23T20:57:17.086344+00:00",
+                "context": {
+                    "id": "7889717797f3001a5de297cc98c3fbeb",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-06-23T21:08:25.267447+00:00"
         }
     ]
 }

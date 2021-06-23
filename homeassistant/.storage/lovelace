@@ -145,6 +145,9 @@
                                                             "tap_action": {
                                                                 "action": "toggle"
                                                             }
+                                                        },
+                                                        {
+                                                            "entity": "input_boolean.raining_mode"
                                                         }
                                                     ]
                                                 }
@@ -545,6 +548,54 @@
                     "badges": [],
                     "cards": [
                         {
+                            "cards": [
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "person.jairo"
+                                        },
+                                        {
+                                            "entity": "person.cristina"
+                                        },
+                                        {
+                                            "entity": "sensor.galaxy_s20_jairo_battery_sensor"
+                                        },
+                                        {
+                                            "entity": "sensor.huawei_p20_lite_battery_sensor"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "M\u00f3viles",
+                                    "type": "entities"
+                                },
+                                {
+                                    "aspect_ratio": "16:9",
+                                    "dark_mode": false,
+                                    "default_zoom": 16,
+                                    "entities": [
+                                        {
+                                            "entity": "person.jairo"
+                                        },
+                                        {
+                                            "entity": "person.cristina"
+                                        }
+                                    ],
+                                    "geo_location_sources": [],
+                                    "hours_to_show": 8,
+                                    "title": "\u00bfDonde est\u00e1s?",
+                                    "type": "map"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "panel": true,
+                    "title": "Family"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
                             "entities": [
                                 {
                                     "entity": "sensor.last_boot"
@@ -740,6 +791,16 @@
                         {
                             "entity": "sensor.current_version",
                             "type": "entity"
+                        },
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.speedtest_download"
+                                }
+                            ],
+                            "hours_to_show": 96,
+                            "refresh_interval": 0
                         }
                     ],
                     "path": "self_monitoring",
@@ -779,10 +840,10 @@
                         {
                             "entities": [
                                 {
-                                    "entity": "sensor.sensor_vibracion_strength"
+                                    "entity": "sensor.speedtest_download"
                                 },
                                 {
-                                    "entity": "sensor.sensor_vibracion_action"
+                                    "entity": "sensor.speedtest_ping"
                                 }
                             ],
                             "hours_to_show": 72,
@@ -841,59 +902,17 @@
                                     "media_player": "all"
                                 }
                             }
+                        },
+                        {
+                            "type": "light",
+                            "entity": "light.yeelight_colora_0x000000000e9f8ace",
+                            "double_tap_action": {
+                                "action": "toggle"
+                            }
                         }
                     ],
                     "path": "otros",
                     "title": "Otros"
-                },
-                {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "cards": [
-                                {
-                                    "entities": [
-                                        {
-                                            "entity": "person.jairo"
-                                        },
-                                        {
-                                            "entity": "person.cristina"
-                                        },
-                                        {
-                                            "entity": "sensor.galaxy_s20_jairo_battery_sensor",
-                                            "type": "custom:battery-state-card"
-                                        },
-                                        {
-                                            "entity": "sensor.huawei_p20_lite_huawei_p20_lite_battery_sensor"
-                                        }
-                                    ],
-                                    "show_header_toggle": false,
-                                    "title": "M\u00f3viles",
-                                    "type": "entities"
-                                },
-                                {
-                                    "aspect_ratio": "16:9",
-                                    "dark_mode": false,
-                                    "default_zoom": 16,
-                                    "entities": [
-                                        {
-                                            "entity": "person.jairo"
-                                        },
-                                        {
-                                            "entity": "person.cristina"
-                                        }
-                                    ],
-                                    "geo_location_sources": [],
-                                    "hours_to_show": 8,
-                                    "title": "\u00bfDonde est\u00e1s?",
-                                    "type": "map"
-                                }
-                            ],
-                            "type": "vertical-stack"
-                        }
-                    ],
-                    "panel": true,
-                    "title": "Family"
                 },
                 {
                     "cards": [
@@ -921,6 +940,30 @@
                     ],
                     "panel": false,
                     "title": "Escenas y Automatismos"
+                },
+                {
+                    "title": "Gr\u00e1ficas",
+                    "path": "graficas",
+                    "panel": true,
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "history-graph",
+                            "entities": [
+                                {
+                                    "entity": "sensor.speedtest_download"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_upload"
+                                },
+                                {
+                                    "entity": "sensor.speedtest_ping"
+                                }
+                            ],
+                            "refresh_interval": 0,
+                            "hours_to_show": 48
+                        }
+                    ]
                 }
             ]
         }

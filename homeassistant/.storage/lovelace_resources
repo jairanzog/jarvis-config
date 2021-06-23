@@ -52,6 +52,76 @@
                 "url": "/hacsfiles/miflora-card/miflora-card.js",
                 "type": "module",
                 "id": "25e1fdf9b3e043e292cfda0efeef9c86"
+            },
+            {
+                "url": "/hacsfiles/lovelace-miflora-card/miflora-card.js",
+                "type": "module",
+                "id": "3c6226531d8a4c48b80e4500e9c21952"
+            },
+            {
+                "url": "/local/community/kb-better-graph-colors/kb-better-graph-colors.js",
+                "type": "module",
+                "id": "b93bb3592a104392aa06c1ce38e20e48"
+            },
+            {
+                "url": "/local/community/kb-better-graph-colors/kb-better-graph-colors.js",
+                "type": "module",
+                "id": "da9af5ee82994e6f80163379bd9d61fb"
+            },
+            {
+                "url": "/hacsfiles/lovelace-buien-rain-card/buien-rain-card.js",
+                "type": "module",
+                "id": "8dda6e3478ad4fe2a7352755996b6d66"
+            },
+            {
+                "url": "/local/community/buien-rain-card.js",
+                "type": "module",
+                "id": "1b3dee467c264fe0add0428d8b4b36e2"
+            },
+            {
+                "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js",
+                "type": "module",
+                "id": "dffc8a3febb34b8f8a5d9ef31dd266fa"
+            },
+            {
+                "url": "/local/community/mini-graph-card-bundle.js?v=0.10.0",
+                "type": "module",
+                "id": "e12e2c85adec4481b7f3ceb10082d7f8"
+            },
+            {
+                "url": "/hacsfiles/home-assistant-sun-card/home-assistant-sun-card.js",
+                "type": "module",
+                "id": "d751349a8e654472ae6e35c1ceadebfd"
+            },
+            {
+                "url": "/local/community/home-assistant-sun-card.js",
+                "type": "module",
+                "id": "da87856f471b451a98c436873c256ac0"
+            },
+            {
+                "url": "/local/community/pie-chart-card.js",
+                "type": "module",
+                "id": "3b3beb753ea24e0e88cc9d03fe04513f"
+            },
+            {
+                "url": "/hacsfiles/pie-chart-card/pie-chart-card.js",
+                "type": "module",
+                "id": "3c459b0e48d7430e824c1198ad81ce2d"
+            },
+            {
+                "url": "/hacsfiles/lovelace-swipe-navigation/swipe-navigation.js",
+                "type": "module",
+                "id": "1e12a6ebdc6243c881426fd3af2da5d1"
+            },
+            {
+                "url": "/config/www/community/lovelace-swipe-navigation.js",
+                "type": "module",
+                "id": "63661ecc3a944a8999ee88db6febc19d"
+            },
+            {
+                "url": "/hacsfiles/pvpc-hourly-pricing-card/pvpc-hourly-pricing-card.js",
+                "type": "module",
+                "id": "29f87777424a475fb0741d8dc985db3b"
             }
         ]
     }

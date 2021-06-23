@@ -12,8 +12,8 @@
         "description": "\ud83d\udcc8 A Lovelace card to display advanced graphs and charts based on ApexChartsJS for Home Assistant",
         "domain": "",
         "domains": [],
-        "downloads": 2434,
-        "etag_repository": "W/\"cae86974b056d2ff81000b8d822019410ea3a2e5300db307323de68808e15c67\"",
+        "downloads": 3536,
+        "etag_repository": "W/\"5276fe0bf00d9b5b98066dd4b2b833585fa9d8612596620f880317a80c71e1b6\"",
         "file_name": "apexcharts-card.js",
         "filename": "",
         "first_install": false,
@@ -28,31 +28,31 @@
         "installed": true,
         "installed_commit": "5d64814",
         "installed_version": "v1.8.2",
-        "open_issues": 24,
-        "last_commit": "5d64814",
-        "last_version": "v1.8.2",
-        "last_updated": "2021-03-27T14:04:57Z",
+        "open_issues": 28,
+        "last_commit": "76e5ba6",
+        "last_version": "v1.9.0",
+        "last_updated": "2021-06-21T17:13:20Z",
         "manifest_name": null,
         "new": false,
         "persistent_directory": null,
-        "pushed_at": "2021-03-27T14:04:57",
+        "pushed_at": "2021-06-21T17:13:20",
         "releases": true,
         "render_readme": true,
         "published_tags": [
+            "v1.9.0",
             "v1.8.2",
             "v1.8.1",
             "v1.8.0",
-            "v1.7.1",
-            "v1.7.0"
+            "v1.7.1"
         ],
         "selected_tag": null,
         "show_beta": false,
-        "stargazers_count": 140,
+        "stargazers_count": 202,
         "topics": [
-            "apexcharts",
-            "home-assistant",
             "iot",
-            "lovelace"
+            "home-assistant",
+            "lovelace",
+            "apexcharts"
         ],
         "zip_release": false
     }
