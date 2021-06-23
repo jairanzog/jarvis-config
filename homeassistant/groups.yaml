@@ -5,7 +5,7 @@ switches:
     - switch.luz_salon_mss310_main_channel
     - switch.home_cinema_mss310_main_channel
     - switch.bf74042d28e39f1d19joll
-    - switch.lampara_habitacion_principal
+    - switch.lampara
     - switch.luz_cocina
 sensores:
   name: sensores

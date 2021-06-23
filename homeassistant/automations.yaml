@@ -63,9 +63,14 @@
     entity_id: switch.luz_cocina
     state: 'on'
   action:
-  - data: {}
+  - data:
+      duration: '0'
     service: timer.start
-    entity_id: timer.cocina
+    target:
+      entity_id: timer.cocina
+  - service: switch.turn_on
+    target:
+      device_id: 60e9d8aba1d147929f7f26e153925773
   mode: single
 - id: '1585779713964'
   alias: Cocina - 3.- Apagar Luz cuando Timer acaba y no se detecta presencia
@@ -250,9 +255,9 @@
   alias: Salon - Encender la luz en día nublado
   description: ''
   trigger:
-  - below: '65'
-    entity_id: sensor.presencia_exterior_illuminance
+  - entity_id: sensor.presencia_exterior_illuminance
     platform: numeric_state
+    below: '28'
   condition:
   - condition: and
     conditions:
@@ -340,19 +345,20 @@
     - condition: numeric_state
       entity_id: sensor.presencia_habitacion_illuminance
       below: '15'
-    - after: '10:00:00'
-      before: 00:30:00
-      condition: time
+    - condition: time
+      after: '10:00'
     - condition: state
       entity_id: input_boolean.fuera_de_casa
       state: 'off'
   action:
   - service: timer.start
-    data: {}
-    entity_id: timer.dormitorio
+    data:
+      duration: '0'
+    target:
+      entity_id: timer.dormitorio
   - service: switch.turn_on
     data: {}
-    entity_id: switch.lampara_habitacion_principal
+    entity_id: switch.lampara
   mode: single
 - id: dormitorio_2
   alias: Dormitorio - 2.- Reiniciar Timer Si hay movimiento
@@ -363,7 +369,7 @@
     to: 'on'
   condition:
   - condition: state
-    entity_id: switch.lampara_habitacion_principal
+    entity_id: switch.lampara
     state: 'on'
   action:
   - data: {}
@@ -384,7 +390,7 @@
     state: 'off'
   action:
   - data: {}
-    entity_id: switch.lampara_habitacion_principal
+    entity_id: switch.lampara
     service: switch.turn_off
   mode: single
 - id: dormitorio_4
@@ -515,3 +521,161 @@
       days_input: 30
       certificate_input: sensor.cert_expiry_timestamp_mrdomojarvis_duckdns_org
       notify_device: 7d32452c016afe55854cc7181aa58fd8
+- id: '1617017045318'
+  alias: Cocina - Boton Encendido Manual
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: sensor.0x5c0272fffeda6fe6_action
+    attribute: action
+    to: 2_double
+  condition: []
+  action:
+  - service: input_boolean.toggle
+    target:
+      entity_id: input_boolean.cocina_encendido_manual
+  mode: single
+- id: '1617018471149'
+  alias: Cocina - Boton Apagado Manual
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: sensor.0x5c0272fffeda6fe6_action
+    attribute: action
+    to: 1_double
+  condition: []
+  action:
+  - service: input_boolean.toggle
+    target:
+      entity_id: input_boolean.cocina_apagado_manual
+  mode: single
+- id: '1617018946819'
+  alias: General - Modo Fuera de Casa
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: sensor.0x5c0272fffeda6fe6_action
+    attribute: action
+    to: 3_double
+  condition: []
+  action:
+  - service: input_boolean.turn_on
+    target:
+      entity_id: input_boolean.fuera_de_casa
+  - service: switch.turn_off
+    target:
+      entity_id:
+      - switch.luz_salon_mss310_main_channel
+      - switch.lampara
+      - switch.luz_cocina
+      - switch.bf5f971cf225cffafaiye7
+      - switch.bf74042d28e39f1d19joll
+      - switch.home_cinema_mss310_main_channel
+  mode: single
+- id: '1617018985624'
+  alias: General - Modo Casa
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: sensor.0x5c0272fffeda6fe6_action
+    attribute: action
+    to: 3_single
+  condition: []
+  action:
+  - service: input_boolean.turn_off
+    target:
+      entity_id: input_boolean.fuera_de_casa
+  - service: switch.turn_off
+    entity_id: group.switches
+  mode: single
+- id: '1620582574001'
+  alias: Nueva automatización
+  description: ''
+  use_blueprint:
+    path: myGithub-Markus/flashing_lights.yaml
+    input:
+      activated: binary_sensor.puerta_terraza_contact
+      target_lights:
+        device_id:
+        - 5b5fd3dfb8190c3267a187b6fb2fa265
+- id: '1620582981026'
+  alias: Bombilla
+  description: ''
+  use_blueprint:
+    path: myGithub-Markus/flashing_lights.yaml
+    input:
+      activated: binary_sensor.puerta_terraza_contact
+      target_lights:
+        entity_id: light.yeelight_colora_0x000000000e9f8ace
+      delay: 0
+- id: 2be63addb62b4c5c9952a9aa34ba3e2a
+  alias: Dormitorio - Luces Parpadeando cuando llueve
+  trigger:
+  - entity_id: input_boolean.raining_mode
+    platform: state
+    to: 'on'
+  action:
+  - service: scene.create
+    data:
+      scene_id: before
+      snapshot_entities:
+        entity_id: light.yeelight_colora_0x000000000e9f8ace
+  - service: yeelight.set_color_scene
+    entity_id: light.yeelight_colora_0x000000000e9f8ace
+    data:
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      brightness: 100
+  - service: light.turn_on
+    entity_id: light.yeelight_colora_0x000000000e9f8ace
+    data:
+      effect: Strobe color
+  - wait_template: '{{ is_state(''input_boolean.raining_mode'', ''off'') }}'
+    continue_on_timeout: 'true'
+    timeout: 00:00:20
+  - service: light.turn_on
+    entity_id:
+    - light.yeelight_colora_0x000000000e9f8ace
+    data:
+      effect: Stop
+  - service: scene.turn_on
+    entity_id: scene.before
+  mode: single
+- id: '1620586470010'
+  alias: Dormitorio - Prueba Luces Parpadeando
+  description: ''
+  trigger:
+  - entity_id: input_boolean.raining_mode
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: scene.create
+    data:
+      scene_id: before
+      snapshot_entities:
+      - light.yeelight_colora_0x000000000e9f8ace
+  - service: light.turn_on
+    data:
+      color_name: blue
+      brightness_pct: 100
+      transition: 0
+      effect: Strobe epilepsy!
+    target:
+      entity_id: light.yeelight_colora_0x000000000e9f8ace
+  - service: yeelight.set_color_scene
+    entity_id: light.yeelight_colora_0x000000000e9f8ace
+    data:
+      rgb_color:
+      - 0
+      - 0
+      - 255
+      brightness: 100
+  - service: scene.turn_on
+    data:
+      transition: 1
+    target:
+      entity_id: scene.before
+  mode: single

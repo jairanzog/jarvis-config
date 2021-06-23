@@ -38,8 +38,6 @@ media_source:
     recordings: /media/recordings
 shopping_list:
 
-breaking_changes:
-
 spotify:
   client_id: !secret spotify_clientID
   client_secret: !secret spotify_secret
@@ -61,7 +59,9 @@ telegram_bot:
       - 9620182
 
 shell_command:
-  renovar_certificado_ssl: '/bin/bash /home/homeassistant/scripts/renovar_certificado.sh'
+  renovar_certificado_ssl: /bin/bash /home/homeassistant/scripts/renovar_certificado.sh
+  validez_certificado: /home/homeassistant/docker/homeassistant/certs/mrdomojarvis.duckdns.org/dias_para_expirar
+
 
 webhook:
 
@@ -105,11 +105,14 @@ duckdns:
 
 logger:
   default: ERROR
-#  logs:
+  logs:
 #    homeassistant.components.automation: debug
 #    urllib3.connectionpool: critical
-#    homeassistant.components.mqtt: info
-#    homeassistant.components.bluetooth_le_tracker: debug
+#    homeassistant.components.mqtt: debug
+    homeassistant.components.command_line: debug
+    homeassistant.components.bluetooth_le_tracker: debug
+    homeassistant.components.deconz: debug
+    pydeconz: debug
 
 frontend:
   themes: !include_dir_merge_named themes
@@ -163,7 +166,7 @@ history:
       - switch.luz_salon_mss310_main_channel
       - switch.home_cinema_mss310_main_channel
       - switch.bf74042d28e39f1d19joll
-      - switch.lampara_habitacion_principal
+      - switch.lampara
       - switch.luz_cocina
       - sensor.0x00158d0004446062_temperature
       - sensor.0x00158d0004446062_temperature
@@ -206,10 +209,6 @@ recorder:
 #  database: !secret influxdb_database
 #  max_retries: 3
 #  default_measurement: state
-
-#trakt:
-#  client_id: 25e0f255271ded36462713101eddf7e48fe60770d69592b91dd2e243872f287d
-#  client_secret: 610e2850e8e523f976ae3956f53e58d385967e3490e4206ef8068203c3f2cac8
 
 input_select:
   themes:

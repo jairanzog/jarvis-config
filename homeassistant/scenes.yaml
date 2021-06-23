@@ -55,3 +55,57 @@
       friendly_name: Cocina
       linkquality: 49
       state: 'off'
+- id: '1620586313698'
+  name: Estado anterior
+  entities:
+    light.yeelight_colora_0x000000000e9f8ace:
+      min_mireds: 153
+      max_mireds: 588
+      effect_list:
+      - Strobe color
+      - Police
+      - Christmas
+      - RGB
+      - Random Loop
+      - Fast Random Loop
+      - LSD
+      - Slowdown
+      - Night Mode
+      - Date Night
+      - Movie
+      - Sunrise
+      - Sunset
+      - Romance
+      - Happy Birthday
+      - Disco
+      - Strobe epilepsy!
+      - Alarm
+      - Police2
+      - WhatsApp
+      - Facebook
+      - Twitter
+      - Home
+      - Candle Flicker
+      - Slow Temp
+      - Stop
+      supported_color_modes:
+      - color_temp
+      - hs
+      color_mode: hs
+      brightness: 255
+      hs_color:
+      - 26.828
+      - 22.258
+      rgb_color:
+      - 255
+      - 223
+      - 198
+      xy_color:
+      - 0.381
+      - 0.352
+      color_temp: 209
+      flowing: false
+      music_mode: false
+      friendly_name: Bombilla Dormitorio
+      supported_features: 63
+      state: 'on'

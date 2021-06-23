@@ -12,16 +12,15 @@
     - precipitation
     - wind_speed
 
+
 - platform: command_line
-  name: SSL cert expiry
-  unit_of_measurement: days
-  scan_interval: 43200
-  command: "/usr/bin/ssl-cert-check -b -c /home/homeassistant/docker/homeassistant/certs/mrdomojarvis.duckdns.org/cert.pem  | awk '{ print $NF }'"
-#  command: "/bin/bash /usr/bin/ssl-cert-check -b -c /home/homeassistant/docker/homeassistant/certs/mrdomojarvis.duckdns.org/cert.pem  | awk '{ print $NF }'"
-
-#- platform: cert_expiry
-#  host: 192.168.1.8
-
+  name: validez_certificado
+  unit_of_measurement: "days"
+  scan_interval: 3600
+  value_template: "{{ value }}"
+#  command: "ssl-cert-check -b -c /home/homeassistant/docker/homeassistant/certs/mrdomojarvis.duckdns.org/cert.pem  | awk '{ print $NF }'"
+#  command: "cat /sys/class/thermal/thermal_zone0/temp 1>&2" 
+  command: "cat /home/homeassistant/docker/homeassistant/certs/expiracion_certificado" 
 
 - platform: systemmonitor
   resources:
@@ -47,4 +46,3 @@
         - sensor.lampara_power
       value_template: "{{ (states('sensor.home_cinema_mss310_power_sensor_w_0')|float + states('sensor.luz_salon_mss310_power_sensor_w_0')|float + states('sensor.lampara_power')|float)|round(3) }}"
       unit_of_measurement: "kWh"
-
